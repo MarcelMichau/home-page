@@ -42,6 +42,24 @@ module.exports = {
 				display: 'minimal-ui',
 				icon: 'src/favicon.png' // This path is relative to the root of the site.
 			}
+		},
+		{
+			resolve: `gatsby-plugin-favicon`,
+			options: {
+				logo: './src/favicon.png',
+				injectHTML: true,
+				icons: {
+					android: true,
+					appleIcon: true,
+					appleStartup: true,
+					coast: false,
+					favicons: true,
+					firefox: true,
+					twitter: true,
+					yandex: false,
+					windows: true
+				}
+			}
 		}
 	]
 };

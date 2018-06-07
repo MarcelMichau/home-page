@@ -10,6 +10,7 @@
 		"gatsby": "^1.9.270",
 		"gatsby-cli": "^1.1.58",
 		"gatsby-link": "^1.6.44",
+		"gatsby-plugin-favicon": "^2.1.1",
 		"gatsby-plugin-manifest": "^1.0.25",
 		"gatsby-plugin-netlify": "^1.0.21",
 		"gatsby-plugin-preact": "^1.0.17",
