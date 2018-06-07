@@ -30,6 +30,24 @@ module.exports = {
 				mergeCachingHeaders: true, // boolean to turn off the default caching headers
 				transformHeaders: (headers, path) => headers // optional transform for manipulating headers under each path (e.g.sorting), etc.
 			}
+		},
+		{
+			resolve: `gatsby-plugin-favicon`,
+			options: {
+				logo: './src/favicon.png',
+				injectHTML: true,
+				icons: {
+					android: true,
+					appleIcon: true,
+					appleStartup: true,
+					coast: false,
+					favicons: true,
+					firefox: true,
+					twitter: true,
+					yandex: false,
+					windows: true
+				}
+			}
 		}
 	]
 };
