@@ -20,7 +20,7 @@ module.exports = {
 				headers: {
 					'/*': [
 						'Referrer-Policy: strict-origin-when-cross-origin',
-						`Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self'; font-src 'self' data:; img-src 'self' https://avatars1.githubusercontent.com; object-src 'none'; block-all-mixed-content; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; report-to https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/csp/enforce; report-uri https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/csp/enforce;`,
+						`Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self'; manifest-src 'self'; font-src 'self' data:; img-src 'self' https://avatars1.githubusercontent.com; object-src 'none'; block-all-mixed-content; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; report-to https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/csp/enforce; report-uri https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/csp/enforce;`,
 						`Expect-CT: max-age=0, report-uri="https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/ct/reportOnly"`
 					]
 				}, // option to add more headers. `Link` headers are transformed by the below criteria
@@ -32,21 +32,15 @@ module.exports = {
 			}
 		},
 		{
-			resolve: `gatsby-plugin-favicon`,
+			resolve: `gatsby-plugin-manifest`,
 			options: {
-				logo: './src/favicon.png',
-				injectHTML: true,
-				icons: {
-					android: true,
-					appleIcon: true,
-					appleStartup: true,
-					coast: false,
-					favicons: true,
-					firefox: true,
-					twitter: true,
-					yandex: false,
-					windows: true
-				}
+				name: 'Marcel Michau - I write code & stuff',
+				short_name: 'Marcel Michau',
+				start_url: '/',
+				background_color: '#272932',
+				theme_color: '#30333c',
+				display: 'minimal-ui',
+				icon: 'src/favicon.png' // This path is relative to the root of the site.
 			}
 		}
 	]
