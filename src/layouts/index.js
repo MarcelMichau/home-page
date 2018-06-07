@@ -8,8 +8,11 @@ const TemplateWrapper = ({ children }) => (
 	<div>
 		<Helmet>
 			<html lang="en" />
-			<meta name="description" content="Personal Website for Marcel Michau - I just filled this in for better SEO :)"/>
-			<title>Marcel Michau</title>
+			<meta
+				name="description"
+				content="Personal Website for Marcel Michau - I just filled this in for better SEO :)"
+			/>
+			<title>Marcel Michau - I write code & stuff</title>
 		</Helmet>
 		<div>{children()}</div>
 	</div>
