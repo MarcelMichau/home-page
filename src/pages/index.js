@@ -1,0 +1,56 @@
+import React from 'react';
+import Link from 'gatsby-link';
+import styled from 'styled-components';
+import Header from '../components/Header';
+import Main from '../components/Main';
+import Footer from '../components/Footer';
+
+const Container = styled.div`
+	background-color: #1d2129;
+	display: grid;
+	min-height: 100vh;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr 100px;
+	grid-gap: 5px;
+	grid-template-areas:
+		'h'
+		'm'
+		'f';
+`;
+
+const AlignedHeader = styled(Header)`
+	grid-area: h;
+`;
+
+const AlignedMain = styled(Main)`
+	grid-area: m;
+`;
+
+const AlignedFooter = styled(Footer)`
+	grid-area: f;
+`;
+
+export function IndexPage({ data }) {
+	return (
+		<Container>
+			<AlignedHeader />
+			<AlignedMain content={data.markdownRemark.html} />
+			<AlignedFooter />
+		</Container>
+	);
+}
+
+export default IndexPage;
+
+export const pageQuery = graphql`
+	query MainContent($path: String!) {
+		markdownRemark(frontmatter: { path: { eq: $path } }) {
+			html
+			frontmatter {
+				date(formatString: "MMMM DD, YYYY")
+				path
+				title
+			}
+		}
+	}
+`;

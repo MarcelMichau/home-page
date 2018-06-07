@@ -1,0 +1,38 @@
+{
+	"name": "homepage",
+	"description": "Personal Website for Marcel Michau",
+	"version": "1.0.0",
+	"author": "Marcel Michau <marcelmichau@gmail.com>",
+	"dependencies": {
+		"@fortawesome/fontawesome": "^1.1.8",
+		"@fortawesome/fontawesome-free-brands": "^5.0.13",
+		"@fortawesome/react-fontawesome": "^0.0.20",
+		"gatsby": "^1.9.270",
+		"gatsby-cli": "^1.1.58",
+		"gatsby-link": "^1.6.44",
+		"gatsby-plugin-netlify": "^1.0.21",
+		"gatsby-plugin-preact": "^1.0.17",
+		"gatsby-plugin-react-helmet": "^2.0.11",
+		"gatsby-plugin-styled-components": "^2.0.11",
+		"gatsby-source-filesystem": "^1.5.38",
+		"gatsby-transformer-remark": "^1.7.42",
+		"global": "^4.3.2",
+		"granim": "^1.1.1",
+		"react-helmet": "^5.2.0",
+		"styled-components": "^3.3.2"
+	},
+	"keywords": [
+		"gatsby"
+	],
+	"license": "MIT",
+	"main": "n/a",
+	"scripts": {
+		"build": "gatsby build",
+		"develop": "gatsby develop",
+		"format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"prettier": "^1.13.4"
+	}
+}

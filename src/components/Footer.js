@@ -1,0 +1,52 @@
+import React from 'react';
+import styled from 'styled-components';
+import PropTypes from 'prop-types';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
+import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
+
+const StyledFooter = styled.footer`
+	text-align: center;
+	background-color: #282c34;
+	color: #ffffff;
+`;
+
+const StyledSocialIcons = styled.div`
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	max-width: 200px;
+
+	a {
+		color: white;
+	}
+
+	a: hover {
+		color: grey;
+	}
+`;
+
+const Footer = ({ className }) => {
+	return (
+		<StyledFooter className={className}>
+			<div>
+				<p>Marcel Michau &copy; {new Date().getFullYear()}</p>
+				<StyledSocialIcons>
+					<a href="https://github.com/MarcelMichau">
+						<FontAwesomeIcon icon={faGithub} size="lg" />
+					</a>
+
+					<a href="https://twitter.com/MarcelMichau">
+						<FontAwesomeIcon icon={faTwitter} size="lg" />
+					</a>
+				</StyledSocialIcons>
+			</div>
+		</StyledFooter>
+	);
+};
+
+Footer.propTypes = {
+	className: PropTypes.string
+};
+
+export default Footer;
