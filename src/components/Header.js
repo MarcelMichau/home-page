@@ -58,7 +58,9 @@ class Header extends Component {
 				<StyledCanvas innerRef={element => (this.headerElement = element)} />
 				<StyledIntro>
 					<h2>Marcel Michau</h2>
-					<ProfileImage src="https://avatars1.githubusercontent.com/u/7761114?v=4" />
+					<ProfileImage
+						profileImageResolutions={this.props.profileImageResolutions}
+					/>
 					<p>I write code & stuff</p>
 				</StyledIntro>
 			</StyledHeader>

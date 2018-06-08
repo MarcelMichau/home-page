@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import styled from 'styled-components';
 import Header from '../components/Header';
 import Main from '../components/Main';
@@ -33,7 +32,9 @@ const AlignedFooter = styled(Footer)`
 export function IndexPage({ data }) {
 	return (
 		<Container>
-			<AlignedHeader />
+			<AlignedHeader
+				profileImageResolutions={data.file.childImageSharp.resolutions}
+			/>
 			<AlignedMain content={data.markdownRemark.html} />
 			<AlignedFooter />
 		</Container>
@@ -50,6 +51,13 @@ export const pageQuery = graphql`
 				date(formatString: "MMMM DD, YYYY")
 				path
 				title
+			}
+		}
+		file(relativePath: { regex: "/profile.jpg/" }) {
+			childImageSharp {
+				resolutions(width: 120, height: 120) {
+					...GatsbyImageSharpResolutions
+				}
 			}
 		}
 	}
