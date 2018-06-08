@@ -55,8 +55,8 @@ export const pageQuery = graphql`
 		}
 		file(relativePath: { regex: "/profile.jpg/" }) {
 			childImageSharp {
-				resolutions(width: 120, height: 120) {
-					...GatsbyImageSharpResolutions
+				resolutions(width: 120) {
+					...GatsbyImageSharpResolutions_tracedSVG
 				}
 			}
 		}
