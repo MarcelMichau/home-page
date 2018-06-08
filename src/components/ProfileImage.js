@@ -3,14 +3,14 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
-const StyledImage = styled.img`
+const StyledImage = styled(Img)`
 	border-radius: 50%;
 	width: 100px;
 `;
 
 const ProfileImage = ({ profileImageResolutions }) => {
 	return (
-		<Img
+		<StyledImage
 			resolutions={profileImageResolutions}
 			alt="Profile Picture of Marcel Michau"
 		/>

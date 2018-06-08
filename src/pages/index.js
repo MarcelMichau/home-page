@@ -53,14 +53,9 @@ export const pageQuery = graphql`
 				title
 			}
 		}
-	}
-`;
-
-export const query = graphql`
-	query GatsbyImageSampleQuery {
 		file(relativePath: { regex: "/profile.jpg/" }) {
 			childImageSharp {
-				resolutions(width: 100, height: 100) {
+				resolutions(width: 120, height: 120) {
 					...GatsbyImageSharpResolutions
 				}
 			}
