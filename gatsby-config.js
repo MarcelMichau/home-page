@@ -12,6 +12,14 @@ module.exports = {
 			}
 		},
 		`gatsby-transformer-remark`,
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				name: `img`,
+				path: `${__dirname}/src/img/`
+			}
+		}`gatsby-transformer-sharp`,
+		`gatsby-plugin-sharp`,
 		`gatsby-plugin-styled-components`,
 		`gatsby-plugin-preact`,
 		{
@@ -40,13 +48,13 @@ module.exports = {
 				background_color: '#272932',
 				theme_color: '#30333c',
 				display: 'minimal-ui',
-				icon: 'src/favicon.png' // This path is relative to the root of the site.
+				icon: 'src/images/favicon.png' // This path is relative to the root of the site.
 			}
 		},
 		{
 			resolve: `gatsby-plugin-favicon`,
 			options: {
-				logo: './src/favicon.png',
+				logo: './src/images/favicon.png',
 				injectHTML: true,
 				icons: {
 					android: true,
