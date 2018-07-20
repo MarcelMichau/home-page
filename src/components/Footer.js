@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
-import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const StyledFooter = styled.footer`
 	text-align: center;

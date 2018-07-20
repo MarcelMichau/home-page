@@ -41,9 +41,9 @@ class Header extends Component {
 			states: {
 				'default-state': {
 					gradients: [
-						['#AA076B', '#61045F'],
-						['#02AAB0', '#00CDAC'],
-						['#DA22FF', '#9733EE']
+						['#161616', '#AAAAAA'],
+						['#050B47', '#DE2222'],
+						['#5768E1', '#0B26E9']
 					]
 				}
 			}
