@@ -32,7 +32,7 @@ class Header extends Component {
 	headerElement = null;
 
 	componentDidMount() {
-		const granimInstance = new Granim({
+		new Granim({
 			element: this.headerElement,
 			name: 'basic-gradient',
 			direction: 'left-right',

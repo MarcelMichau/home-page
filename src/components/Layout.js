@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import '../styles/globalStyles';
 
-const TemplateWrapper = ({ children }) => (
+export default ({ children }) => (
 	<div>
 		<Helmet>
 			<html lang="en" />
@@ -13,12 +12,6 @@ const TemplateWrapper = ({ children }) => (
 			/>
 			<title>Marcel Michau - I write code & stuff</title>
 		</Helmet>
-		<div>{children()}</div>
+		<div>{children}</div>
 	</div>
 );
-
-TemplateWrapper.propTypes = {
-	children: PropTypes.func
-};
-
-export default TemplateWrapper;

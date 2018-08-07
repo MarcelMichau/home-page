@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Main from '../components/Main';
 import Footer from '../components/Footer';
@@ -31,13 +33,15 @@ const AlignedFooter = styled(Footer)`
 
 export function IndexPage({ data }) {
 	return (
-		<Container>
-			<AlignedHeader
-				profileImageResolutions={data.file.childImageSharp.resolutions}
-			/>
-			<AlignedMain content={data.markdownRemark.html} />
-			<AlignedFooter />
-		</Container>
+		<Layout>
+			<Container>
+				<AlignedHeader
+					profileImageResolutions={data.file.childImageSharp.resolutions}
+				/>
+				<AlignedMain content={data.markdownRemark.html} />
+				<AlignedFooter />
+			</Container>
+		</Layout>
 	);
 }
 
