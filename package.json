@@ -4,28 +4,28 @@
 	"version": "1.0.0",
 	"author": "Marcel Michau <marcelmichau@gmail.com>",
 	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "^1.2.2",
-		"@fortawesome/free-brands-svg-icons": "^5.2.0",
-		"@fortawesome/react-fontawesome": "^0.1.1",
-		"babel-plugin-styled-components": "^1.5.1",
-		"gatsby": "next",
-		"gatsby-cli": "next",
-		"gatsby-image": "next",
-		"gatsby-link": "next",
-		"gatsby-plugin-favicon": "3.1.2",
-		"gatsby-plugin-manifest": "next",
-		"gatsby-plugin-netlify": "next",
-		"gatsby-plugin-react-helmet": "next",
-		"gatsby-plugin-sharp": "next",
-		"gatsby-plugin-styled-components": "next",
-		"gatsby-source-filesystem": "next",
-		"gatsby-transformer-remark": "next",
-		"gatsby-transformer-sharp": "next",
+		"@fortawesome/fontawesome-svg-core": "^1.2.4",
+		"@fortawesome/free-brands-svg-icons": "^5.3.1",
+		"@fortawesome/react-fontawesome": "^0.1.3",
+		"babel-plugin-styled-components": "^1.7.1",
+		"gatsby": "2.0.6",
+		"gatsby-cli": "2.4.1",
+		"gatsby-image": "2.0.7",
+		"gatsby-link": "2.0.1",
+		"gatsby-plugin-favicon": "3.1.4",
+		"gatsby-plugin-manifest": "2.0.2",
+		"gatsby-plugin-netlify": "2.0.0",
+		"gatsby-plugin-react-helmet": "3.0.0",
+		"gatsby-plugin-sharp": "2.0.5",
+		"gatsby-plugin-styled-components": "3.0.0",
+		"gatsby-source-filesystem": "2.0.1",
+		"gatsby-transformer-remark": "2.1.3",
+		"gatsby-transformer-sharp": "2.1.1",
 		"granim": "^1.1.1",
-		"react": "^16.4.2",
-		"react-dom": "^16.4.2",
+		"react": "^16.5.2",
+		"react-dom": "^16.5.2",
 		"react-helmet": "^5.2.0",
-		"styled-components": "^3.4.1"
+		"styled-components": "^3.4.9"
 	},
 	"keywords": [
 		"gatsby"
@@ -35,10 +35,10 @@
 	"scripts": {
 		"build": "gatsby build",
 		"develop": "gatsby develop",
-		"format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+		"format": "prettier es5 --single-quote --write \"src/**/*.js\"",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"devDependencies": {
-		"prettier": "^1.13.7"
+		"prettier": "^1.14.3"
 	}
 }
