@@ -3,7 +3,6 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import PageContainer from '../components/PageContainer';
 import ProfileImage from '../components/ProfileImage';
-import Main from '../components/Main';
 
 export function IndexPage({ data }) {
 	return (
@@ -19,11 +18,7 @@ export function IndexPage({ data }) {
 					</div>
 				}
 				mainContent={
-					<Main>
-						<div
-							dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
-						/>
-					</Main>
+					<div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
 				}
 			/>
 		</Layout>

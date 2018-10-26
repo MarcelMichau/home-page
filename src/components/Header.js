@@ -54,7 +54,7 @@ class Header extends Component {
 
 		return (
 			<StyledHeader className={className}>
-				<StyledCanvas innerRef={element => (this.headerElement = element)} />
+				<StyledCanvas ref={element => (this.headerElement = element)} />
 				<StyledIntro>{children}</StyledIntro>
 			</StyledHeader>
 		);
