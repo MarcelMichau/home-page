@@ -13,6 +13,10 @@ const StyledMain = styled.main`
 	margin: 0 auto;
 	line-height: 2em;
 	color: #ffffff;
+
+	a {
+		color: #b3afa8;
+	}
 `;
 
 const Main = ({ className, children }) => {
