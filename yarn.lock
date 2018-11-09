@@ -5074,9 +5074,9 @@ gatsby-transformer-sharp@2.1.8:
     probe-image-size "^4.0.0"
     sharp "^0.21.0"
 
-gatsby@2.0.43:
-  version "2.0.43"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.43.tgz#9e9588eb78cca84de3caf5d8ddfbd71c0248d044"
+gatsby@2.0.45:
+  version "2.0.45"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.45.tgz#bc817dfd7ea6d583a36245569a294b0136489587"
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
