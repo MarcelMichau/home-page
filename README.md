@@ -2,7 +2,7 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/MarcelMichau/home-page.svg)](https://greenkeeper.io/)
 
-This is my website. No one elses.
+This is my website. No one else's.
 
 It is written using:
 
