@@ -4,7 +4,7 @@ date: '2018-11-08'
 title: 'Main Content'
 ---
 
-This is my website. No one elses.
+This is my website. No one else's.
 
 Look how minimal it is.
 
