@@ -4959,9 +4959,9 @@ gatsby-plugin-manifest@2.0.9:
     bluebird "^3.5.0"
     sharp "^0.21.0"
 
-gatsby-plugin-netlify@2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.0.4.tgz#0d82a76e7340f14085995eb30333bc582b6bb65e"
+gatsby-plugin-netlify@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.0.5.tgz#63d28b3f5e56b5b737c3965058dcef4b0ec31b7a"
   dependencies:
     "@babel/runtime" "^7.0.0"
     fs-extra "^4.0.2"
@@ -5010,9 +5010,9 @@ gatsby-plugin-sharp@2.0.12:
     sharp "^0.21.0"
     svgo "^0.7.2"
 
-gatsby-plugin-styled-components@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-3.0.1.tgz#39b46bd68a055785382da81cebb036758d66e5d2"
+gatsby-plugin-styled-components@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-3.0.2.tgz#10daa2295e518aeecff257ea6716ea205c1cff9e"
   dependencies:
     "@babel/runtime" "^7.0.0"
 
