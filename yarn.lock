@@ -4959,9 +4959,9 @@ gatsby-plugin-manifest@2.0.9:
     bluebird "^3.5.0"
     sharp "^0.21.0"
 
-gatsby-plugin-netlify@2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.0.4.tgz#0d82a76e7340f14085995eb30333bc582b6bb65e"
+gatsby-plugin-netlify@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.0.5.tgz#63d28b3f5e56b5b737c3965058dcef4b0ec31b7a"
   dependencies:
     "@babel/runtime" "^7.0.0"
     fs-extra "^4.0.2"
