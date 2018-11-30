@@ -5058,7 +5058,6 @@ gatsby-source-filesystem@2.0.10:
 gatsby-transformer-remark@2.1.14:
   version "2.1.14"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.1.14.tgz#3add90827ff069a66c7dd8810f90f3e5c93ecfcc"
-
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
@@ -5094,7 +5093,6 @@ gatsby-transformer-sharp@2.1.9:
 gatsby@2.0.59:
   version "2.0.59"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.59.tgz#e57a4dc8c026407433bbc853ea64f1b330ae6644"
-
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -8912,9 +8910,9 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier@1.15.2:
-  version "1.15.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.2.tgz#d31abe22afa4351efa14c7f8b94b58bb7452205e"
+prettier@1.15.3:
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.3.tgz#1feaac5bdd181237b54dbe65d874e02a1472786a"
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
