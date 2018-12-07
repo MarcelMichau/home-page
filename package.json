@@ -1,44 +1,48 @@
 {
-	"name": "home-page",
-	"description": "Personal Website for Marcel Michau",
-	"version": "1.0.0",
-	"author": "Marcel Michau <marcelmichau@gmail.com>",
-	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "1.2.7",
-		"@fortawesome/free-brands-svg-icons": "5.4.2",
-		"@fortawesome/react-fontawesome": "0.1.3",
+  "name": "home-page",
+  "description": "Personal Website for Marcel Michau",
+  "version": "1.0.0",
+  "author": "Marcel Michau <marcelmichau@gmail.com>",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.7",
+    "@fortawesome/free-brands-svg-icons": "5.4.2",
+    "@fortawesome/react-fontawesome": "0.1.3",
     "babel-plugin-styled-components": "1.9.2",
-		"gatsby": "2.0.63",
-		"gatsby-cli": "2.4.6",
-		"gatsby-image": "2.0.22",
-		"gatsby-link": "2.0.7",
-		"gatsby-plugin-favicon": "3.1.4",
-		"gatsby-plugin-manifest": "2.0.11",
-		"gatsby-plugin-netlify": "2.0.6",
-		"gatsby-plugin-react-helmet": "3.0.4",
-		"gatsby-plugin-sharp": "2.0.14",
-		"gatsby-plugin-styled-components": "3.0.4",
-		"gatsby-source-filesystem": "2.0.11",
-		"gatsby-transformer-remark": "2.1.15",
-		"gatsby-transformer-sharp": "2.1.9",
-		"granim": "2.0.0",
-		"react": "16.6.3",
-		"react-dom": "16.6.3",
-		"react-helmet": "5.2.0",
-		"styled-components": "4.1.2"
-	},
-	"keywords": [
-		"gatsby"
-	],
-	"license": "MIT",
-	"main": "n/a",
-	"scripts": {
-		"build": "gatsby build",
-		"develop": "gatsby develop",
-		"format": "prettier es5 --single-quote --write \"src/**/*.js\"",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"devDependencies": {
-		"prettier": "1.15.3"
-	}
+    "gatsby": "2.0.63",
+    "gatsby-cli": "2.4.6",
+    "gatsby-image": "2.0.22",
+    "gatsby-link": "2.0.7",
+    "gatsby-plugin-favicon": "3.1.4",
+    "gatsby-plugin-manifest": "2.0.11",
+    "gatsby-plugin-netlify": "2.0.6",
+    "gatsby-plugin-react-helmet": "3.0.4",
+    "gatsby-plugin-sharp": "2.0.14",
+    "gatsby-plugin-styled-components": "3.0.4",
+    "gatsby-source-filesystem": "2.0.11",
+    "gatsby-transformer-remark": "2.1.15",
+    "gatsby-transformer-sharp": "2.1.9",
+    "granim": "2.0.0",
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "react-helmet": "5.2.0",
+    "styled-components": "4.1.2",
+    "snyk": "^1.116.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier es5 --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "devDependencies": {
+    "prettier": "1.15.3"
+  },
+  "snyk": true
 }
