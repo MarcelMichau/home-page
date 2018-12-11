@@ -711,10 +711,6 @@
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.2.tgz#b180097bb44a40c3b59efea9cf28df2fe542d518"
 
-"@fortawesome/fontawesome-common-types@^0.2.7":
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.7.tgz#fe76803922db0eb4393675199c2e0c3bad52629c"
-
 "@fortawesome/fontawesome-common-types@^0.2.9":
   version "0.2.9"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.9.tgz#f307509ec8ac542965ae1ef96a9be0ebea837949"
@@ -4948,9 +4944,10 @@ gatsby-cli@2.4.6, gatsby-cli@^2.4.6:
     yargs "^11.1.0"
     yurnalist "^0.2.1"
 
-gatsby-image@2.0.22:
-  version "2.0.22"
-  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.0.22.tgz#67b82f0bc9adcbc49134847cfc85355b540fea96"
+gatsby-image@2.0.23:
+  version "2.0.23"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.0.23.tgz#64e6b01a02234ef71e7e93500207fd9e7f77df86"
+  integrity sha512-Ab1wQI9nJQxF4TTgdYqENs5tFJg6voBp1YCRUl7ppjSJadKvmaoneVQFCSGm29WSK/DgsRE0MVQ1Fe3L+ke9mg==
   dependencies:
     "@babel/runtime" "^7.0.0"
     prop-types "^15.6.1"
@@ -4972,9 +4969,10 @@ gatsby-plugin-favicon@3.1.4:
     html-react-parser "^0.4.6"
     lodash "^4.17.10"
 
-gatsby-plugin-manifest@2.0.11:
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.11.tgz#5a92e1b57556e4996982253e760d8c43d53428d2"
+gatsby-plugin-manifest@2.0.12:
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.12.tgz#7e25f8997ea690969eeaa010a2d111209282f2ce"
+  integrity sha512-9gLSQDD7XF7EsnnDtGS0jAoHSC+R/zL0eHMo0tbpV9BiHPinZwdeOHGYSVzdzn9zwqkgoETbw1dY1sd+7o8+3g==
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
@@ -5047,10 +5045,10 @@ gatsby-react-router-scroll@^2.0.2:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby-source-filesystem@2.0.11:
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.0.11.tgz#6b2a8ece41a5f3cf8bf797589487096af6301961"
-  integrity sha512-TROb/xslj42McdchlTdVVFhETvzI1UC990c91pBjZBSgNuZkyIXWfR86pAjt0ybtO2P76pBWU7l+bSsybFT7Qw==
+gatsby-source-filesystem@2.0.12:
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.0.12.tgz#2d447f547a575fd6b867bce4381b2d1abbee61d1"
+  integrity sha512-IRqGdOXZMkpQASR653WgdCyfOnRutS+3/VXm35ULyG+6p/AZDHR79K2beHH3wHeQkypnsjwMHTi3cnxyaij+ug==
   dependencies:
     "@babel/runtime" "^7.0.0"
     better-queue "^3.8.7"
@@ -5102,10 +5100,10 @@ gatsby-transformer-sharp@2.1.9:
     probe-image-size "^4.0.0"
     sharp "^0.21.0"
 
-gatsby@2.0.64:
-  version "2.0.64"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.64.tgz#ad106fdbfc3c7413641da6f79d63c367e9ecd771"
-  integrity sha512-OHEK/4SaTkjqN/65fv5V6xPPqMF1thvB/WpBso0rE2IbDYNnNAJIPZXRFy1pep161PQnBDSoO4ft2H8du05HOg==
+gatsby@2.0.66:
+  version "2.0.66"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.66.tgz#18a3421bb680dcf818c88c37442e0e61682bb6c1"
+  integrity sha512-WVrGTDAMRi9IpXivPN8edhS5fXPwgeFCz4gzW4k7YQZMe1nHf/Eqhbuoe/BoNuzt1lz4S7SZ3o8GTCTYKNEhRA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
