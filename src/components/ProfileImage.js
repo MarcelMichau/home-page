@@ -8,10 +8,10 @@ const StyledImage = styled(Img)`
   width: 100px;
 `;
 
-const ProfileImage = ({ profileImageResolutions }) => {
+const ProfileImage = ({ fixed }) => {
   return (
     <StyledImage
-      resolutions={profileImageResolutions}
+      fixed={fixed}
       alt="Profile Picture of Marcel Michau"
     />
   );
