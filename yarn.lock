@@ -728,12 +728,12 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.10"
 
-"@fortawesome/free-brands-svg-icons@5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.6.0.tgz#1d80c0ba7f9dbecc3dcccdc95b136d7fba60e4b9"
-  integrity sha512-fMCUewReABIPWmtl+ZyY8GmO1VDYEvemnEIbNKE8mJD54TbMC+ZpXt4YE2WlsgHko5bseotx+h4gUhqcbu1ibA==
+"@fortawesome/free-brands-svg-icons@5.6.1":
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.6.1.tgz#5f96bb8eb17cc62f962546e7d0e76086bfcec696"
+  integrity sha512-rrlucemW9+Az26+faQ9O7D50PPrBD+0ATi86yufqnyy44HapoWPuu/0AJhdUCV4hDEWMrAVAvGUEVg9oxHoTHQ==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.9"
+    "@fortawesome/fontawesome-common-types" "^0.2.10"
 
 "@fortawesome/react-fontawesome@0.1.3":
   version "0.1.3"
@@ -4949,10 +4949,10 @@ gatsby-cli@2.4.6, gatsby-cli@^2.4.6:
     yargs "^11.1.0"
     yurnalist "^0.2.1"
 
-gatsby-image@2.0.23:
-  version "2.0.23"
-  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.0.23.tgz#64e6b01a02234ef71e7e93500207fd9e7f77df86"
-  integrity sha512-Ab1wQI9nJQxF4TTgdYqENs5tFJg6voBp1YCRUl7ppjSJadKvmaoneVQFCSGm29WSK/DgsRE0MVQ1Fe3L+ke9mg==
+gatsby-image@2.0.24:
+  version "2.0.24"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.0.24.tgz#90ca5a9dfc377a63807c0d6a5e1a7ab152ee7f48"
+  integrity sha512-x4aeBosxBKStSTSsb8U1NrQAo++9YalllbRKI9a+14vfrlrYrKXFj3S/8Y9l4ql7TcwRJBibDQilw+fd7YFwyQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     prop-types "^15.6.1"
