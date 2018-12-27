@@ -811,12 +811,12 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.11"
 
-"@fortawesome/free-brands-svg-icons@5.6.1":
-  version "5.6.1"
-  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.6.1.tgz#5f96bb8eb17cc62f962546e7d0e76086bfcec696"
-  integrity sha512-rrlucemW9+Az26+faQ9O7D50PPrBD+0ATi86yufqnyy44HapoWPuu/0AJhdUCV4hDEWMrAVAvGUEVg9oxHoTHQ==
+"@fortawesome/free-brands-svg-icons@5.6.2":
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.6.2.tgz#c669cef841ca74954ab08e5651d2ae21466638b8"
+  integrity sha512-zPO+JsIs6UiTMjnpz73rA3VeRfGk787T2vjauD5bGBEndk9WcsaSTVzUnz5auCRhDRNRrlwOBfWtEz9HXRRPSg==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.10"
+    "@fortawesome/fontawesome-common-types" "^0.2.11"
 
 "@fortawesome/react-fontawesome@0.1.3":
   version "0.1.3"
