@@ -5,7 +5,7 @@
 	"author": "Marcel Michau <marcelmichau@gmail.com>",
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "1.2.12",
-		"@fortawesome/free-brands-svg-icons": "5.6.2",
+		"@fortawesome/free-brands-svg-icons": "5.6.3",
 		"@fortawesome/react-fontawesome": "0.1.4",
 		"babel-plugin-styled-components": "1.10.0",
 		"gatsby": "2.0.91",
@@ -40,6 +40,7 @@
 	"devDependencies": {
 		"@babel/core": "^7.2.2",
 		"@babel/plugin-proposal-class-properties": "^7.2.3",
+		"@babel/plugin-syntax-dynamic-import": "^7.2.0",
 		"babel-core": "7.0.0-bridge.0",
 		"babel-jest": "^23.6.0",
 		"babel-preset-gatsby": "^0.1.6",
