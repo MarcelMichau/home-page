@@ -32,7 +32,7 @@ export const pageQuery = graphql`
 		}
 		file(relativePath: { eq: "profile.jpg" }) {
 			childImageSharp {
-				fixed(width: 120) {
+				fixed(width: 200, height: 200) {
 					...GatsbyImageSharpFixed_tracedSVG
 				}
 			}

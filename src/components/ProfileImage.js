@@ -4,21 +4,15 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
 const StyledImage = styled(Img)`
-  border-radius: 50%;
-  width: 100px;
+	border-radius: 50%;
 `;
 
 const ProfileImage = ({ fixed }) => {
-  return (
-    <StyledImage
-      fixed={fixed}
-      alt="Profile Picture of Marcel Michau"
-    />
-  );
+	return <StyledImage fixed={fixed} alt="Profile Picture of Marcel Michau" />;
 };
 
 ProfileImage.propTypes = {
-  src: PropTypes.string
+	src: PropTypes.string
 };
 
 export default ProfileImage;

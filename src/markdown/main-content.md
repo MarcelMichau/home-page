@@ -21,10 +21,6 @@ Using:
 - [Styled Components](https://www.styled-components.com/)
 - [Font Awesome](https://fontawesome.com/)
 
-And also:
-
-- [Granim.js](https://sarcadass.github.io/granim.js/)
-
 With some help from:
 
 - [Prettier](https://prettier.io/)

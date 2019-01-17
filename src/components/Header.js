@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import Granim from 'granim';
 
 const StyledHeader = styled.header`
 	position: relative;
@@ -11,7 +10,7 @@ const StyledHeader = styled.header`
 	font-size: 24px;
 `;
 
-const StyledCanvas = styled.canvas`
+const StyledGradient = styled.div`
 	position: absolute;
 	display: block;
 	width: 100%;
@@ -20,6 +19,8 @@ const StyledCanvas = styled.canvas`
 	right: 0;
 	bottom: 0;
 	left: 0;
+
+	background-image: linear-gradient(to right, red, black, gray);
 `;
 
 const StyledIntro = styled.div`
@@ -27,39 +28,12 @@ const StyledIntro = styled.div`
 	z-index: 1;
 `;
 
-class Header extends Component {
-	headerElement = null;
-
-	componentDidMount() {
-		new Granim({
-			element: this.headerElement,
-			name: 'basic-gradient',
-			direction: 'left-right',
-			opacity: [1, 1],
-			isPausedWhenNotInView: true,
-			states: {
-				'default-state': {
-					gradients: [
-						['#ffff00', '#DE2222'],
-						['#dc7f0b', '#65b31f'],
-						['#5768E1', '#0B26E9']
-					]
-				}
-			}
-		});
-	}
-
-	render() {
-		const { className, children } = this.props;
-
-		return (
-			<StyledHeader className={className}>
-				<StyledCanvas ref={element => (this.headerElement = element)} />
-				<StyledIntro>{children}</StyledIntro>
-			</StyledHeader>
-		);
-	}
-}
+const Header = ({ className, children }) => (
+	<StyledHeader className={className}>
+		<StyledGradient />
+		<StyledIntro>{children}</StyledIntro>
+	</StyledHeader>
+);
 
 Header.propTypes = {
 	className: PropTypes.string
