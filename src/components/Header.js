@@ -20,7 +20,7 @@ const StyledGradient = styled.div`
 	bottom: 0;
 	left: 0;
 
-	background-image: linear-gradient(to right, red, black, gray);
+	background-image: linear-gradient(to top right, black, gray);
 `;
 
 const StyledIntro = styled.div`
