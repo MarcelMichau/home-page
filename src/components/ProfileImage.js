@@ -7,13 +7,8 @@ const StyledImage = styled(Img)`
 	border-radius: 50%;
 `;
 
-const ProfileImage = ({ profileImageResolutions }) => {
-	return (
-		<StyledImage
-			resolutions={profileImageResolutions}
-			alt="Profile Picture of Marcel Michau"
-		/>
-	);
+const ProfileImage = ({ fixed }) => {
+	return <StyledImage fixed={fixed} alt="Profile Picture of Marcel Michau" />;
 };
 
 ProfileImage.propTypes = {
