@@ -6,6 +6,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/d6c2fdf5d3658a91f31c/maintainability)](https://codeclimate.com/github/MarcelMichau/home-page/maintainability)
 
+[![Test Coverage](https://api.codeclimate.com/v1/badges/d6c2fdf5d3658a91f31c/test_coverage)](https://codeclimate.com/github/MarcelMichau/home-page/test_coverage)
+
 This is my website. No one else's.
 
 It is written using:

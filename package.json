@@ -35,7 +35,7 @@
 		"build": "gatsby build",
 		"develop": "gatsby develop",
 		"format": "prettier es5 --single-quote --write \"src/**/*.js\"",
-		"test": "jest"
+		"test": "jest --coverage"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.2.2",
