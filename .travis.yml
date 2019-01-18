@@ -1,9 +1,5 @@
 sudo: required
 
-env:
-  global:
-    - CC_TEST_REPORTER_ID=7672e20d57be9ceb1846716afe90826b89b13ff79a7172f1eb9927630d31e51e
-
 services:
   - docker
 
@@ -11,9 +7,7 @@ before_install:
   - docker build -t marcelmichau/home-page -f Dockerfile.dev .
 
 before_script:
-  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-  - chmod +x ./cc-test-reporter
-  - ./cc-test-reporter before-build
+  - docker run -e CC_TEST_REPORTER_ID -t marcelmichau/home-page ./cc-test-reporter before-build
 
 script:
   - docker run -t marcelmichau/home-page yarn test
@@ -21,4 +15,4 @@ script:
   - docker cp $CONTAINER_ID:/app/coverage $(pwd)/app/coverage
 
 after_script:
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+  - docker run -v $(pwd)/app/coverage:/app/coverage -e CC_TEST_REPORTER_ID -t marcelmichau/home-page ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT

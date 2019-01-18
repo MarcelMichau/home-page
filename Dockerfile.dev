@@ -1,6 +1,11 @@
 FROM node
 
+ENV CC_TEST_REPORTER_ID=${CC_TEST_REPORTER_ID}
+
 WORKDIR /app
+
+RUN curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+RUN chmod +x ./cc-test-reporter
 
 COPY package.json .
 COPY yarn.lock .
