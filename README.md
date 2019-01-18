@@ -1,5 +1,7 @@
 # Home Page 🏡📄
 
+[![Build Status](https://travis-ci.org/MarcelMichau/horizon-with-docker.svg?branch=master)](https://travis-ci.org/MarcelMichau/horizon-with-docker)
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/MarcelMichau/home-page.svg)](https://greenkeeper.io/)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/d6c2fdf5d3658a91f31c/maintainability)](https://codeclimate.com/github/MarcelMichau/home-page/maintainability)
