@@ -16,7 +16,7 @@ before_script:
   - ./cc-test-reporter before-build
 
 script:
-  - docker run marcelmichau/home-page yarn test
+  - docker run -v $(pwd)/coverage:/app/coverage marcelmichau/home-page yarn test
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
