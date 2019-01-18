@@ -1,6 +1,6 @@
 # Home Page 🏡📄
 
-[![Build Status](https://travis-ci.org/MarcelMichau/horizon-with-docker.svg?branch=master)](https://travis-ci.org/MarcelMichau/horizon-with-docker)
+[![Build Status](https://travis-ci.org/MarcelMichau/home-page.svg?branch=master)](https://travis-ci.org/MarcelMichau/home-page)
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/MarcelMichau/home-page.svg)](https://greenkeeper.io/)
 
