@@ -17,8 +17,8 @@ before_script:
 
 script:
   - docker run marcelmichau/home-page yarn test
-  - CONTAINER=ID=$(docker ps -alq)
-  - docker cp $CONTAINER=ID:/app/coverage $(pwd)/coverage
+  - CONTAINER-ID=$(docker ps -alq)
+  - docker cp $CONTAINER-ID:/app/coverage $(pwd)/coverage
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
