@@ -15,12 +15,7 @@ const StyledGradient = styled.div`
 	display: block;
 	width: 100%;
 	height: 100%;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-
-	background-image: linear-gradient(to top right, black, gray);
+	background-image: linear-gradient(black, #1d2129);
 `;
 
 const StyledIntro = styled.div`
