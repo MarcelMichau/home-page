@@ -15,7 +15,13 @@ exports[`IndexPage renders correctly 1`] = `
         <div
           className="sc-htpNat ihPAez"
         >
-          <div>
+          <div
+            style={
+              Object {
+                "opacity": 0,
+              }
+            }
+          >
             <h2>
               Marcel Michau
             </h2>
@@ -95,7 +101,7 @@ exports[`IndexPage renders correctly 1`] = `
         </div>
       </header>
       <main
-        className="sc-htoDjs janYlF sc-bxivhb uaYTM"
+        className="sc-htoDjs janYlF sc-bxivhb DRbqD"
       >
         <div
           dangerouslySetInnerHTML={
@@ -106,22 +112,34 @@ exports[`IndexPage renders correctly 1`] = `
 <ul>
 <li><a href=\\"https://reactjs.org/\\">React</a></li>
 </ul>
-<p>With:</p>
+<p>Along with:</p>
 <ul>
 <li><a href=\\"https://www.gatsbyjs.org/\\">Gatsby</a></li>
 </ul>
-<p>Using:</p>
+<p>With some help from:</p>
 <ul>
 <li><a href=\\"https://www.styled-components.com/\\">Styled Components</a></li>
 <li><a href=\\"https://fontawesome.com/\\">Font Awesome</a></li>
+<li><a href=\\"https://react-spring.surge.sh/\\">react-spring</a></li>
 </ul>
-<p>With some help from:</p>
+<p>With code kept in line by:</p>
 <ul>
+<li><a href=\\"https://codeclimate.com/github/MarcelMichau/home-page\\">Code Climate</a></li>
 <li><a href=\\"https://prettier.io/\\">Prettier</a></li>
 </ul>
-<p>Hosted on:</p>
+<p>Tested using:</p>
+<ul>
+<li><a href=\\"https://jestjs.io/\\">Jest</a></li>
+<li><a href=\\"https://www.docker.com/\\">Docker</a></li>
+<li><a href=\\"https://travis-ci.com/MarcelMichau/home-page\\">Travis CI</a></li>
+</ul>
+<p>Deployed to:</p>
 <ul>
 <li><a href=\\"https://www.netlify.com/\\">Netlify</a></li>
+</ul>
+<p>And code hosted on:</p>
+<ul>
+<li><a href=\\"https://github.com/MarcelMichau/home-page\\">GitHub</a></li>
 </ul>
 <p>It is intended to be:</p>
 <ul>
@@ -155,6 +173,12 @@ exports[`IndexPage renders correctly 1`] = `
 </ul>",
             }
           }
+          style={
+            Object {
+              "opacity": 0,
+              "transform": "translate3d(0, 40px, 0)",
+            }
+          }
         />
       </main>
       <footer
@@ -166,7 +190,7 @@ exports[`IndexPage renders correctly 1`] = `
             2019
           </p>
           <div
-            className="sc-EHOje lkTEkl"
+            className="sc-EHOje fgbeec"
           >
             <a
               href="https://github.com/MarcelMichau"

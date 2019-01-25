@@ -17,11 +17,11 @@ const StyledSocialIcons = styled.div`
 	max-width: 200px;
 
 	a {
-		color: white;
-	}
+		color: #ff5d5d;
 
-	a :hover {
-		color: grey;
+		:hover {
+			color: grey;
+		}
 	}
 `;
 

@@ -15,7 +15,12 @@ const StyledMain = styled.main`
 	color: #ffffff;
 
 	a {
-		color: #b3afa8;
+		color: #ff5d5d;
+		text-decoration: none;
+
+		:hover {
+			text-decoration: underline;
+		}
 	}
 `;
 

@@ -14,22 +14,34 @@ It is written using:
 
 - [React](https://reactjs.org/)
 
-With:
+Along with:
 
 - [Gatsby](https://www.gatsbyjs.org/)
 
-Using:
+With some help from:
 
 - [Styled Components](https://www.styled-components.com/)
 - [Font Awesome](https://fontawesome.com/)
+- [react-spring](https://react-spring.surge.sh/)
 
-With some help from:
+With code kept in line by:
 
+- [Code Climate](https://codeclimate.com/github/MarcelMichau/home-page)
 - [Prettier](https://prettier.io/)
 
-Hosted on:
+Tested using:
+
+- [Jest](https://jestjs.io/)
+- [Docker](https://www.docker.com/)
+- [Travis CI](https://travis-ci.com/MarcelMichau/home-page)
+
+Deployed to:
 
 - [Netlify](https://www.netlify.com/)
+
+And code hosted on:
+
+- [GitHub](https://github.com/MarcelMichau/home-page)
 
 It is intended to be:
 
