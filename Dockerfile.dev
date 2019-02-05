@@ -1,5 +1,7 @@
 FROM node:alpine
 
+RUN apk --no-cache add curl
+
 ENV CC_TEST_REPORTER_ID=${CC_TEST_REPORTER_ID}
 
 WORKDIR /app
