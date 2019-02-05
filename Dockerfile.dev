@@ -1,6 +1,6 @@
 FROM node:alpine
 
-RUN apk --no-cache add curl
+RUN apk --no-cache add curl git
 
 ENV CC_TEST_REPORTER_ID=${CC_TEST_REPORTER_ID}
 
