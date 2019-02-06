@@ -22,7 +22,7 @@
 		"gatsby-transformer-remark": "2.2.4",
 		"gatsby-transformer-sharp": "2.1.13",
 		"react": "16.8.1",
-		"react-dom": "16.8.0",
+		"react-dom": "16.8.1",
 		"react-helmet": "5.2.0",
 		"react-spring": "^8.0.1",
 		"styled-components": "4.1.3"
