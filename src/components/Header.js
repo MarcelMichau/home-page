@@ -12,10 +12,9 @@ const StyledHeader = styled.header`
 
 const StyledGradient = styled.div`
 	position: absolute;
-	display: block;
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(black, #1d2129);
+	background-image: linear-gradient(20deg, #282c34 50%, #660909 50%);
 `;
 
 const StyledIntro = styled.div`
