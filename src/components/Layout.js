@@ -11,19 +11,22 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default ({ children }) => (
-  <div>
-    <Helmet>
-      <html lang="en" />
-      <meta
-        name="description"
-        content="Personal Website for Marcel Michau - I just filled this in for better SEO :)"
-      />
-      <meta name="google-site-verification" content="u17FNJFETGielUaXh6jVCfwAFwN1OM0pnJ6sYC2W2oc" />
-      <title>Marcel Michau - I write code & stuff</title>
-    </Helmet>
-    <div>
-      <GlobalStyle />
-      {children}
-    </div>
-  </div>
+	<div>
+		<Helmet>
+			<html lang="en" />
+			<meta
+				name="description"
+				content="Personal Website for Marcel Michau - I just filled this in for better SEO :)"
+			/>
+			<meta
+				name="google-site-verification"
+				content="u17FNJFETGielUaXh6jVCfwAFwN1OM0pnJ6sYC2W2oc"
+			/>
+			<title>Marcel Michau - I write code & stuff</title>
+		</Helmet>
+		<div>
+			<GlobalStyle />
+			{children}
+		</div>
+	</div>
 );
