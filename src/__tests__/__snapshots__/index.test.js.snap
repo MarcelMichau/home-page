@@ -224,7 +224,7 @@ exports[`IndexPage renders correctly 1`] = `
 <ul>
 <li><a href=\\"https://www.styled-components.com/\\">Styled Components</a></li>
 <li><a href=\\"https://fontawesome.com/\\">Font Awesome</a></li>
-<li><a href=\\"https://react-spring.surge.sh/\\">react-spring</a></li>
+<li><a href=\\"https://www.react-spring.io/\\">react-spring</a></li>
 </ul>
 <p>With code kept in line by:</p>
 <ul>
