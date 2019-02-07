@@ -1,5 +1,7 @@
 # Home Page 🏡📄
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8e835143-1db8-4057-8e26-c2dfa7f566a8/deploy-status)](https://app.netlify.com/sites/marcel-michau-home-page/deploys)
+
 [![Build Status](https://travis-ci.org/MarcelMichau/home-page.svg?branch=master)](https://travis-ci.org/MarcelMichau/home-page)
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/MarcelMichau/home-page.svg)](https://greenkeeper.io/)
