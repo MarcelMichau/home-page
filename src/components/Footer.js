@@ -4,12 +4,7 @@ import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { lighten, darken } from 'polished';
-
-const StyledFooter = styled.footer`
-	text-align: center;
-	background-color: ${props => props.theme.primaryColour};
-	color: ${props => props.theme.fontColour};
-`;
+import Centered from './Centered';
 
 const StyledSocialIcons = styled.div`
 	display: flex;
@@ -27,8 +22,8 @@ const StyledSocialIcons = styled.div`
 `;
 
 const Footer = ({ className }) => (
-	<StyledFooter className={className}>
-		<div>
+	<Centered className={className}>
+		<footer>
 			<p>Marcel Michau &copy; {new Date().getFullYear()}</p>
 			<StyledSocialIcons>
 				<a href="https://github.com/MarcelMichau">
@@ -39,8 +34,8 @@ const Footer = ({ className }) => (
 					<FontAwesomeIcon icon={faTwitter} size="lg" />
 				</a>
 			</StyledSocialIcons>
-		</div>
-	</StyledFooter>
+		</footer>
+	</Centered>
 );
 
 Footer.propTypes = {
