@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { lighten } from 'polished';
-import { fontColour, secondaryColour } from '../styles/palettes';
 
 const StyledMain = styled.main`
 	display: flex;
@@ -14,10 +13,10 @@ const StyledMain = styled.main`
 	max-width: 800px;
 	margin: 0 auto;
 	line-height: 2em;
-	color: ${fontColour};
+	color: ${props => props.theme.fontColour};
 
 	a {
-		color: ${lighten(0.45, secondaryColour)};
+		color: ${props => lighten(0.45, props.theme.accentColour)};
 		text-decoration: none;
 
 		:hover {
@@ -26,13 +25,13 @@ const StyledMain = styled.main`
 	}
 `;
 
-const Main = ({ className, children }) => {
-	return <StyledMain className={className}>{children}</StyledMain>;
-};
+const Main = ({ className, children }) => (
+	<StyledMain className={className}>{children}</StyledMain>
+);
 
 Main.propTypes = {
 	className: PropTypes.string,
-	data: PropTypes.object
+	children: PropTypes.object
 };
 
 export default Main;

@@ -1,14 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import styled, { withTheme } from 'styled-components';
 import { useSpring, animated } from 'react-spring';
-import { fontColour, primaryColour, secondaryColour } from '../styles/palettes';
 
 const StyledHeader = styled.header`
 	position: relative;
 	text-align: center;
-	background-color: ${primaryColour};
-	color: ${fontColour};
+	background-color: ${props => props.theme.primaryColour};
+	color: ${props => props.theme.fontColour};
 	font-size: 24px;
 `;
 
@@ -23,11 +22,15 @@ const StyledIntro = styled.div`
 	z-index: 1;
 `;
 
-const Header = ({ className, children }) => {
+const Header = ({ className, children, theme }) => {
 	const props = useSpring({
-		backgroundImage: `linear-gradient(20deg, ${primaryColour} 50%, ${secondaryColour} 50%)`,
+		backgroundImage: `linear-gradient(20deg, ${theme.primaryColour} 50%, ${
+			theme.accentColour
+		} 50%)`,
 		from: {
-			backgroundImage: `linear-gradient(0deg, ${primaryColour} 50%, ${primaryColour} 50%)`
+			backgroundImage: `linear-gradient(0deg, ${theme.primaryColour} 50%, ${
+				theme.primaryColour
+			} 50%)`
 		},
 		delay: 2000
 	});
@@ -41,7 +44,9 @@ const Header = ({ className, children }) => {
 };
 
 Header.propTypes = {
-	className: PropTypes.string
+	className: PropTypes.string,
+	children: PropTypes.object,
+	theme: PropTypes.object
 };
 
-export default Header;
+export default withTheme(Header);
