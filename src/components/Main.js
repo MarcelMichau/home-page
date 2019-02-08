@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import { lighten } from 'polished';
+import { fontColour, secondaryColour } from '../styles/palettes';
 
 const StyledMain = styled.main`
 	display: flex;
@@ -12,10 +14,10 @@ const StyledMain = styled.main`
 	max-width: 800px;
 	margin: 0 auto;
 	line-height: 2em;
-	color: #ffffff;
+	color: ${fontColour};
 
 	a {
-		color: #ff5d5d;
+		color: ${lighten(0.45, secondaryColour)};
 		text-decoration: none;
 
 		:hover {

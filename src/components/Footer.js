@@ -3,11 +3,13 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { lighten, darken } from 'polished';
+import { fontColour, primaryColour, secondaryColour } from '../styles/palettes';
 
 const StyledFooter = styled.footer`
 	text-align: center;
-	background-color: #282c34;
-	color: #ffffff;
+	background-color: ${primaryColour};
+	color: ${fontColour};
 `;
 
 const StyledSocialIcons = styled.div`
@@ -17,10 +19,10 @@ const StyledSocialIcons = styled.div`
 	max-width: 200px;
 
 	a {
-		color: #ff5d5d;
+		color: ${lighten(0.45, secondaryColour)};
 
 		:hover {
-			color: grey;
+			color: ${darken(0.5, fontColour)};
 		}
 	}
 `;
