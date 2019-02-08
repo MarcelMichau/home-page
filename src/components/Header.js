@@ -2,12 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { useSpring, animated } from 'react-spring';
+import { fontColour, primaryColour, secondaryColour } from '../styles/palettes';
 
 const StyledHeader = styled.header`
 	position: relative;
 	text-align: center;
-	background-color: #282c34;
-	color: #ffffff;
+	background-color: ${primaryColour};
+	color: ${fontColour};
 	font-size: 24px;
 `;
 
@@ -24,9 +25,9 @@ const StyledIntro = styled.div`
 
 const Header = ({ className, children }) => {
 	const props = useSpring({
-		backgroundImage: 'linear-gradient(20deg, #282c34 50%, #660909 50%)',
+		backgroundImage: `linear-gradient(20deg, ${primaryColour} 50%, ${secondaryColour} 50%)`,
 		from: {
-			backgroundImage: 'linear-gradient(0deg, #282c34 50%, #282c34 50%)'
+			backgroundImage: `linear-gradient(0deg, ${primaryColour} 50%, ${primaryColour} 50%)`
 		},
 		delay: 2000
 	});

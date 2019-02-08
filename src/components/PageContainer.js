@@ -3,9 +3,10 @@ import styled from 'styled-components';
 import Header from '../components/Header';
 import Main from '../components/Main';
 import Footer from '../components/Footer';
+import { backgroundColour } from '../styles/palettes';
 
 const Container = styled.div`
-	background-color: #1d2129;
+	background-color: ${backgroundColour};
 	display: grid;
 	min-height: 100vh;
 	grid-template-columns: 1fr;
