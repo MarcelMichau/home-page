@@ -2,12 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { withTheme } from 'styled-components';
 import { useSpring, animated } from 'react-spring';
+import Centered from './Centered';
 
 const StyledHeader = styled.header`
 	position: relative;
-	text-align: center;
-	background-color: ${props => props.theme.primaryColour};
-	color: ${props => props.theme.fontColour};
 	font-size: 24px;
 `;
 
@@ -36,10 +34,12 @@ const Header = ({ className, children, theme }) => {
 	});
 
 	return (
-		<StyledHeader className={className}>
-			<StyledGradient style={props} />
-			<StyledIntro>{children}</StyledIntro>
-		</StyledHeader>
+		<Centered className={className}>
+			<StyledHeader>
+				<StyledGradient style={props} />
+				<StyledIntro>{children}</StyledIntro>
+			</StyledHeader>
+		</Centered>
 	);
 };
 
