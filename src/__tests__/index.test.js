@@ -23,58 +23,55 @@ const data = {
 	}
 };
 
+const renderIndexPageToJSON = date => {
+	return renderer.create(<IndexPage data={data} currentDate={date} />).toJSON();
+};
+
 describe('IndexPage', () => {
 	it('renders correctly on a Sunday', () => {
-		const tree = renderer
-			.create(<IndexPage data={data} currentDate={new Date(2019, 1, 6)} />)
-			.toJSON();
+		const date = new Date(2019, 1, 6);
+		const tree = renderIndexPageToJSON(date);
 		expect(tree).toMatchSnapshot();
 	});
 
 	it('renders correctly on a Monday', () => {
-		const tree = renderer
-			.create(<IndexPage data={data} currentDate={new Date(2019, 1, 7)} />)
-			.toJSON();
+		const date = new Date(2019, 1, 7);
+		const tree = renderIndexPageToJSON(date);
 		expect(tree).toMatchSnapshot();
 	});
 
 	it('renders correctly on a Tuesday', () => {
-		const tree = renderer
-			.create(<IndexPage data={data} currentDate={new Date(2019, 1, 8)} />)
-			.toJSON();
+		const date = new Date(2019, 1, 8);
+		const tree = renderIndexPageToJSON(date);
 		expect(tree).toMatchSnapshot();
 	});
 
 	it('renders correctly on a Wednesday', () => {
-		const tree = renderer
-			.create(<IndexPage data={data} currentDate={new Date(2019, 1, 9)} />)
-			.toJSON();
+		const date = new Date(2019, 1, 9);
+		const tree = renderIndexPageToJSON(date);
 		expect(tree).toMatchSnapshot();
 	});
 
 	it('renders correctly on a Thursday', () => {
-		const tree = renderer
-			.create(<IndexPage data={data} currentDate={new Date(2019, 1, 10)} />)
-			.toJSON();
+		const date = new Date(2019, 1, 10);
+		const tree = renderIndexPageToJSON(date);
 		expect(tree).toMatchSnapshot();
 	});
 
 	it('renders correctly on a Friday', () => {
-		const tree = renderer
-			.create(<IndexPage data={data} currentDate={new Date(2019, 1, 11)} />)
-			.toJSON();
+		const date = new Date(2019, 1, 11);
+		const tree = renderIndexPageToJSON(date);
 		expect(tree).toMatchSnapshot();
 	});
 
 	it('renders correctly on a Saturday', () => {
-		const tree = renderer
-			.create(<IndexPage data={data} currentDate={new Date(2019, 1, 12)} />)
-			.toJSON();
+		const date = new Date(2019, 1, 12);
+		const tree = renderIndexPageToJSON(date);
 		expect(tree).toMatchSnapshot();
 	});
 
 	it('renders correctly for no date', () => {
-		const tree = renderer.create(<IndexPage data={data} />).toJSON();
+		const tree = renderIndexPageToJSON();
 		expect(tree).toMatchSnapshot();
 	});
 });
