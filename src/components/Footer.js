@@ -3,12 +3,8 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
-
-const StyledFooter = styled.footer`
-	text-align: center;
-	background-color: #282c34;
-	color: #ffffff;
-`;
+import { lighten, darken } from 'polished';
+import Centered from './Centered';
 
 const StyledSocialIcons = styled.div`
 	display: flex;
@@ -17,32 +13,30 @@ const StyledSocialIcons = styled.div`
 	max-width: 200px;
 
 	a {
-		color: #ff5d5d;
+		color: ${props => lighten(0.45, props.theme.accentColour)};
 
 		:hover {
-			color: grey;
+			color: ${props => darken(0.5, props.theme.fontColour)};
 		}
 	}
 `;
 
-const Footer = ({ className }) => {
-	return (
-		<StyledFooter className={className}>
-			<div>
-				<p>Marcel Michau &copy; {new Date().getFullYear()}</p>
-				<StyledSocialIcons>
-					<a href="https://github.com/MarcelMichau">
-						<FontAwesomeIcon icon={faGithub} size="lg" />
-					</a>
+const Footer = ({ className }) => (
+	<Centered className={className}>
+		<footer>
+			<p>Marcel Michau &copy; {new Date().getFullYear()}</p>
+			<StyledSocialIcons>
+				<a href="https://github.com/MarcelMichau">
+					<FontAwesomeIcon icon={faGithub} size="lg" />
+				</a>
 
-					<a href="https://twitter.com/MarcelMichau">
-						<FontAwesomeIcon icon={faTwitter} size="lg" />
-					</a>
-				</StyledSocialIcons>
-			</div>
-		</StyledFooter>
-	);
-};
+				<a href="https://twitter.com/MarcelMichau">
+					<FontAwesomeIcon icon={faTwitter} size="lg" />
+				</a>
+			</StyledSocialIcons>
+		</footer>
+	</Centered>
+);
 
 Footer.propTypes = {
 	className: PropTypes.string

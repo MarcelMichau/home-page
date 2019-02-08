@@ -1,13 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import styled, { withTheme } from 'styled-components';
 import { useSpring, animated } from 'react-spring';
+import Centered from './Centered';
 
 const StyledHeader = styled.header`
 	position: relative;
-	text-align: center;
-	background-color: #282c34;
-	color: #ffffff;
 	font-size: 24px;
 `;
 
@@ -22,25 +20,33 @@ const StyledIntro = styled.div`
 	z-index: 1;
 `;
 
-const Header = ({ className, children }) => {
+const Header = ({ className, children, theme }) => {
 	const props = useSpring({
-		backgroundImage: 'linear-gradient(20deg, #282c34 50%, #660909 50%)',
+		backgroundImage: `linear-gradient(20deg, ${theme.primaryColour} 50%, ${
+			theme.accentColour
+		} 50%)`,
 		from: {
-			backgroundImage: 'linear-gradient(0deg, #282c34 50%, #282c34 50%)'
+			backgroundImage: `linear-gradient(0deg, ${theme.primaryColour} 50%, ${
+				theme.primaryColour
+			} 50%)`
 		},
 		delay: 2000
 	});
 
 	return (
-		<StyledHeader className={className}>
-			<StyledGradient style={props} />
-			<StyledIntro>{children}</StyledIntro>
-		</StyledHeader>
+		<Centered className={className}>
+			<StyledHeader>
+				<StyledGradient style={props} />
+				<StyledIntro>{children}</StyledIntro>
+			</StyledHeader>
+		</Centered>
 	);
 };
 
 Header.propTypes = {
-	className: PropTypes.string
+	className: PropTypes.string,
+	children: PropTypes.object,
+	theme: PropTypes.object
 };
 
-export default Header;
+export default withTheme(Header);
