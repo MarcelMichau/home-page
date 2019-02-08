@@ -1,12 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Header from '../components/Header';
 import Main from '../components/Main';
 import Footer from '../components/Footer';
-import { backgroundColour } from '../styles/palettes';
 
 const Container = styled.div`
-	background-color: ${backgroundColour};
+	background-color: ${props => props.theme.backgroundColour};
 	display: grid;
 	min-height: 100vh;
 	grid-template-columns: 1fr;
@@ -30,14 +30,17 @@ const AlignedFooter = styled(Footer)`
 	grid-area: f;
 `;
 
-const PageContainer = ({ headerContent, mainContent }) => {
-	return (
-		<Container>
-			<AlignedHeader>{headerContent}</AlignedHeader>
-			<AlignedMain>{mainContent}</AlignedMain>
-			<AlignedFooter />
-		</Container>
-	);
+const PageContainer = ({ headerContent, mainContent }) => (
+	<Container>
+		<AlignedHeader>{headerContent}</AlignedHeader>
+		<AlignedMain>{mainContent}</AlignedMain>
+		<AlignedFooter />
+	</Container>
+);
+
+PageContainer.propTypes = {
+	headerContent: PropTypes.element,
+	mainContent: PropTypes.element
 };
 
 export default PageContainer;
