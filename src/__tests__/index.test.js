@@ -29,49 +29,34 @@ const renderIndexPageToJSON = date => {
 
 describe('IndexPage', () => {
 	it('renders correctly on a Sunday', () => {
-		const date = new Date(2019, 1, 6);
-		const tree = renderIndexPageToJSON(date);
-		expect(tree).toMatchSnapshot();
+		expect(renderIndexPageToJSON(new Date(2019, 1, 6))).toMatchSnapshot();
 	});
 
 	it('renders correctly on a Monday', () => {
-		const date = new Date(2019, 1, 7);
-		const tree = renderIndexPageToJSON(date);
-		expect(tree).toMatchSnapshot();
+		expect(renderIndexPageToJSON(new Date(2019, 1, 7))).toMatchSnapshot();
 	});
 
 	it('renders correctly on a Tuesday', () => {
-		const date = new Date(2019, 1, 8);
-		const tree = renderIndexPageToJSON(date);
-		expect(tree).toMatchSnapshot();
+		expect(renderIndexPageToJSON(new Date(2019, 1, 8))).toMatchSnapshot();
 	});
 
 	it('renders correctly on a Wednesday', () => {
-		const date = new Date(2019, 1, 9);
-		const tree = renderIndexPageToJSON(date);
-		expect(tree).toMatchSnapshot();
+		expect(renderIndexPageToJSON(new Date(2019, 1, 9))).toMatchSnapshot();
 	});
 
 	it('renders correctly on a Thursday', () => {
-		const date = new Date(2019, 1, 10);
-		const tree = renderIndexPageToJSON(date);
-		expect(tree).toMatchSnapshot();
+		expect(renderIndexPageToJSON(new Date(2019, 1, 10))).toMatchSnapshot();
 	});
 
 	it('renders correctly on a Friday', () => {
-		const date = new Date(2019, 1, 11);
-		const tree = renderIndexPageToJSON(date);
-		expect(tree).toMatchSnapshot();
+		expect(renderIndexPageToJSON(new Date(2019, 1, 11))).toMatchSnapshot();
 	});
 
 	it('renders correctly on a Saturday', () => {
-		const date = new Date(2019, 1, 12);
-		const tree = renderIndexPageToJSON(date);
-		expect(tree).toMatchSnapshot();
+		expect(renderIndexPageToJSON(new Date(2019, 1, 12))).toMatchSnapshot();
 	});
 
 	it('renders correctly for no date', () => {
-		const tree = renderIndexPageToJSON();
-		expect(tree).toMatchSnapshot();
+		expect(renderIndexPageToJSON()).toMatchSnapshot();
 	});
 });
