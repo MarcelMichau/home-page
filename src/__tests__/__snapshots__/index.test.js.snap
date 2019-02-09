@@ -395,7 +395,7 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
 }
 
 .c7 a {
-  color: #ff5cff;
+  color: #41ff41;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
@@ -419,7 +419,7 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
 }
 
 .c9 a {
-  color: #ff5cff;
+  color: #41ff41;
 }
 
 .c9 a:hover {
@@ -745,7 +745,7 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
 }
 
 .c7 a {
-  color: #ff5cff;
+  color: #8e8eff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
@@ -769,7 +769,7 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
 }
 
 .c9 a {
-  color: #ff5cff;
+  color: #8e8eff;
 }
 
 .c9 a:hover {
@@ -1095,7 +1095,7 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
 }
 
 .c7 a {
-  color: #ff5cff;
+  color: #fefcae;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
@@ -1119,7 +1119,7 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
 }
 
 .c9 a {
-  color: #ff5cff;
+  color: #fefcae;
 }
 
 .c9 a:hover {
@@ -1445,7 +1445,7 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
 }
 
 .c7 a {
-  color: #ff5cff;
+  color: #ffca9c;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
@@ -1469,7 +1469,7 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
 }
 
 .c9 a {
-  color: #ff5cff;
+  color: #ffca9c;
 }
 
 .c9 a:hover {
@@ -1795,7 +1795,7 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
 }
 
 .c7 a {
-  color: #ff5cff;
+  color: #f16363;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
@@ -1819,7 +1819,7 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
 }
 
 .c9 a {
-  color: #ff5cff;
+  color: #f16363;
 }
 
 .c9 a:hover {
@@ -2145,7 +2145,7 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
 }
 
 .c7 a {
-  color: #ff5cff;
+  color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
@@ -2169,7 +2169,7 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
 }
 
 .c9 a {
-  color: #ff5cff;
+  color: #5cd2ff;
 }
 
 .c9 a:hover {
