@@ -9,7 +9,7 @@ import theme from '../styles/theme';
 import { ThemeProvider } from 'styled-components';
 
 export function IndexPage({ data, currentDate = new Date() }) {
-	theme.accentColour = theme.accentColourPalette[currentDate.getDay()];
+	theme.accentColour = theme.accentColourPalette[0];
 
 	const headerProps = useSpring({ opacity: 1, from: { opacity: 0 } });
 	const contentProps = useSpring({
