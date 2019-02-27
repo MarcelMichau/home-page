@@ -3,7 +3,16 @@ module.exports = {
 		title: `Gatsby Default Starter`
 	},
 	plugins: [
-		`gatsby-plugin-csp`,
+		{
+			resolve: `gatsby-plugin-csp`,
+			options: {
+				disableOnDev: true,
+				directives: {
+					'manifest-src': 'self',
+					'frame-ancestors': 'none'
+				}
+			}
+		},
 		`gatsby-plugin-react-helmet`,
 		{
 			resolve: `gatsby-source-filesystem`,
