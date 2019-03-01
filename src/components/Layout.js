@@ -35,6 +35,10 @@ export default ({ children }) => {
 					name="description"
 					content="Personal Website for Marcel Michau - I just filled this in for better SEO :)"
 				/>
+				<meta
+					name="google-site-verification"
+					content="u17FNJFETGielUaXh6jVCfwAFwN1OM0pnJ6sYC2W2oc"
+				/>
 				<title>Marcel Michau - I write code & stuff</title>
 			</Helmet>
 			<div>
