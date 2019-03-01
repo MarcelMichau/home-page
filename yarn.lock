@@ -4723,9 +4723,9 @@ fastparse@^1.1.1:
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
   integrity sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==
 
-"favicons-webpack-plugin@git+https://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c":
+"favicons-webpack-plugin@https://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c":
   version "0.0.9"
-  resolved "git+https://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c"
+  resolved "https://github.com/Creatiwity/favicons-webpack-plugin.git#f262255febeeca348bf7ae5cc140e0386c074e2c"
   dependencies:
     core-js "^2.5.7"
     favicons "^5.1.1"
@@ -9582,10 +9582,10 @@ pngquant-bin@^5.0.0:
     execa "^0.10.0"
     logalot "^2.0.0"
 
-polished@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/polished/-/polished-3.0.0.tgz#72a61e9729f8cfbcf2d6968441dc1f6f723a9fd6"
-  integrity sha512-qgxFjrkdnOrcHm/ulPjvK4jwzFv2zOdwY7JmaOX2iqTkLw2tA8U+YqYd5EDo5plPOZ2xpsGXeWWwj/C+/3nL5g==
+polished@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-3.0.1.tgz#e9b7c9d7043aac78f3cd1470330227068cc56649"
+  integrity sha512-rhel+zWmzx9SzxiX2osdQ+n1Cl4zFI0aoMtfr7fZT5EhlQUIwfPJUnpEAZkJrN+/fBTkIYgtr5sq6bZssMuvCg==
   dependencies:
     "@babel/runtime" "^7.3.1"
     babel-plugin-preval "3.0.1"
