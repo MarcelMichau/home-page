@@ -6,10 +6,9 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-csp`,
 			options: {
-				disableOnDev: true,
+				disableOnDev: false,
 				directives: {
-					'manifest-src': 'self',
-					'frame-ancestors': 'none'
+					'manifest-src': "'self'"
 				}
 			}
 		},
