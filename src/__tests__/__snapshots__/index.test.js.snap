@@ -1067,7 +1067,7 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
   z-index: 1;
 }
 
-.c7 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1088,18 +1088,18 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c8 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c8 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c9 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1112,11 +1112,11 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
   max-width: 200px;
 }
 
-.c9 a {
+.c10 a {
   color: #5cd2ff;
 }
 
-.c9 a:hover {
+.c10 a:hover {
   color: #808080;
 }
 
@@ -1134,12 +1134,16 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
   grid-area: h;
 }
 
-.c6 {
+.c7 {
   grid-area: m;
 }
 
-.c8 {
+.c9 {
   grid-area: f;
+}
+
+.c6 {
+  font-family: 'Inconsolata','Consolas',monospace;
 }
 
 <div>
@@ -1210,11 +1214,11 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
                   alt="Profile Picture of Marcel Michau"
                   height={250}
                   onLoad={[Function]}
-                  src="/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg"
-                  srcSet="/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/26c40/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/97df0/profile.jpg 2x,
-/static/ceeab084c21596435216ed7397fb861b/684ec/profile.jpg 3x"
+                  src="/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg"
+                  srcSet="/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg 1x,
+/static/ceeab084c21596435216ed7397fb861b/6d523/profile.jpg 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/e625a/profile.jpg 2x,
+/static/ceeab084c21596435216ed7397fb861b/3dd8d/profile.jpg 3x"
                   style={
                     Object {
                       "border": "5px solid #FFFFFF",
@@ -1238,22 +1242,24 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
               <noscript
                 dangerouslySetInnerHTML={
                   Object {
-                    "__html": "<picture><img width=\\"250\\" height=\\"250\\" srcset=\\"/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/26c40/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/97df0/profile.jpg 2x,
-/static/ceeab084c21596435216ed7397fb861b/684ec/profile.jpg 3x\\" src=\\"/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg\\" alt=\\"Profile Picture of Marcel Michau\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    "__html": "<picture><img width=\\"250\\" height=\\"250\\" srcset=\\"/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg 1x,
+/static/ceeab084c21596435216ed7397fb861b/6d523/profile.jpg 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/e625a/profile.jpg 2x,
+/static/ceeab084c21596435216ed7397fb861b/3dd8d/profile.jpg 3x\\" src=\\"/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg\\" alt=\\"Profile Picture of Marcel Michau\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                   }
                 }
               />
             </div>
             <p>
-              I write code & stuff
+              <span
+                className="c6"
+              />
             </p>
           </div>
         </div>
       </header>
       <main
-        className="c6 c7"
+        className="c7 c8"
       >
         <div
           dangerouslySetInnerHTML={
@@ -1273,6 +1279,7 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
 <li><a href=\\"https://www.styled-components.com/\\">Styled Components</a></li>
 <li><a href=\\"https://fontawesome.com/\\">Font Awesome</a></li>
 <li><a href=\\"https://www.react-spring.io/\\">react-spring</a></li>
+<li><a href=\\"https://mattboldt.com/demos/typed-js/\\">Typed.js</a></li>
 </ul>
 <p>With code kept in line by:</p>
 <ul>
@@ -1334,14 +1341,14 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
         />
       </main>
       <footer
-        className="c8 c2"
+        className="c9 c2"
       >
         <p>
           Marcel Michau © 
           2019
         </p>
         <div
-          className="c9"
+          className="c10"
         >
           <a
             href="https://github.com/MarcelMichau"
@@ -1415,7 +1422,7 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
   z-index: 1;
 }
 
-.c7 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1436,18 +1443,18 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c8 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c8 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c9 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1460,11 +1467,11 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
   max-width: 200px;
 }
 
-.c9 a {
+.c10 a {
   color: #5cd2ff;
 }
 
-.c9 a:hover {
+.c10 a:hover {
   color: #808080;
 }
 
@@ -1482,12 +1489,16 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
   grid-area: h;
 }
 
-.c6 {
+.c7 {
   grid-area: m;
 }
 
-.c8 {
+.c9 {
   grid-area: f;
+}
+
+.c6 {
+  font-family: 'Inconsolata','Consolas',monospace;
 }
 
 <div>
@@ -1558,11 +1569,11 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
                   alt="Profile Picture of Marcel Michau"
                   height={250}
                   onLoad={[Function]}
-                  src="/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg"
-                  srcSet="/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/26c40/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/97df0/profile.jpg 2x,
-/static/ceeab084c21596435216ed7397fb861b/684ec/profile.jpg 3x"
+                  src="/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg"
+                  srcSet="/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg 1x,
+/static/ceeab084c21596435216ed7397fb861b/6d523/profile.jpg 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/e625a/profile.jpg 2x,
+/static/ceeab084c21596435216ed7397fb861b/3dd8d/profile.jpg 3x"
                   style={
                     Object {
                       "border": "5px solid #FFFFFF",
@@ -1586,22 +1597,24 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
               <noscript
                 dangerouslySetInnerHTML={
                   Object {
-                    "__html": "<picture><img width=\\"250\\" height=\\"250\\" srcset=\\"/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/26c40/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/97df0/profile.jpg 2x,
-/static/ceeab084c21596435216ed7397fb861b/684ec/profile.jpg 3x\\" src=\\"/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg\\" alt=\\"Profile Picture of Marcel Michau\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    "__html": "<picture><img width=\\"250\\" height=\\"250\\" srcset=\\"/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg 1x,
+/static/ceeab084c21596435216ed7397fb861b/6d523/profile.jpg 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/e625a/profile.jpg 2x,
+/static/ceeab084c21596435216ed7397fb861b/3dd8d/profile.jpg 3x\\" src=\\"/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg\\" alt=\\"Profile Picture of Marcel Michau\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                   }
                 }
               />
             </div>
             <p>
-              I write code & stuff
+              <span
+                className="c6"
+              />
             </p>
           </div>
         </div>
       </header>
       <main
-        className="c6 c7"
+        className="c7 c8"
       >
         <div
           dangerouslySetInnerHTML={
@@ -1621,6 +1634,7 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
 <li><a href=\\"https://www.styled-components.com/\\">Styled Components</a></li>
 <li><a href=\\"https://fontawesome.com/\\">Font Awesome</a></li>
 <li><a href=\\"https://www.react-spring.io/\\">react-spring</a></li>
+<li><a href=\\"https://mattboldt.com/demos/typed-js/\\">Typed.js</a></li>
 </ul>
 <p>With code kept in line by:</p>
 <ul>
@@ -1682,14 +1696,14 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
         />
       </main>
       <footer
-        className="c8 c2"
+        className="c9 c2"
       >
         <p>
           Marcel Michau © 
           2019
         </p>
         <div
-          className="c9"
+          className="c10"
         >
           <a
             href="https://github.com/MarcelMichau"
@@ -1763,7 +1777,7 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
   z-index: 1;
 }
 
-.c7 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1784,18 +1798,18 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c8 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c8 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c9 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1808,11 +1822,11 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
   max-width: 200px;
 }
 
-.c9 a {
+.c10 a {
   color: #5cd2ff;
 }
 
-.c9 a:hover {
+.c10 a:hover {
   color: #808080;
 }
 
@@ -1830,12 +1844,16 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
   grid-area: h;
 }
 
-.c6 {
+.c7 {
   grid-area: m;
 }
 
-.c8 {
+.c9 {
   grid-area: f;
+}
+
+.c6 {
+  font-family: 'Inconsolata','Consolas',monospace;
 }
 
 <div>
@@ -1906,11 +1924,11 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
                   alt="Profile Picture of Marcel Michau"
                   height={250}
                   onLoad={[Function]}
-                  src="/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg"
-                  srcSet="/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/26c40/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/97df0/profile.jpg 2x,
-/static/ceeab084c21596435216ed7397fb861b/684ec/profile.jpg 3x"
+                  src="/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg"
+                  srcSet="/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg 1x,
+/static/ceeab084c21596435216ed7397fb861b/6d523/profile.jpg 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/e625a/profile.jpg 2x,
+/static/ceeab084c21596435216ed7397fb861b/3dd8d/profile.jpg 3x"
                   style={
                     Object {
                       "border": "5px solid #FFFFFF",
@@ -1934,22 +1952,24 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
               <noscript
                 dangerouslySetInnerHTML={
                   Object {
-                    "__html": "<picture><img width=\\"250\\" height=\\"250\\" srcset=\\"/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/26c40/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/97df0/profile.jpg 2x,
-/static/ceeab084c21596435216ed7397fb861b/684ec/profile.jpg 3x\\" src=\\"/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg\\" alt=\\"Profile Picture of Marcel Michau\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    "__html": "<picture><img width=\\"250\\" height=\\"250\\" srcset=\\"/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg 1x,
+/static/ceeab084c21596435216ed7397fb861b/6d523/profile.jpg 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/e625a/profile.jpg 2x,
+/static/ceeab084c21596435216ed7397fb861b/3dd8d/profile.jpg 3x\\" src=\\"/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg\\" alt=\\"Profile Picture of Marcel Michau\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                   }
                 }
               />
             </div>
             <p>
-              I write code & stuff
+              <span
+                className="c6"
+              />
             </p>
           </div>
         </div>
       </header>
       <main
-        className="c6 c7"
+        className="c7 c8"
       >
         <div
           dangerouslySetInnerHTML={
@@ -1969,6 +1989,7 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
 <li><a href=\\"https://www.styled-components.com/\\">Styled Components</a></li>
 <li><a href=\\"https://fontawesome.com/\\">Font Awesome</a></li>
 <li><a href=\\"https://www.react-spring.io/\\">react-spring</a></li>
+<li><a href=\\"https://mattboldt.com/demos/typed-js/\\">Typed.js</a></li>
 </ul>
 <p>With code kept in line by:</p>
 <ul>
@@ -2030,14 +2051,14 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
         />
       </main>
       <footer
-        className="c8 c2"
+        className="c9 c2"
       >
         <p>
           Marcel Michau © 
           2019
         </p>
         <div
-          className="c9"
+          className="c10"
         >
           <a
             href="https://github.com/MarcelMichau"
@@ -2111,7 +2132,7 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
   z-index: 1;
 }
 
-.c7 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2132,18 +2153,18 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c8 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c8 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c9 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2156,11 +2177,11 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
   max-width: 200px;
 }
 
-.c9 a {
+.c10 a {
   color: #5cd2ff;
 }
 
-.c9 a:hover {
+.c10 a:hover {
   color: #808080;
 }
 
@@ -2178,12 +2199,16 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
   grid-area: h;
 }
 
-.c6 {
+.c7 {
   grid-area: m;
 }
 
-.c8 {
+.c9 {
   grid-area: f;
+}
+
+.c6 {
+  font-family: 'Inconsolata','Consolas',monospace;
 }
 
 <div>
@@ -2254,11 +2279,11 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
                   alt="Profile Picture of Marcel Michau"
                   height={250}
                   onLoad={[Function]}
-                  src="/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg"
-                  srcSet="/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/26c40/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/97df0/profile.jpg 2x,
-/static/ceeab084c21596435216ed7397fb861b/684ec/profile.jpg 3x"
+                  src="/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg"
+                  srcSet="/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg 1x,
+/static/ceeab084c21596435216ed7397fb861b/6d523/profile.jpg 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/e625a/profile.jpg 2x,
+/static/ceeab084c21596435216ed7397fb861b/3dd8d/profile.jpg 3x"
                   style={
                     Object {
                       "border": "5px solid #FFFFFF",
@@ -2282,22 +2307,24 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
               <noscript
                 dangerouslySetInnerHTML={
                   Object {
-                    "__html": "<picture><img width=\\"250\\" height=\\"250\\" srcset=\\"/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/26c40/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/97df0/profile.jpg 2x,
-/static/ceeab084c21596435216ed7397fb861b/684ec/profile.jpg 3x\\" src=\\"/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg\\" alt=\\"Profile Picture of Marcel Michau\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    "__html": "<picture><img width=\\"250\\" height=\\"250\\" srcset=\\"/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg 1x,
+/static/ceeab084c21596435216ed7397fb861b/6d523/profile.jpg 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/e625a/profile.jpg 2x,
+/static/ceeab084c21596435216ed7397fb861b/3dd8d/profile.jpg 3x\\" src=\\"/static/ceeab084c21596435216ed7397fb861b/d95d2/profile.jpg\\" alt=\\"Profile Picture of Marcel Michau\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                   }
                 }
               />
             </div>
             <p>
-              I write code & stuff
+              <span
+                className="c6"
+              />
             </p>
           </div>
         </div>
       </header>
       <main
-        className="c6 c7"
+        className="c7 c8"
       >
         <div
           dangerouslySetInnerHTML={
@@ -2317,6 +2344,7 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
 <li><a href=\\"https://www.styled-components.com/\\">Styled Components</a></li>
 <li><a href=\\"https://fontawesome.com/\\">Font Awesome</a></li>
 <li><a href=\\"https://www.react-spring.io/\\">react-spring</a></li>
+<li><a href=\\"https://mattboldt.com/demos/typed-js/\\">Typed.js</a></li>
 </ul>
 <p>With code kept in line by:</p>
 <ul>
@@ -2378,14 +2406,14 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
         />
       </main>
       <footer
-        className="c8 c2"
+        className="c9 c2"
       >
         <p>
           Marcel Michau © 
           2019
         </p>
         <div
-          className="c9"
+          className="c10"
         >
           <a
             href="https://github.com/MarcelMichau"

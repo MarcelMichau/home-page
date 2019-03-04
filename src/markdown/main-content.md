@@ -21,6 +21,7 @@ With some help from:
 - [Styled Components](https://www.styled-components.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [react-spring](https://www.react-spring.io/)
+- [Typed.js](https://mattboldt.com/demos/typed-js/)
 
 With code kept in line by:
 

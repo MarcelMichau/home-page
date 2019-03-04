@@ -5,6 +5,7 @@ import { useSpring, animated } from 'react-spring';
 import Layout from '../components/Layout';
 import PageContainer from '../components/PageContainer';
 import ProfileImage from '../components/ProfileImage';
+import TypingSubtitle from '../components/TypingSubtitle';
 import theme from '../styles/theme';
 import { ThemeProvider } from 'styled-components';
 
@@ -26,7 +27,7 @@ export function IndexPage({ data, currentDate = new Date() }) {
 						<animated.div style={headerProps}>
 							<h2>Marcel Michau</h2>
 							<ProfileImage fixed={data.file.childImageSharp.fixed} />
-							<p>I write code & stuff</p>
+							<TypingSubtitle />
 						</animated.div>
 					}
 					mainContent={
