@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import 'jest-styled-components';
 import IndexPage from '../pages/index';
 
-jest.mock('typed.js', () => 'TypedJS');
+jest.mock('../components/TypingSubtitle', () => 'TypingSubtitle');
 
 const data = {
 	markdownRemark: {

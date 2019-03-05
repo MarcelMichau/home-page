@@ -23,7 +23,7 @@ exports[`IndexPage renders correctly for no date 1`] = `
   z-index: 1;
 }
 
-.c8 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -44,18 +44,18 @@ exports[`IndexPage renders correctly for no date 1`] = `
   color: #FFFFFF;
 }
 
-.c8 a {
+.c7 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c8 a:hover {
+.c7 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -68,11 +68,11 @@ exports[`IndexPage renders correctly for no date 1`] = `
   max-width: 200px;
 }
 
-.c10 a {
+.c9 a {
   color: #5cd2ff;
 }
 
-.c10 a:hover {
+.c9 a:hover {
   color: #808080;
 }
 
@@ -90,27 +90,12 @@ exports[`IndexPage renders correctly for no date 1`] = `
   grid-area: h;
 }
 
-.c7 {
+.c6 {
   grid-area: m;
 }
 
-.c9 {
+.c8 {
   grid-area: f;
-}
-
-.c6 {
-  font-family: 'Inconsolata','Consolas',monospace;
-}
-
-.c6 a {
-  color: #5cd2ff;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c6 a:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
 }
 
 <div>
@@ -217,16 +202,12 @@ exports[`IndexPage renders correctly for no date 1`] = `
                 }
               />
             </div>
-            <p>
-              <span
-                className="c6"
-              />
-            </p>
+            <TypingSubtitle />
           </div>
         </div>
       </header>
       <main
-        className="c7 c8"
+        className="c6 c7"
       >
         <div
           dangerouslySetInnerHTML={
@@ -308,14 +289,14 @@ exports[`IndexPage renders correctly for no date 1`] = `
         />
       </main>
       <footer
-        className="c9 c2"
+        className="c8 c2"
       >
         <p>
           Marcel Michau © 
           2019
         </p>
         <div
-          className="c10"
+          className="c9"
         >
           <a
             href="https://github.com/MarcelMichau"
@@ -389,7 +370,7 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
   z-index: 1;
 }
 
-.c8 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -410,18 +391,18 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
   color: #FFFFFF;
 }
 
-.c8 a {
+.c7 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c8 a:hover {
+.c7 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -434,11 +415,11 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
   max-width: 200px;
 }
 
-.c10 a {
+.c9 a {
   color: #5cd2ff;
 }
 
-.c10 a:hover {
+.c9 a:hover {
   color: #808080;
 }
 
@@ -456,27 +437,12 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
   grid-area: h;
 }
 
-.c7 {
+.c6 {
   grid-area: m;
 }
 
-.c9 {
+.c8 {
   grid-area: f;
-}
-
-.c6 {
-  font-family: 'Inconsolata','Consolas',monospace;
-}
-
-.c6 a {
-  color: #5cd2ff;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c6 a:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
 }
 
 <div>
@@ -583,16 +549,12 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
                 }
               />
             </div>
-            <p>
-              <span
-                className="c6"
-              />
-            </p>
+            <TypingSubtitle />
           </div>
         </div>
       </header>
       <main
-        className="c7 c8"
+        className="c6 c7"
       >
         <div
           dangerouslySetInnerHTML={
@@ -674,14 +636,14 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
         />
       </main>
       <footer
-        className="c9 c2"
+        className="c8 c2"
       >
         <p>
           Marcel Michau © 
           2019
         </p>
         <div
-          className="c10"
+          className="c9"
         >
           <a
             href="https://github.com/MarcelMichau"
@@ -755,7 +717,7 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
   z-index: 1;
 }
 
-.c8 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -776,18 +738,18 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
   color: #FFFFFF;
 }
 
-.c8 a {
+.c7 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c8 a:hover {
+.c7 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -800,11 +762,11 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
   max-width: 200px;
 }
 
-.c10 a {
+.c9 a {
   color: #5cd2ff;
 }
 
-.c10 a:hover {
+.c9 a:hover {
   color: #808080;
 }
 
@@ -822,27 +784,12 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
   grid-area: h;
 }
 
-.c7 {
+.c6 {
   grid-area: m;
 }
 
-.c9 {
+.c8 {
   grid-area: f;
-}
-
-.c6 {
-  font-family: 'Inconsolata','Consolas',monospace;
-}
-
-.c6 a {
-  color: #5cd2ff;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c6 a:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
 }
 
 <div>
@@ -949,16 +896,12 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
                 }
               />
             </div>
-            <p>
-              <span
-                className="c6"
-              />
-            </p>
+            <TypingSubtitle />
           </div>
         </div>
       </header>
       <main
-        className="c7 c8"
+        className="c6 c7"
       >
         <div
           dangerouslySetInnerHTML={
@@ -1040,14 +983,14 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
         />
       </main>
       <footer
-        className="c9 c2"
+        className="c8 c2"
       >
         <p>
           Marcel Michau © 
           2019
         </p>
         <div
-          className="c10"
+          className="c9"
         >
           <a
             href="https://github.com/MarcelMichau"
@@ -1121,7 +1064,7 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
   z-index: 1;
 }
 
-.c8 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1142,18 +1085,18 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
   color: #FFFFFF;
 }
 
-.c8 a {
+.c7 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c8 a:hover {
+.c7 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1166,11 +1109,11 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
   max-width: 200px;
 }
 
-.c10 a {
+.c9 a {
   color: #5cd2ff;
 }
 
-.c10 a:hover {
+.c9 a:hover {
   color: #808080;
 }
 
@@ -1188,27 +1131,12 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
   grid-area: h;
 }
 
-.c7 {
+.c6 {
   grid-area: m;
 }
 
-.c9 {
+.c8 {
   grid-area: f;
-}
-
-.c6 {
-  font-family: 'Inconsolata','Consolas',monospace;
-}
-
-.c6 a {
-  color: #5cd2ff;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c6 a:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
 }
 
 <div>
@@ -1315,16 +1243,12 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
                 }
               />
             </div>
-            <p>
-              <span
-                className="c6"
-              />
-            </p>
+            <TypingSubtitle />
           </div>
         </div>
       </header>
       <main
-        className="c7 c8"
+        className="c6 c7"
       >
         <div
           dangerouslySetInnerHTML={
@@ -1406,14 +1330,14 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
         />
       </main>
       <footer
-        className="c9 c2"
+        className="c8 c2"
       >
         <p>
           Marcel Michau © 
           2019
         </p>
         <div
-          className="c10"
+          className="c9"
         >
           <a
             href="https://github.com/MarcelMichau"
@@ -1487,7 +1411,7 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
   z-index: 1;
 }
 
-.c8 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1508,18 +1432,18 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
   color: #FFFFFF;
 }
 
-.c8 a {
+.c7 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c8 a:hover {
+.c7 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1532,11 +1456,11 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
   max-width: 200px;
 }
 
-.c10 a {
+.c9 a {
   color: #5cd2ff;
 }
 
-.c10 a:hover {
+.c9 a:hover {
   color: #808080;
 }
 
@@ -1554,27 +1478,12 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
   grid-area: h;
 }
 
-.c7 {
+.c6 {
   grid-area: m;
 }
 
-.c9 {
+.c8 {
   grid-area: f;
-}
-
-.c6 {
-  font-family: 'Inconsolata','Consolas',monospace;
-}
-
-.c6 a {
-  color: #5cd2ff;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c6 a:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
 }
 
 <div>
@@ -1681,16 +1590,12 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
                 }
               />
             </div>
-            <p>
-              <span
-                className="c6"
-              />
-            </p>
+            <TypingSubtitle />
           </div>
         </div>
       </header>
       <main
-        className="c7 c8"
+        className="c6 c7"
       >
         <div
           dangerouslySetInnerHTML={
@@ -1772,14 +1677,14 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
         />
       </main>
       <footer
-        className="c9 c2"
+        className="c8 c2"
       >
         <p>
           Marcel Michau © 
           2019
         </p>
         <div
-          className="c10"
+          className="c9"
         >
           <a
             href="https://github.com/MarcelMichau"
@@ -1853,7 +1758,7 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
   z-index: 1;
 }
 
-.c8 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1874,18 +1779,18 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
   color: #FFFFFF;
 }
 
-.c8 a {
+.c7 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c8 a:hover {
+.c7 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1898,11 +1803,11 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
   max-width: 200px;
 }
 
-.c10 a {
+.c9 a {
   color: #5cd2ff;
 }
 
-.c10 a:hover {
+.c9 a:hover {
   color: #808080;
 }
 
@@ -1920,27 +1825,12 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
   grid-area: h;
 }
 
-.c7 {
+.c6 {
   grid-area: m;
 }
 
-.c9 {
+.c8 {
   grid-area: f;
-}
-
-.c6 {
-  font-family: 'Inconsolata','Consolas',monospace;
-}
-
-.c6 a {
-  color: #5cd2ff;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c6 a:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
 }
 
 <div>
@@ -2047,16 +1937,12 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
                 }
               />
             </div>
-            <p>
-              <span
-                className="c6"
-              />
-            </p>
+            <TypingSubtitle />
           </div>
         </div>
       </header>
       <main
-        className="c7 c8"
+        className="c6 c7"
       >
         <div
           dangerouslySetInnerHTML={
@@ -2138,14 +2024,14 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
         />
       </main>
       <footer
-        className="c9 c2"
+        className="c8 c2"
       >
         <p>
           Marcel Michau © 
           2019
         </p>
         <div
-          className="c10"
+          className="c9"
         >
           <a
             href="https://github.com/MarcelMichau"
@@ -2219,7 +2105,7 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
   z-index: 1;
 }
 
-.c8 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2240,18 +2126,18 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
   color: #FFFFFF;
 }
 
-.c8 a {
+.c7 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c8 a:hover {
+.c7 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2264,11 +2150,11 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
   max-width: 200px;
 }
 
-.c10 a {
+.c9 a {
   color: #5cd2ff;
 }
 
-.c10 a:hover {
+.c9 a:hover {
   color: #808080;
 }
 
@@ -2286,27 +2172,12 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
   grid-area: h;
 }
 
-.c7 {
+.c6 {
   grid-area: m;
 }
 
-.c9 {
+.c8 {
   grid-area: f;
-}
-
-.c6 {
-  font-family: 'Inconsolata','Consolas',monospace;
-}
-
-.c6 a {
-  color: #5cd2ff;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c6 a:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
 }
 
 <div>
@@ -2413,16 +2284,12 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
                 }
               />
             </div>
-            <p>
-              <span
-                className="c6"
-              />
-            </p>
+            <TypingSubtitle />
           </div>
         </div>
       </header>
       <main
-        className="c7 c8"
+        className="c6 c7"
       >
         <div
           dangerouslySetInnerHTML={
@@ -2504,14 +2371,14 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
         />
       </main>
       <footer
-        className="c9 c2"
+        className="c8 c2"
       >
         <p>
           Marcel Michau © 
           2019
         </p>
         <div
-          className="c10"
+          className="c9"
         >
           <a
             href="https://github.com/MarcelMichau"
@@ -2585,7 +2452,7 @@ exports[`IndexPage renders correctly on a Wednesday 1`] = `
   z-index: 1;
 }
 
-.c8 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2606,18 +2473,18 @@ exports[`IndexPage renders correctly on a Wednesday 1`] = `
   color: #FFFFFF;
 }
 
-.c8 a {
+.c7 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c8 a:hover {
+.c7 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2630,11 +2497,11 @@ exports[`IndexPage renders correctly on a Wednesday 1`] = `
   max-width: 200px;
 }
 
-.c10 a {
+.c9 a {
   color: #5cd2ff;
 }
 
-.c10 a:hover {
+.c9 a:hover {
   color: #808080;
 }
 
@@ -2652,27 +2519,12 @@ exports[`IndexPage renders correctly on a Wednesday 1`] = `
   grid-area: h;
 }
 
-.c7 {
+.c6 {
   grid-area: m;
 }
 
-.c9 {
+.c8 {
   grid-area: f;
-}
-
-.c6 {
-  font-family: 'Inconsolata','Consolas',monospace;
-}
-
-.c6 a {
-  color: #5cd2ff;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c6 a:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
 }
 
 <div>
@@ -2779,16 +2631,12 @@ exports[`IndexPage renders correctly on a Wednesday 1`] = `
                 }
               />
             </div>
-            <p>
-              <span
-                className="c6"
-              />
-            </p>
+            <TypingSubtitle />
           </div>
         </div>
       </header>
       <main
-        className="c7 c8"
+        className="c6 c7"
       >
         <div
           dangerouslySetInnerHTML={
@@ -2870,14 +2718,14 @@ exports[`IndexPage renders correctly on a Wednesday 1`] = `
         />
       </main>
       <footer
-        className="c9 c2"
+        className="c8 c2"
       >
         <p>
           Marcel Michau © 
           2019
         </p>
         <div
-          className="c10"
+          className="c9"
         >
           <a
             href="https://github.com/MarcelMichau"
