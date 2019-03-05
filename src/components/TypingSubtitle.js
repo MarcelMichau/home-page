@@ -50,12 +50,10 @@ const TypingSubtitle = () => {
 
 	useEffect(() => {
 		const options = {
-			strings
+			strings,
 			typeSpeed: 55,
 			backSpeed: 55
 		};
-
-		if (Typed === 'TypedJS') return;
 
 		const typed = new Typed(inputEl.current, options);
 
