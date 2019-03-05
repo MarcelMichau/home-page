@@ -3,6 +3,8 @@ import renderer from 'react-test-renderer';
 import 'jest-styled-components';
 import IndexPage from '../pages/index';
 
+jest.mock('typed.js', () => 'TypedJS');
+
 const data = {
 	markdownRemark: {
 		html:

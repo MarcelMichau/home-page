@@ -53,6 +53,8 @@ const TypingSubtitle = () => {
 			backSpeed: 55
 		};
 
+		if (Typed === 'TypedJS') return;
+
 		const typed = new Typed(inputEl.current, options);
 
 		return function cleanup() {
