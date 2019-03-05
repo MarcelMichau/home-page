@@ -4,10 +4,10 @@ import styled from 'styled-components';
 import { lighten } from 'polished';
 
 const strings = [
-	'I am a compulsive tinkerer',
-	'I am a compulsive learner',
-	'I am a compulsive GitHub user',
-	'I am a professional Stack Overflow copy-paster',
+	`I'm a compulsive tinkerer`,
+	`I'm a compulsive learner`,
+	`I'm a compulsive GitHub user`,
+	`I'm a professional Stack Overflow copy-paster`,
 	'I build amazing software',
 	'Sometimes',
 	'Mostly I just fiddle around with stuff',
@@ -22,7 +22,7 @@ const strings = [
 	`But you're curious`,
 	`I know you`,
 	`You want to see how long this goes on for`,
-	`Or you can just open up the developer tools and check for yourself`,
+	`Or you can just open up developer tools`,
 	`But that's no fun`,
 	`But seriously`,
 	`What are you waiting for?`,
@@ -42,6 +42,10 @@ const StyledSubtitle = styled.span`
 		:hover {
 			text-decoration: underline;
 		}
+	}
+
+	@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+		font-size: 16px;
 	}
 `;
 
