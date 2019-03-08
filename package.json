@@ -8,7 +8,7 @@
 		"@fortawesome/free-brands-svg-icons": "5.7.2",
 		"@fortawesome/react-fontawesome": "0.1.4",
 		"babel-plugin-styled-components": "1.10.0",
-		"gatsby": "2.1.24",
+		"gatsby": "2.1.25",
 		"gatsby-cli": "2.4.14",
 		"gatsby-image": "2.0.31",
 		"gatsby-link": "2.0.14",
