@@ -28,7 +28,7 @@ module.exports = {
 				headers: {
 					'/*': [
 						'Referrer-Policy: strict-origin-when-cross-origin',
-						`Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' 'https://www.google-analytics.com'; style-src 'self' 'unsafe-inline'; connect-src 'self'; manifest-src 'self'; font-src 'self' data:; img-src 'self' 'https://www.google-analytics.com' data:; object-src 'none'; block-all-mixed-content; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; report-to https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/csp/enforce; report-uri https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/csp/enforce;`,
+						`Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; connect-src 'self'; manifest-src 'self'; font-src 'self' data:; img-src 'self' https://www.google-analytics.com data:; object-src 'none'; block-all-mixed-content; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; report-to https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/csp/enforce; report-uri https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/csp/enforce;`,
 						`Expect-CT: max-age=0, report-uri="https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/ct/reportOnly"`
 					]
 				}, // option to add more headers. `Link` headers are transformed by the below criteria
