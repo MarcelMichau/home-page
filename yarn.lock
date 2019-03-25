@@ -916,11 +916,6 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.3.tgz#6310a047f12d21a1036fb031317219892440416f"
   integrity sha512-4zAPlpDEh2VwXswwr/t8xGNDGg8RQiPxtxZ3qQEXyQsBV39ptTdESCjuBvGze1nLMVrxmTIKmnO/nAV8Tqjjzg==
 
-"@fortawesome/fontawesome-common-types@^0.2.15":
-  version "0.2.15"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.15.tgz#16af950653083d1e3064061de9f8e5e3b579f688"
-  integrity sha512-ATBRyKJw1d2ko+0DWN9+BXau0EK3I/Q6pPzPv3LhJD7r052YFAkAdfb1Bd7ZqhBsJrdse/S7jKxWUOZ61qBD4g==
-
 "@fortawesome/fontawesome-common-types@^0.2.17":
   version "0.2.17"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.17.tgz#d8c36e6f6f3b3415fa1f83eaffe4f41bd313715c"
@@ -5743,6 +5738,7 @@ gatsby-transformer-remark@2.3.8:
   integrity sha512-i0pOcPHbh9cVbkFEu6VMBNIvYErhRLZYApUm+anjSDw0FFj4LN14v/36jpt3+XCZUfJqJCkMP8pth7eS7CEJCg==
   dependencies:
     "@babel/runtime" "^7.0.0"
+    bluebird "^3.5.0"
     gray-matter "^4.0.0"
     hast-util-raw "^4.0.0"
     hast-util-to-html "^4.0.0"
@@ -5774,10 +5770,10 @@ gatsby-transformer-sharp@2.1.17:
     probe-image-size "^4.0.0"
     sharp "^0.21.3"
 
-gatsby@2.2.9:
-  version "2.2.9"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.2.9.tgz#bc6de1b8f24ab6f554cb6c940c6ff2e287ddc482"
-  integrity sha512-LUJV8Ta41MNvN+jkgEiVgiiAscGxRYqEBa9vMKuLUuThNhe8jjRLOZwyCWdZDgN2GI1ry9qmDTTdp16MruSjOw==
+gatsby@2.2.10:
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.2.10.tgz#c277521225b109b6dfbf2cb2c9196def9c84e6e5"
+  integrity sha512-s1mvn+gJ35fGZuYd9payTS51CGfnrEfndv7EoWo8kqyKYZqGNUKbZP00C1C2VjWnFR3XTl7Qn8TTUacBF7p7AA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -10000,6 +9996,13 @@ pngquant-bin@^5.0.0:
     bin-wrapper "^4.0.1"
     execa "^0.10.0"
     logalot "^2.0.0"
+
+pnp-webpack-plugin@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/pnp-webpack-plugin/-/pnp-webpack-plugin-1.4.1.tgz#e8f8c683b496a71c0d200e664c4bb399a9c9585e"
+  integrity sha512-S4kz+5rvWvD0w1O63eTJeXIxW4JHK0wPRMO7GmPhbZXJnTePcfrWZlni4BoglIf7pLSY18xtqo3MSnVkoAFXKg==
+  dependencies:
+    ts-pnp "^1.0.0"
 
 polished@3.1.0:
   version "3.1.0"
