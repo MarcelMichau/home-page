@@ -8,7 +8,7 @@
 		"@fortawesome/free-brands-svg-icons": "5.8.1",
 		"@fortawesome/react-fontawesome": "0.1.4",
 		"babel-plugin-styled-components": "1.10.0",
-		"gatsby": "2.3.4",
+		"gatsby": "2.3.13",
 		"gatsby-cli": "2.5.4",
 		"gatsby-image": "2.0.35",
 		"gatsby-link": "2.0.16",
@@ -22,9 +22,9 @@
 		"gatsby-source-filesystem": "2.0.28",
 		"gatsby-transformer-remark": "2.3.8",
 		"gatsby-transformer-sharp": "2.1.17",
-		"react": "16.8.5",
-		"react-dom": "16.8.5",
 		"polished": "4.0.0",
+		"react": "16.8.6",
+		"react-dom": "16.8.6",
 		"react-helmet": "5.2.0",
 		"react-spring": "8.0.18",
 		"styled-components": "4.2.0"
@@ -51,6 +51,6 @@
 		"jest": "^24.1.0",
 		"jest-styled-components": "^6.3.1",
 		"prettier": "1.16.4",
-		"react-test-renderer": "^16.8.5"
+		"react-test-renderer": "^16.8.6"
 	}
 }
