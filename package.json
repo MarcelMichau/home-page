@@ -22,8 +22,8 @@
 		"gatsby-source-filesystem": "2.0.28",
 		"gatsby-transformer-remark": "2.3.8",
 		"gatsby-transformer-sharp": "2.1.17",
-		"react": "16.8.5",
-		"react-dom": "16.8.5",
+		"react": "16.8.6",
+		"react-dom": "16.8.6",
 		"polished": "3.1.0",
 		"react-helmet": "5.2.0",
 		"react-spring": "8.0.18",
@@ -51,6 +51,6 @@
 		"jest": "^24.1.0",
 		"jest-styled-components": "^6.3.1",
 		"prettier": "1.16.4",
-		"react-test-renderer": "^16.8.5"
+		"react-test-renderer": "^16.8.6"
 	}
 }
