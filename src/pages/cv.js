@@ -8,7 +8,7 @@ import ProfileImage from '../components/ProfileImage';
 import theme from '../styles/theme';
 import { ThemeProvider } from 'styled-components';
 
-export function IndexPage({ data, currentDate = new Date() }) {
+export function CVPage({ data, currentDate = new Date() }) {
 	theme.accentColour = theme.accentColourPalette[5];
 
 	const headerProps = useSpring({ opacity: 1, from: { opacity: 0 } });
@@ -41,9 +41,9 @@ export function IndexPage({ data, currentDate = new Date() }) {
 	);
 }
 
-export default IndexPage;
+export default CVPage;
 
-IndexPage.propTypes = {
+CVPage.propTypes = {
 	data: PropTypes.object.isRequired,
 	currentDate: PropTypes.object
 };
