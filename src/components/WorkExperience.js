@@ -81,17 +81,16 @@ const WorkExperience = () => (
 				their trading accounts.
 			</li>
 			<li>
-				Built a foundational framework incorporating best practices for
-				logging/monitoring/architecture/performance for the Wealth & Investment
+				Built a foundational framework incorporating best practices for logging
+				/ monitoring / architecture / performance for the Wealth & Investment
 				API to expose capabilities to other divisions within the group.
 			</li>
-
 			<li>
 				Member of the Architecture Working Group for the Wealth & Investment IT
 				division, heading up the cloud focus area.
 			</li>
 			<li>
-				Started a weekly informal forum for IT staff, titled{' '}
+				Started a weekly informal forum for IT staff, titled
 				<em>Tell Me Something I Don't Know</em>, to present & share
 				interesting/useful/time-saving tips & tricks to the rest of the floor
 				for knowledge-sharing.
