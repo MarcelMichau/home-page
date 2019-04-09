@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { useSpring, animated } from 'react-spring';
-import Layout from '../components/Layout';
-import PageContainer from '../components/PageContainer';
-import ProfileImage from '../components/ProfileImage';
+import Layout from '../../components/Layout';
+import PageContainer from '../../components/PageContainer';
+import ProfileImage from '../../components/ProfileImage';
 //import About from '../components/About';
-import theme from '../styles/theme';
+import theme from '../../styles/theme';
 import { ThemeProvider } from 'styled-components';
 
 export function CVPage({ data, currentDate = new Date() }) {
