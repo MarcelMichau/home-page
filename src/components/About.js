@@ -5,6 +5,7 @@ import WorkExperience from './WorkExperience';
 import Skills from './Skills';
 import Hobbies from './Hobbies';
 import Accomplishments from './Accomplishments';
+import ItemList from './ItemList';
 
 const passions = [
 	'Writing code',
@@ -28,12 +29,7 @@ const About = () => {
 			<p>But who's counting. ;)</p>
 
 			<p>I am passionate about:</p>
-
-			<ul>
-				{passions.map((passion, index) => (
-					<li key={index}>{passion}</li>
-				))}
-			</ul>
+			<ItemList items={passions} />
 
 			<Education />
 

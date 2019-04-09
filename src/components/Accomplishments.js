@@ -1,4 +1,5 @@
 import React from 'react';
+import ItemList from './ItemList';
 
 const courses = [
 	'45+ Pluralsight courses',
@@ -26,18 +27,10 @@ const Accomplishments = () => (
 		<h2>Accomplishments</h2>
 
 		<h3>Courses Completed</h3>
-		<ul>
-			{courses.map((course, index) => (
-				<li key={index}>{course}</li>
-			))}
-		</ul>
+		<ItemList items={courses} />
 
 		<h3>Books read/busy reading/reference guides</h3>
-		<ul>
-			{books.map((book, index) => (
-				<li key={index}>{book}</li>
-			))}
-		</ul>
+		<ItemList items={books} />
 	</div>
 );
 
