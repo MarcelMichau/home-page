@@ -5,6 +5,7 @@ import { useSpring, animated } from 'react-spring';
 import Layout from '../components/Layout';
 import PageContainer from '../components/PageContainer';
 import ProfileImage from '../components/ProfileImage';
+import About from '../components/About';
 import theme from '../styles/theme';
 import { ThemeProvider } from 'styled-components';
 
@@ -30,10 +31,9 @@ export function CVPage({ data, currentDate = new Date() }) {
 						</animated.div>
 					}
 					mainContent={
-						<animated.div
-							style={contentProps}
-							dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
-						/>
+						<animated.div style={contentProps}>
+							<About />
+						</animated.div>
 					}
 				/>
 			</Layout>
