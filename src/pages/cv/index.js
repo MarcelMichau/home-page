@@ -8,10 +8,11 @@ import About from '../../components/About';
 import theme from '../../styles/theme';
 import { ThemeProvider } from 'styled-components';
 import Profile from '../../components/Profile';
-import fadeInAnimation from '../../utilities/fadeInAnimation';
+import useFadeInAnimation from '../../utilities/useFadeInAnimation';
 
 export function CVPage({ data, currentDate = new Date() }) {
 	theme.accentColour = theme.accentColourPalette[5];
+	const animation = useFadeInAnimation();
 	return (
 		<ThemeProvider theme={theme}>
 			<Layout>
@@ -20,7 +21,7 @@ export function CVPage({ data, currentDate = new Date() }) {
 						<Profile fixedResolutions={data.file.childImageSharp.fixed} />
 					}
 					mainContent={
-						<animated.div style={fadeInAnimation}>
+						<animated.div style={animation}>
 							<About />
 						</animated.div>
 					}

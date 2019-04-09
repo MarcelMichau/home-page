@@ -7,11 +7,11 @@ import PageContainer from '../components/PageContainer';
 import Profile from '../components/Profile';
 import theme from '../styles/theme';
 import { ThemeProvider } from 'styled-components';
-import fadeInAnimation from '../utilities/fadeInAnimation';
+import useFadeInAnimation from '../utilities/useFadeInAnimation';
 
 export function IndexPage({ data, currentDate = new Date() }) {
 	theme.accentColour = theme.accentColourPalette[5];
-
+	const animation = useFadeInAnimation();
 	return (
 		<ThemeProvider theme={theme}>
 			<Layout>
@@ -21,7 +21,7 @@ export function IndexPage({ data, currentDate = new Date() }) {
 					}
 					mainContent={
 						<animated.div
-							style={fadeInAnimation}
+							style={animation}
 							dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
 						/>
 					}
