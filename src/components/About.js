@@ -32,10 +32,18 @@ const About = () => {
 
 			<ul>
 				<li>Writing code</li>
-				<li>Building things which help people</li>
-				<li>Learning new things</li>
-				<li>Teaching & just helping out</li>
+				<li>Building things which people find useful</li>
+				<li>Learning about new concepts, techniques & tools</li>
+				<li>Teaching & helping others</li>
 			</ul>
+
+			<h2>Skills</h2>
+
+			<h2>Work Experience</h2>
+
+			<h3 />
+
+			<h2>Education</h2>
 		</div>
 	);
 };
