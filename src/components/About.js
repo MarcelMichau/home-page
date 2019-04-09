@@ -6,6 +6,13 @@ import Skills from './Skills';
 import Hobbies from './Hobbies';
 import Accomplishments from './Accomplishments';
 
+const passions = [
+	'Writing code',
+	'Building things people find useful',
+	'Learning about new concepts, techniques & tool',
+	'Teaching & helping others'
+];
+
 const sinceDate = new Date(2014, 1, 15, 8, 0, 0);
 
 const About = () => {
@@ -23,10 +30,9 @@ const About = () => {
 			<p>I am passionate about:</p>
 
 			<ul>
-				<li>Writing code</li>
-				<li>Building things which people find useful</li>
-				<li>Learning about new concepts, techniques & tools</li>
-				<li>Teaching & helping others</li>
+				{passions.map((passion, index) => (
+					<li key={index}>{passion}</li>
+				))}
 			</ul>
 
 			<Education />

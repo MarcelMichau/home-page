@@ -7,7 +7,7 @@ import PageContainer from '../components/PageContainer';
 import Profile from '../components/Profile';
 import theme from '../styles/theme';
 import { ThemeProvider } from 'styled-components';
-import useFadeInAnimation from '../utilities/useFadeInAnimation';
+import useFadeInAnimation from '../hooks/useFadeInAnimation';
 
 export function IndexPage({ data, currentDate = new Date() }) {
 	theme.accentColour = theme.accentColourPalette[5];
