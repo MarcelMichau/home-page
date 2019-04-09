@@ -2,8 +2,12 @@ import React from 'react';
 import ItemList from './ItemList';
 
 const courses = [
-	'45+ Pluralsight courses',
-	'240+ egghead.io lessons',
+	<span>
+		45+ <a href="https://www.pluralsight.com">Pluralsight</a> courses
+	</span>,
+	<span>
+		240+ <a href="https://egghead.io/">egghead.io</a> lessons
+	</span>,
 	'Docker and Kubernetes: The Complete Guide - Udemy',
 	'Mongo University: MongoDB for .NET Developers'
 ];

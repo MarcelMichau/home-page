@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { useSpring, animated } from 'react-spring';
 import ProfileImage from './ProfileImage';
 

@@ -37,7 +37,12 @@ const About = () => {
 				<Timer sinceDate={sinceDate} /> seconds
 			</p>
 
-			<p>But who's counting. 😉</p>
+			<p>
+				But who's counting.{' '}
+				<span role="img" aria-label="winking-face-emoji">
+					😉
+				</span>
+			</p>
 
 			<p>I am passionate about:</p>
 			<ItemList items={passions} />
