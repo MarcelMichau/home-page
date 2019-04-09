@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import { animated } from 'react-spring';
 import Layout from '../../components/Layout';
 import PageContainer from '../../components/PageContainer';
@@ -23,6 +23,7 @@ export function CVPage({ data, currentDate = new Date() }) {
 					mainContent={
 						<animated.div style={animation}>
 							<About />
+							<Link to="/">{'<'} Go to Main Page</Link>
 						</animated.div>
 					}
 				/>
