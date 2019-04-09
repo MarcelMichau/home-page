@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { differenceInSeconds, distanceInWordsToNow } from 'date-fns';
+import { differenceInSeconds } from 'date-fns';
 
 const sinceDate = new Date(2014, 1, 15, 8, 0, 0);
 
 const About = () => {
-	//const elapsed = new Date() - sinceDate;
 	const [now, updateNow] = useState(differenceInSeconds(new Date(), sinceDate));
 
 	useEffect(() => {
@@ -103,9 +102,9 @@ const About = () => {
 					centralise the sending of emails & SMSs from internal systems.
 				</li>
 				<li>
-					Developer in a team of two developing debtors system in order to allow
-					administrators to streamline the process of managing large clients &
-					corporates' overdraft facilities.
+					Developer in a team of two developing a debtors system in order to
+					allow administrators to streamline the process of managing large
+					clients & corporates' overdraft facilities.
 				</li>
 				<li>
 					Developer in a team of two tasked with developing a service to
@@ -113,7 +112,7 @@ const About = () => {
 					up-to-date intra-day balances.
 				</li>
 				<li>
-					Sole developer in a project to develop a User Interface for an
+					Sole developer in a project to develop a user interface for an
 					internal system used to calculate & manage clients' Capital Gains Tax.
 				</li>
 				<li>
@@ -275,7 +274,7 @@ const About = () => {
 				<li>Coding / Contributing to open-source</li>
 				<li>Watching online courses</li>
 				<li>Jogging</li>
-				<li>Series</li>
+				<li>Watching TV shows</li>
 			</ul>
 
 			<h2>Accomplishments</h2>
