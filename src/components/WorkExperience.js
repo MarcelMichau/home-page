@@ -39,9 +39,9 @@ const WorkExperience = () => (
 				leveraging Microsoft Team Foundation Server with Release Management.
 			</li>
 			<li>
-				Developer in a team of three tasked to develop a MEAN stack application
-				to automate the booking of car washes for staff as part of the Investec
-				IT Graduate programme year project.
+				Developer in a team of three tasked with developing a MEAN stack
+				application to automate the booking of car washes for staff as part of
+				the Investec IT Graduate programme year project.
 			</li>
 			<li>
 				Participated in four hackathons where apps built included a web-based
@@ -56,17 +56,17 @@ const WorkExperience = () => (
 				Explore.
 			</li>
 			<li>
-				Sole developer tasked with a project to develop an automated process to
-				transfer funds between trading accounts to prevent clients going into
-				debit and being charged interest.
+				Sole developer designing & developing an automated process to transfer
+				funds between trading accounts to prevent clients going into debit and
+				being charged interest.
 			</li>
 			<li>
-				Sole developer tasked with developing a deposit automation system to
+				Sole developer designing & developing a deposit automation system to
 				allow clients to initiate a deposit into their trading account via
 				Electronic Fund Transfer.
 			</li>
 			<li>
-				Sole developer tasked with developing a deal allocation system to
+				Sole developer designing & developing a deal allocation system to
 				process deals into the JSE in near real-time to replace an overnight
 				batch process.
 			</li>
@@ -81,8 +81,9 @@ const WorkExperience = () => (
 				their trading accounts.
 			</li>
 			<li>
-				Built a foundational framework for the Wealth & Investment API to expose
-				capabilities to other divisions within the group.
+				Built a foundational framework incorporating best practices for
+				logging/monitoring/architecture/performance for the Wealth & Investment
+				API to expose capabilities to other divisions within the group.
 			</li>
 
 			<li>
@@ -90,9 +91,10 @@ const WorkExperience = () => (
 				division, heading up the cloud focus area.
 			</li>
 			<li>
-				Started a weekly informal forum for IT staff, titled Tell Me Something I
-				Don't Know, to present & share interesting/useful/time-saving tips &
-				tricks to the rest of the floor for knowledge-sharing.
+				Started a weekly informal forum for IT staff, titled{' '}
+				<em>Tell Me Something I Don't Know</em>, to present & share
+				interesting/useful/time-saving tips & tricks to the rest of the floor
+				for knowledge-sharing.
 			</li>
 			<li>
 				Started the adoption of a rotating DRI (Directly Responsible Individual)
@@ -100,9 +102,9 @@ const WorkExperience = () => (
 				tasks for the duration of a sprint to free up other developers' time.
 			</li>
 			<li>
-				Currently developing a digital client on-boarding solution to eliminate
-				paper-based forms and streamline the on-boarding process for both
-				clients and internal administrators.
+				Currently lead developer in a team of five developing a digital client
+				on-boarding solution to eliminate paper-based forms and streamline the
+				on-boarding process for both clients and internal administrators.
 			</li>
 		</ul>
 
@@ -110,9 +112,10 @@ const WorkExperience = () => (
 		<p>January 2015 – April 2015 (Part-time)</p>
 		<ul>
 			<li>
-				Developed a personality categorization web-app for a client targeted at
-				corporates to allow them to place employees with similar traits together
-				for increased productivity & happiness in the workplace.
+				Developer in a team of two building a personality categorization web-app
+				for a client targeted at corporates to allow them to place employees
+				with similar traits together for increased productivity & happiness in
+				the workplace.
 			</li>
 		</ul>
 

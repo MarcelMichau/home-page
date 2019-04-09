@@ -10,7 +10,7 @@ const Hobbies = () => (
 			<li>Coding / Contributing to open-source</li>
 			<li>Watching online courses</li>
 			<li>Jogging</li>
-			<li>Watching TV shows</li>
+			<li>Watching TV shows & films</li>
 		</ul>
 	</div>
 );
