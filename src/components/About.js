@@ -10,7 +10,7 @@ import ItemList from './ItemList';
 const passions = [
 	'Writing code',
 	'Building things people find useful',
-	'Learning about new concepts, techniques & tool',
+	'Learning new concepts, techniques & tools',
 	'Teaching & helping others'
 ];
 
