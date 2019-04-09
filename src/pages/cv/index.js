@@ -1,15 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import { animated } from 'react-spring';
-import Layout from '../components/Layout';
-import PageContainer from '../components/PageContainer';
-import Profile from '../components/Profile';
-import theme from '../styles/theme';
+import Layout from '../../components/Layout';
+import PageContainer from '../../components/PageContainer';
+import About from '../../components/About';
+import theme from '../../styles/theme';
 import { ThemeProvider } from 'styled-components';
-import useFadeInAnimation from '../hooks/useFadeInAnimation';
+import Profile from '../../components/Profile';
+import useFadeInAnimation from '../../hooks/useFadeInAnimation';
 
-export function IndexPage({ data, currentDate = new Date() }) {
+export function CVPage({ data, currentDate = new Date() }) {
 	theme.accentColour = theme.accentColourPalette[5];
 	const animation = useFadeInAnimation();
 	return (
@@ -20,10 +21,10 @@ export function IndexPage({ data, currentDate = new Date() }) {
 						<Profile fixedResolutions={data.file.childImageSharp.fixed} />
 					}
 					mainContent={
-						<animated.div
-							style={animation}
-							dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
-						/>
+						<animated.div style={animation}>
+							<About />
+							<Link to="/">{'<'} Go to Main Page</Link>
+						</animated.div>
 					}
 				/>
 			</Layout>
@@ -31,9 +32,9 @@ export function IndexPage({ data, currentDate = new Date() }) {
 	);
 }
 
-export default IndexPage;
+export default CVPage;
 
-IndexPage.propTypes = {
+CVPage.propTypes = {
 	data: PropTypes.object.isRequired,
 	currentDate: PropTypes.object
 };
