@@ -31,9 +31,10 @@ export function CVPage({ data, currentDate = new Date() }) {
 						</animated.div>
 					}
 					mainContent={
-						<animated.div style={contentProps}>
-							<About />
-						</animated.div>
+						<animated.div
+							style={contentProps}
+							dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
+						/>
 					}
 				/>
 			</Layout>
