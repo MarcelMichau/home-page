@@ -11,7 +11,7 @@ const ItemList = ({ items }) => {
 	);
 };
 
-ProfileImage.propTypes = {
+ItemList.propTypes = {
 	items: PropTypes.array.isRequired
 };
 
