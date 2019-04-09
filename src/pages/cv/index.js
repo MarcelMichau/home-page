@@ -5,7 +5,7 @@ import { useSpring, animated } from 'react-spring';
 import Layout from '../components/Layout';
 import PageContainer from '../components/PageContainer';
 import ProfileImage from '../components/ProfileImage';
-import About from '../components/About';
+//import About from '../components/About';
 import theme from '../styles/theme';
 import { ThemeProvider } from 'styled-components';
 
