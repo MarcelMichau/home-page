@@ -94,7 +94,7 @@ const WorkExperience = () => (
 				division, heading up the <em>cloud</em> focus area.
 			</li>
 			<li>
-				Started a weekly informal forum for IT staff, titled
+				Started a weekly informal forum for IT staff, titled{' '}
 				<em>Tell Me Something I Don't Know</em>, to present & share interesting
 				/ useful / time-saving tips & tricks to the rest of the floor for
 				knowledge-sharing.
