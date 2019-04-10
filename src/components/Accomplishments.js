@@ -79,7 +79,7 @@ const Accomplishments = () => (
 		<h3>Courses Completed</h3>
 		<ItemList items={courses} />
 
-		<h3>Books read/busy reading/guides I use as reference</h3>
+		<h3>Books read / busy reading / guides I use as reference</h3>
 		<ItemList items={books} />
 
 		<h3>Books I still want to read</h3>

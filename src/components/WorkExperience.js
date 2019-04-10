@@ -86,14 +86,18 @@ const WorkExperience = () => (
 				API to expose capabilities to other divisions within the group.
 			</li>
 			<li>
+				Setup SonarQube for code quality analysis and plugged it into our
+				continuous integration pipelines.
+			</li>
+			<li>
 				Member of the Architecture Working Group for the Wealth & Investment IT
-				division, heading up the cloud focus area.
+				division, heading up the <em>cloud</em> focus area.
 			</li>
 			<li>
 				Started a weekly informal forum for IT staff, titled
-				<em>Tell Me Something I Don't Know</em>, to present & share
-				interesting/useful/time-saving tips & tricks to the rest of the floor
-				for knowledge-sharing.
+				<em>Tell Me Something I Don't Know</em>, to present & share interesting
+				/ useful / time-saving tips & tricks to the rest of the floor for
+				knowledge-sharing.
 			</li>
 			<li>
 				Started the adoption of a rotating DRI (Directly Responsible Individual)
