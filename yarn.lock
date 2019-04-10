@@ -5487,6 +5487,36 @@ gatsby-cli@^2.5.5:
     yargs "^12.0.5"
     yurnalist "^1.0.2"
 
+gatsby-cli@^2.5.6:
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.5.6.tgz#9b96651e9c154904e4ced814e21029777336a2f7"
+  integrity sha512-QPV1ST0SHB9X4FzI9M/uDrtf70/opjmo+EdbZxxwQOy6GWEZn3FDl4Ix+nlzY16WZlieJV4fmDcmz+nkBb/pDw==
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    "@babel/runtime" "^7.0.0"
+    bluebird "^3.5.0"
+    common-tags "^1.4.0"
+    convert-hrtime "^2.0.0"
+    core-js "^2.5.0"
+    envinfo "^5.8.1"
+    execa "^0.8.0"
+    fs-exists-cached "^1.0.0"
+    fs-extra "^4.0.1"
+    gatsby-telemetry "^1.0.6"
+    hosted-git-info "^2.6.0"
+    lodash "^4.17.10"
+    meant "^1.0.1"
+    node-fetch "2.3.0"
+    opentracing "^0.14.3"
+    pretty-error "^2.1.1"
+    resolve-cwd "^2.0.0"
+    source-map "^0.5.7"
+    stack-trace "^0.0.10"
+    update-notifier "^2.3.0"
+    uuid "3.3.2"
+    yargs "^12.0.5"
+    yurnalist "^1.0.2"
+
 gatsby-image@2.0.37:
   version "2.0.37"
   resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.0.37.tgz#9c28c3d8c2a249f6f5eff929be67a761658762df"
@@ -5697,10 +5727,10 @@ gatsby-transformer-sharp@2.1.17:
     probe-image-size "^4.0.0"
     sharp "^0.21.3"
 
-gatsby@2.3.15:
-  version "2.3.15"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.3.15.tgz#d9e690fd6bc36e99ea996c9f6688196ea99b2fa7"
-  integrity sha512-ri3/uRQwEJf5uXVt3sFXJuhraf3nUBUa2OQimy7iJCKnfHwyRaOLYKxgJqrfA+Nsqb3UoYNscgSMRYR41763zQ==
+gatsby@2.3.16:
+  version "2.3.16"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.3.16.tgz#7b8ccfb8a585ea507eebe8b78ed3feb717045d85"
+  integrity sha512-wd3a3P1novSaoWPFO9pfPH6rUeUtKVWTaNRk4HgzluhQ4KtG63al3N/7joDe7KFSNJGLAft0pNlHftl3bBI+Ow==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -5757,11 +5787,11 @@ gatsby@2.3.15:
     flat "^4.0.0"
     fs-exists-cached "1.0.0"
     fs-extra "^5.0.0"
-    gatsby-cli "^2.5.5"
+    gatsby-cli "^2.5.6"
     gatsby-link "^2.0.16"
     gatsby-plugin-page-creator "^2.0.12"
     gatsby-react-router-scroll "^2.0.7"
-    gatsby-telemetry "^1.0.5"
+    gatsby-telemetry "^1.0.6"
     glob "^7.1.1"
     graphql "^14.1.1"
     graphql-compose "^6.0.3"
