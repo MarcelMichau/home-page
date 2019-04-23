@@ -20,7 +20,7 @@
 		"gatsby-plugin-react-helmet": "3.0.12",
 		"gatsby-plugin-sharp": "2.0.35",
 		"gatsby-plugin-styled-components": "3.0.7",
-		"gatsby-source-filesystem": "2.0.29",
+		"gatsby-source-filesystem": "2.0.30",
 		"gatsby-transformer-remark": "2.3.8",
 		"gatsby-transformer-sharp": "2.1.18",
 		"polished": "3.2.0",
