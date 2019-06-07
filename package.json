@@ -4,8 +4,8 @@
 	"version": "1.0.0",
 	"author": "Marcel Michau <marcelmichau@gmail.com>",
 	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "1.2.18",
-		"@fortawesome/free-brands-svg-icons": "5.8.2",
+		"@fortawesome/fontawesome-svg-core": "1.2.19",
+		"@fortawesome/free-brands-svg-icons": "5.9.0",
 		"@fortawesome/react-fontawesome": "0.1.4",
 		"babel-plugin-styled-components": "1.10.0",
 		"gatsby": "2.4.2",
@@ -28,7 +28,7 @@
 		"react-dom": "16.8.6",
 		"react-helmet": "5.2.1",
 		"react-spring": "8.0.22",
-		"styled-components": "4.2.0"
+		"styled-components": "4.3.1"
 	},
 	"keywords": [
 		"gatsby"
