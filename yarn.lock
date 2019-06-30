@@ -10886,10 +10886,10 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react-spring@8.0.25:
-  version "8.0.25"
-  resolved "https://registry.yarnpkg.com/react-spring/-/react-spring-8.0.25.tgz#3b19c370e26b0a62630390c5daf3092e714805c4"
-  integrity sha512-KLSLI9ccpoxvxzCbtTqSOHNHhndxAeEcHsgFZoyybP3GpGh0axmtauUAH8c3XkozIW8r9gScvrCWw3F1EPIcBw==
+react-spring@8.0.26:
+  version "8.0.26"
+  resolved "https://registry.yarnpkg.com/react-spring/-/react-spring-8.0.26.tgz#0d11053a3a4fa2e73f1ffc535ce78d509258d558"
+  integrity sha512-JtRRvLixwyjP1hgGx9E/DgO2s2UlFi084ceN0MO6Nze3ktp768ev53qC62WCMjRr+zXG2NM6mzTAWrfLY2lJlQ==
   dependencies:
     "@babel/runtime" "^7.3.1"
     prop-types "^15.5.8"
