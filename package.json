@@ -5,7 +5,7 @@
 	"author": "Marcel Michau <marcelmichau@gmail.com>",
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "1.2.20",
-		"@fortawesome/free-brands-svg-icons": "5.9.0",
+		"@fortawesome/free-brands-svg-icons": "5.10.0",
 		"@fortawesome/react-fontawesome": "0.1.4",
 		"babel-plugin-styled-components": "1.10.6",
 		"gatsby": "2.13.35",
