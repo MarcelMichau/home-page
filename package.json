@@ -24,7 +24,7 @@
 		"gatsby-transformer-remark": "2.6.11",
 		"gatsby-transformer-sharp": "2.2.6",
 		"polished": "3.4.1",
-		"react": "16.8.6",
+		"react": "16.9.0",
 		"react-dom": "16.8.6",
 		"react-helmet": "5.2.1",
 		"react-spring": "8.0.27",
