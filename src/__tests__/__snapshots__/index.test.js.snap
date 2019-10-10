@@ -7,7 +7,7 @@ exports[`IndexPage renders correctly for no date 1`] = `
   color: #FFFFFF;
 }
 
-.c3 {
+.c1 {
   position: relative;
   font-size: 24px;
 }
@@ -23,7 +23,7 @@ exports[`IndexPage renders correctly for no date 1`] = `
   z-index: 1;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -44,13 +44,13 @@ exports[`IndexPage renders correctly for no date 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c6 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c6 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -86,11 +86,11 @@ exports[`IndexPage renders correctly for no date 1`] = `
   grid-template-areas: 'h' 'm' 'f';
 }
 
-.c1 {
+.c3 {
   grid-area: h;
 }
 
-.c6 {
+.c7 {
   grid-area: m;
 }
 
@@ -299,7 +299,7 @@ exports[`IndexPage renders correctly for no date 1`] = `
         />
       </main>
       <footer
-        className="c8 c2"
+        className="c2 c8"
       >
         <p>
           Marcel Michau © 
@@ -364,7 +364,7 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
   color: #FFFFFF;
 }
 
-.c3 {
+.c1 {
   position: relative;
   font-size: 24px;
 }
@@ -380,7 +380,7 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
   z-index: 1;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -401,13 +401,13 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c6 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c6 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -443,11 +443,11 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
   grid-template-areas: 'h' 'm' 'f';
 }
 
-.c1 {
+.c3 {
   grid-area: h;
 }
 
-.c6 {
+.c7 {
   grid-area: m;
 }
 
@@ -656,7 +656,7 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
         />
       </main>
       <footer
-        className="c8 c2"
+        className="c2 c8"
       >
         <p>
           Marcel Michau © 
@@ -721,7 +721,7 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
   color: #FFFFFF;
 }
 
-.c3 {
+.c1 {
   position: relative;
   font-size: 24px;
 }
@@ -737,7 +737,7 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
   z-index: 1;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -758,13 +758,13 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c6 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c6 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -800,11 +800,11 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
   grid-template-areas: 'h' 'm' 'f';
 }
 
-.c1 {
+.c3 {
   grid-area: h;
 }
 
-.c6 {
+.c7 {
   grid-area: m;
 }
 
@@ -1013,7 +1013,7 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
         />
       </main>
       <footer
-        className="c8 c2"
+        className="c2 c8"
       >
         <p>
           Marcel Michau © 
@@ -1078,7 +1078,7 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
   color: #FFFFFF;
 }
 
-.c3 {
+.c1 {
   position: relative;
   font-size: 24px;
 }
@@ -1094,7 +1094,7 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
   z-index: 1;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1115,13 +1115,13 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c6 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c6 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -1157,11 +1157,11 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
   grid-template-areas: 'h' 'm' 'f';
 }
 
-.c1 {
+.c3 {
   grid-area: h;
 }
 
-.c6 {
+.c7 {
   grid-area: m;
 }
 
@@ -1370,7 +1370,7 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
         />
       </main>
       <footer
-        className="c8 c2"
+        className="c2 c8"
       >
         <p>
           Marcel Michau © 
@@ -1435,7 +1435,7 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
   color: #FFFFFF;
 }
 
-.c3 {
+.c1 {
   position: relative;
   font-size: 24px;
 }
@@ -1451,7 +1451,7 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
   z-index: 1;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1472,13 +1472,13 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c6 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c6 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -1514,11 +1514,11 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
   grid-template-areas: 'h' 'm' 'f';
 }
 
-.c1 {
+.c3 {
   grid-area: h;
 }
 
-.c6 {
+.c7 {
   grid-area: m;
 }
 
@@ -1727,7 +1727,7 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
         />
       </main>
       <footer
-        className="c8 c2"
+        className="c2 c8"
       >
         <p>
           Marcel Michau © 
@@ -1792,7 +1792,7 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
   color: #FFFFFF;
 }
 
-.c3 {
+.c1 {
   position: relative;
   font-size: 24px;
 }
@@ -1808,7 +1808,7 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
   z-index: 1;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1829,13 +1829,13 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c6 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c6 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -1871,11 +1871,11 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
   grid-template-areas: 'h' 'm' 'f';
 }
 
-.c1 {
+.c3 {
   grid-area: h;
 }
 
-.c6 {
+.c7 {
   grid-area: m;
 }
 
@@ -2084,7 +2084,7 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
         />
       </main>
       <footer
-        className="c8 c2"
+        className="c2 c8"
       >
         <p>
           Marcel Michau © 
@@ -2149,7 +2149,7 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
   color: #FFFFFF;
 }
 
-.c3 {
+.c1 {
   position: relative;
   font-size: 24px;
 }
@@ -2165,7 +2165,7 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
   z-index: 1;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2186,13 +2186,13 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c6 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c6 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -2228,11 +2228,11 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
   grid-template-areas: 'h' 'm' 'f';
 }
 
-.c1 {
+.c3 {
   grid-area: h;
 }
 
-.c6 {
+.c7 {
   grid-area: m;
 }
 
@@ -2441,7 +2441,7 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
         />
       </main>
       <footer
-        className="c8 c2"
+        className="c2 c8"
       >
         <p>
           Marcel Michau © 
@@ -2506,7 +2506,7 @@ exports[`IndexPage renders correctly on a Wednesday 1`] = `
   color: #FFFFFF;
 }
 
-.c3 {
+.c1 {
   position: relative;
   font-size: 24px;
 }
@@ -2522,7 +2522,7 @@ exports[`IndexPage renders correctly on a Wednesday 1`] = `
   z-index: 1;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2543,13 +2543,13 @@ exports[`IndexPage renders correctly on a Wednesday 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c6 a {
   color: #5cd2ff;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c6 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -2585,11 +2585,11 @@ exports[`IndexPage renders correctly on a Wednesday 1`] = `
   grid-template-areas: 'h' 'm' 'f';
 }
 
-.c1 {
+.c3 {
   grid-area: h;
 }
 
-.c6 {
+.c7 {
   grid-area: m;
 }
 
@@ -2798,7 +2798,7 @@ exports[`IndexPage renders correctly on a Wednesday 1`] = `
         />
       </main>
       <footer
-        className="c8 c2"
+        className="c2 c8"
       >
         <p>
           Marcel Michau © 
