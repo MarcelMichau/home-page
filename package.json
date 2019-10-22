@@ -9,7 +9,7 @@
 		"@fortawesome/react-fontawesome": "0.1.6",
 		"babel-plugin-styled-components": "1.10.6",
 		"gatsby": "2.15.35",
-		"date-fns": "2.4.1",
+		"date-fns": "2.6.0",
 		"gatsby-cli": "2.7.58",
 		"gatsby-image": "2.2.26",
 		"gatsby-link": "2.2.20",
