@@ -1,6 +1,6 @@
 ---
 path: '/'
-date: '2018-11-08'
+date: '2020-01-03'
 title: 'Main Content'
 ---
 
@@ -53,20 +53,3 @@ It is intended to be:
 - Powered by Machine Learning 🤖
 - Blockchain ₿
 - Filled with all the buzz words so that search engines pick this up 😁
-
-This is what I'm going to use it for:
-
-- To showcase some of the things I'm working/have worked on ✨
-- To play around & experiment with cool new tech 🎮
-- To have some slice of the internet which is my own 🍰
-- World domination 🤘
-
-This is what I might use it for:
-
-- To write blogs ✏️
-- To list some of the things I'm good at 🖥️
-
-This is what I'm not going to use it for:
-
-- Sell stuff 💰
-- Evil 💀
