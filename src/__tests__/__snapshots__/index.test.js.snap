@@ -303,7 +303,7 @@ exports[`IndexPage renders correctly for no date 1`] = `
       >
         <p>
           Marcel Michau © 
-          2019
+          2020
         </p>
         <div
           className="c9"
@@ -660,7 +660,7 @@ exports[`IndexPage renders correctly on a Friday 1`] = `
       >
         <p>
           Marcel Michau © 
-          2019
+          2020
         </p>
         <div
           className="c9"
@@ -1017,7 +1017,7 @@ exports[`IndexPage renders correctly on a Monday 1`] = `
       >
         <p>
           Marcel Michau © 
-          2019
+          2020
         </p>
         <div
           className="c9"
@@ -1374,7 +1374,7 @@ exports[`IndexPage renders correctly on a Saturday 1`] = `
       >
         <p>
           Marcel Michau © 
-          2019
+          2020
         </p>
         <div
           className="c9"
@@ -1731,7 +1731,7 @@ exports[`IndexPage renders correctly on a Sunday 1`] = `
       >
         <p>
           Marcel Michau © 
-          2019
+          2020
         </p>
         <div
           className="c9"
@@ -2088,7 +2088,7 @@ exports[`IndexPage renders correctly on a Thursday 1`] = `
       >
         <p>
           Marcel Michau © 
-          2019
+          2020
         </p>
         <div
           className="c9"
@@ -2445,7 +2445,7 @@ exports[`IndexPage renders correctly on a Tuesday 1`] = `
       >
         <p>
           Marcel Michau © 
-          2019
+          2020
         </p>
         <div
           className="c9"
@@ -2802,7 +2802,7 @@ exports[`IndexPage renders correctly on a Wednesday 1`] = `
       >
         <p>
           Marcel Michau © 
-          2019
+          2020
         </p>
         <div
           className="c9"
