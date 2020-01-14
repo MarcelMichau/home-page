@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/MarcelMichau/home-page.svg?branch=master)](https://travis-ci.org/MarcelMichau/home-page)
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/MarcelMichau/home-page.svg)](https://greenkeeper.io/)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=MarcelMichau/home-page)](https://dependabot.com)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/d6c2fdf5d3658a91f31c/maintainability)](https://codeclimate.com/github/MarcelMichau/home-page/maintainability)
 
@@ -12,7 +12,7 @@
 
 This is my website. No one else's.
 
-It is written using:
+It's built using:
 
 - [React](https://reactjs.org/)
 

@@ -8,7 +8,7 @@ This is my website. No one else's.
 
 Look how minimal it is.
 
-It is written using:
+It's built using:
 
 - [React](https://reactjs.org/)
 
