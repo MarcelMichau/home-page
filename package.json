@@ -10,7 +10,7 @@
 		"babel-plugin-styled-components": "1.10.6",
 		"gatsby": "2.18.17",
 		"date-fns": "2.9.0",
-		"gatsby-cli": "2.8.22",
+		"gatsby-cli": "2.8.26",
 		"gatsby-image": "2.2.37",
 		"gatsby-link": "2.2.27",
 		"gatsby-plugin-favicon": "3.1.6",
