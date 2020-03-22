@@ -16,14 +16,14 @@ export default ({ children }) => {
 			}
 			
 			::-webkit-scrollbar-track {
-				background: ${props => props.theme.primaryColour}; 
+				background: ${(props) => props.theme.primaryColour}; 
 			}
 
 			::-webkit-scrollbar-thumb {
-				background: ${props => darken(0.05, props.theme.accentColour)}; 
+				background: ${(props) => darken(0.05, props.theme.accentColour)}; 
 			}
 			::-webkit-scrollbar-thumb:window-inactive {
-				background: ${props => darken(0.05, props.theme.accentColour)}; 
+				background: ${(props) => darken(0.05, props.theme.accentColour)}; 
 			}
 		`;
 

@@ -12,7 +12,7 @@ const ProfileImage = ({ fixed }) => {
 				width: '200px',
 				margin: '20px',
 				border: `5px solid ${theme.fontColour}`,
-				boxShadow: '0px 0px 15px 0px rgba(0,0,0,0.75)'
+				boxShadow: '0px 0px 15px 0px rgba(0,0,0,0.75)',
 			}}
 			fixed={fixed}
 			alt="Profile Picture of Marcel Michau"
@@ -21,7 +21,7 @@ const ProfileImage = ({ fixed }) => {
 };
 
 ProfileImage.propTypes = {
-	src: PropTypes.string
+	src: PropTypes.string,
 };
 
 export default ProfileImage;

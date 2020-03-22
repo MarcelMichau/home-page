@@ -13,10 +13,10 @@ const StyledSocialIcons = styled.div`
 	max-width: 200px;
 
 	a {
-		color: ${props => lighten(0.45, props.theme.accentColour)};
+		color: ${(props) => lighten(0.45, props.theme.accentColour)};
 
 		:hover {
-			color: ${props => darken(0.5, props.theme.fontColour)};
+			color: ${(props) => darken(0.5, props.theme.fontColour)};
 		}
 	}
 `;
@@ -39,7 +39,7 @@ const Footer = ({ className }) => (
 );
 
 Footer.propTypes = {
-	className: PropTypes.string
+	className: PropTypes.string,
 };
 
 export default Footer;

@@ -36,7 +36,7 @@ export default CVPage;
 
 CVPage.propTypes = {
 	data: PropTypes.object.isRequired,
-	currentDate: PropTypes.object
+	currentDate: PropTypes.object,
 };
 
 export const pageQuery = graphql`

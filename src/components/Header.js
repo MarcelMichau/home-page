@@ -22,15 +22,11 @@ const StyledIntro = styled.div`
 
 const Header = ({ className, children, theme }) => {
 	const props = useSpring({
-		backgroundImage: `linear-gradient(20deg, ${theme.primaryColour} 50%, ${
-			theme.accentColour
-		} 50%)`,
+		backgroundImage: `linear-gradient(20deg, ${theme.primaryColour} 50%, ${theme.accentColour} 50%)`,
 		from: {
-			backgroundImage: `linear-gradient(0deg, ${theme.primaryColour} 50%, ${
-				theme.primaryColour
-			} 50%)`
+			backgroundImage: `linear-gradient(0deg, ${theme.primaryColour} 50%, ${theme.primaryColour} 50%)`,
 		},
-		delay: 2000
+		delay: 2000,
 	});
 
 	return (
@@ -46,7 +42,7 @@ const Header = ({ className, children, theme }) => {
 Header.propTypes = {
 	className: PropTypes.string,
 	children: PropTypes.object,
-	theme: PropTypes.object
+	theme: PropTypes.object,
 };
 
 export default withTheme(Header);

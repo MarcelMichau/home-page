@@ -13,10 +13,10 @@ const StyledMain = styled.main`
 	max-width: 800px;
 	margin: 0 auto;
 	line-height: 2em;
-	color: ${props => props.theme.fontColour};
+	color: ${(props) => props.theme.fontColour};
 
 	a {
-		color: ${props => lighten(0.45, props.theme.accentColour)};
+		color: ${(props) => lighten(0.45, props.theme.accentColour)};
 		text-decoration: none;
 
 		:hover {
@@ -31,7 +31,7 @@ const Main = ({ className, children }) => (
 
 Main.propTypes = {
 	className: PropTypes.string,
-	children: PropTypes.object
+	children: PropTypes.object,
 };
 
 export default Main;
