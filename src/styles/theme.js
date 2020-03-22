@@ -6,10 +6,10 @@ export default {
 		'#b55400',
 		'#0000a7',
 		'#005575',
-		'#750075'
+		'#750075',
 	],
 	fontColour: '#FFFFFF',
 	backgroundColour: '#1d2129',
 	primaryColour: '#282c34',
-	accentColour: '#282c34'
+	accentColour: '#282c34',
 };

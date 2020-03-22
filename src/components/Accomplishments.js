@@ -9,7 +9,7 @@ const courses = [
 		240+ <a href="https://egghead.io/">egghead.io</a> lessons
 	</span>,
 	'Docker and Kubernetes: The Complete Guide - Udemy',
-	'Mongo University: MongoDB for .NET Developers'
+	'Mongo University: MongoDB for .NET Developers',
 ];
 
 const books = [
@@ -50,7 +50,7 @@ const books = [
 	</a>,
 	<a href="https://www.oreilly.com/library/view/the-ux-book/9780123852410/">
 		The UX Book - Rex Hartson, Pardha S. Pyla
-	</a>
+	</a>,
 ];
 
 const booksTodo = [
@@ -69,7 +69,7 @@ const booksTodo = [
 	</a>,
 	<a href="https://www.manning.com/books/irresistible-apis">
 		Irresistible APIs - Kirsten L. Hunter
-	</a>
+	</a>,
 ];
 
 const Accomplishments = () => (

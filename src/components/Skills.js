@@ -37,7 +37,7 @@ const skills = [
 	['Mongoose', 'Basic'],
 	['Bootstrap', 'Intermediate'],
 	['Semantic UI', 'Intermediate'],
-	['The art of Googling', 'Advanced']
+	['The art of Googling', 'Advanced'],
 ];
 
 const Skills = () => (

@@ -9,7 +9,7 @@ const StyledTable = styled.table`
 	border-collapse: collapse;
 
 	th {
-		color: ${props => lighten(0.45, props.theme.accentColour)};
+		color: ${(props) => lighten(0.45, props.theme.accentColour)};
 	}
 
 	tr {

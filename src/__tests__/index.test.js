@@ -6,7 +6,7 @@ import IndexPage from '../pages/index';
 const data = {
 	markdownRemark: {
 		html:
-			'<p>This is my website. No one else\'s.</p>\n<p>Look how minimal it is.</p>\n<p>It is written using:</p>\n<ul>\n<li><a href="https://reactjs.org/">React</a></li>\n</ul>\n<p>Along with:</p>\n<ul>\n<li><a href="https://www.gatsbyjs.org/">Gatsby</a></li>\n</ul>\n<p>With some help from:</p>\n<ul>\n<li><a href="https://www.styled-components.com/">Styled Components</a></li>\n<li><a href="https://fontawesome.com/">Font Awesome</a></li>\n<li><a href="https://www.react-spring.io/">react-spring</a></li>\n</ul>\n<p>With code kept in line by:</p>\n<ul>\n<li><a href="https://codeclimate.com/github/MarcelMichau/home-page">Code Climate</a></li>\n<li><a href="https://prettier.io/">Prettier</a></li>\n</ul>\n<p>Tested using:</p>\n<ul>\n<li><a href="https://jestjs.io/">Jest</a></li>\n<li><a href="https://www.docker.com/">Docker</a></li>\n<li><a href="https://travis-ci.com/MarcelMichau/home-page">Travis CI</a></li>\n</ul>\n<p>Deployed to:</p>\n<ul>\n<li><a href="https://www.netlify.com/">Netlify</a></li>\n</ul>\n<p>And code hosted on:</p>\n<ul>\n<li><a href="https://github.com/MarcelMichau/home-page">GitHub</a></li>\n</ul>\n<p>It is intended to be:</p>\n<ul>\n<li>Fast 🐌</li>\n<li>Agile 🐢</li>\n<li>Scalable ⚖️</li>\n<li>Cloud-native 🌧️</li>\n<li>Enterprise-ready 🏢</li>\n<li>Containerized 📦</li>\n<li>Microservice-based 🔍</li>\n<li>Powered by Machine Learning 🤖</li>\n<li>Blockchain ₿</li>\n<li>Filled with all the buzz words so that search engines pick this up 😁</li>\n</ul>\n<p>This is what I\'m going to use it for:</p>\n<ul>\n<li>To showcase some of the things I\'m working/have worked on ✨</li>\n<li>To play around &#x26; experiment with cool new tech 🎮</li>\n<li>To have some slice of the internet which is my own 🍰</li>\n<li>World domination 🤘</li>\n</ul>\n<p>This is what I might use it for:</p>\n<ul>\n<li>To write blogs ✏️</li>\n<li>To list some of the things I\'m good at 🖥️</li>\n</ul>\n<p>This is what I\'m not going to use it for:</p>\n<ul>\n<li>Sell stuff 💰</li>\n<li>Evil 💀</li>\n</ul>'
+			'<p>This is my website. No one else\'s.</p>\n<p>Look how minimal it is.</p>\n<p>It is written using:</p>\n<ul>\n<li><a href="https://reactjs.org/">React</a></li>\n</ul>\n<p>Along with:</p>\n<ul>\n<li><a href="https://www.gatsbyjs.org/">Gatsby</a></li>\n</ul>\n<p>With some help from:</p>\n<ul>\n<li><a href="https://www.styled-components.com/">Styled Components</a></li>\n<li><a href="https://fontawesome.com/">Font Awesome</a></li>\n<li><a href="https://www.react-spring.io/">react-spring</a></li>\n</ul>\n<p>With code kept in line by:</p>\n<ul>\n<li><a href="https://codeclimate.com/github/MarcelMichau/home-page">Code Climate</a></li>\n<li><a href="https://prettier.io/">Prettier</a></li>\n</ul>\n<p>Tested using:</p>\n<ul>\n<li><a href="https://jestjs.io/">Jest</a></li>\n<li><a href="https://www.docker.com/">Docker</a></li>\n<li><a href="https://travis-ci.com/MarcelMichau/home-page">Travis CI</a></li>\n</ul>\n<p>Deployed to:</p>\n<ul>\n<li><a href="https://www.netlify.com/">Netlify</a></li>\n</ul>\n<p>And code hosted on:</p>\n<ul>\n<li><a href="https://github.com/MarcelMichau/home-page">GitHub</a></li>\n</ul>\n<p>It is intended to be:</p>\n<ul>\n<li>Fast 🐌</li>\n<li>Agile 🐢</li>\n<li>Scalable ⚖️</li>\n<li>Cloud-native 🌧️</li>\n<li>Enterprise-ready 🏢</li>\n<li>Containerized 📦</li>\n<li>Microservice-based 🔍</li>\n<li>Powered by Machine Learning 🤖</li>\n<li>Blockchain ₿</li>\n<li>Filled with all the buzz words so that search engines pick this up 😁</li>\n</ul>\n<p>This is what I\'m going to use it for:</p>\n<ul>\n<li>To showcase some of the things I\'m working/have worked on ✨</li>\n<li>To play around &#x26; experiment with cool new tech 🎮</li>\n<li>To have some slice of the internet which is my own 🍰</li>\n<li>World domination 🤘</li>\n</ul>\n<p>This is what I might use it for:</p>\n<ul>\n<li>To write blogs ✏️</li>\n<li>To list some of the things I\'m good at 🖥️</li>\n</ul>\n<p>This is what I\'m not going to use it for:</p>\n<ul>\n<li>Sell stuff 💰</li>\n<li>Evil 💀</li>\n</ul>',
 	},
 	file: {
 		childImageSharp: {
@@ -17,13 +17,13 @@ const data = {
 				height: 250,
 				src: '/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg',
 				srcSet:
-					'/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg 1x,\n/static/ceeab084c21596435216ed7397fb861b/26c40/profile.jpg 1.5x,\n/static/ceeab084c21596435216ed7397fb861b/97df0/profile.jpg 2x,\n/static/ceeab084c21596435216ed7397fb861b/684ec/profile.jpg 3x'
-			}
-		}
-	}
+					'/static/ceeab084c21596435216ed7397fb861b/75e7f/profile.jpg 1x,\n/static/ceeab084c21596435216ed7397fb861b/26c40/profile.jpg 1.5x,\n/static/ceeab084c21596435216ed7397fb861b/97df0/profile.jpg 2x,\n/static/ceeab084c21596435216ed7397fb861b/684ec/profile.jpg 3x',
+			},
+		},
+	},
 };
 
-const renderIndexPageToJSON = date => {
+const renderIndexPageToJSON = (date) => {
 	return renderer.create(<IndexPage data={data} currentDate={date} />).toJSON();
 };
 

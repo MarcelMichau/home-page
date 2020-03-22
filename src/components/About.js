@@ -13,7 +13,7 @@ const passions = [
 	'Writing code',
 	'Building things people find useful',
 	'Learning new concepts, techniques & tools',
-	'Teaching & helping others'
+	'Teaching & helping others',
 ];
 
 const sinceDate = new Date(2014, 1, 15, 8, 0, 0);
@@ -23,7 +23,7 @@ const StyledAboutSection = styled.div`
 	h2,
 	h3,
 	h4 {
-		color: ${props => lighten(0.45, props.theme.accentColour)};
+		color: ${(props) => lighten(0.45, props.theme.accentColour)};
 	}
 `;
 

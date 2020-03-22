@@ -6,7 +6,7 @@ import Main from '../components/Main';
 import Footer from '../components/Footer';
 
 const Container = styled.div`
-	background-color: ${props => props.theme.backgroundColour};
+	background-color: ${(props) => props.theme.backgroundColour};
 	display: grid;
 	min-height: 100vh;
 	grid-template-columns: 1fr;
@@ -40,7 +40,7 @@ const PageContainer = ({ headerContent, mainContent }) => (
 
 PageContainer.propTypes = {
 	headerContent: PropTypes.element,
-	mainContent: PropTypes.element
+	mainContent: PropTypes.element,
 };
 
 export default PageContainer;
