@@ -989,7 +989,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.9.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.2.tgz#d90df0583a3a252f09aaa619665367bae518db06"
   integrity sha512-NE2DtOdufG7R5vnfQUTehdTfNycfUANEtCa9PssN9O/xmTzP4E08UI797ixaei6hBEVL9BI/PsdJS5x7mWoB9Q==
@@ -7128,12 +7128,12 @@ gatsby-plugin-manifest@2.3.6:
     semver "^5.7.1"
     sharp "^0.25.1"
 
-gatsby-plugin-netlify@2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.2.3.tgz#0494007565192cc1126a6117d2c1462e8aa321a7"
-  integrity sha512-J4eha2tB9s3TGFyiFo6DY9UZJtRcNOPcYiRdGt909qPbiDPqO5x8DjlPZtPan1hq+TCIkrd5ExyFYv/p5KRlnw==
+gatsby-plugin-netlify@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.3.0.tgz#f28ee6cff49bab3836f46a24efca1af4ddec684a"
+  integrity sha512-6JoKNVG03GDpiVdFneVcPAdubXL3q1e5YqkZKzXbAufhX/SafxUg5fA2BKGcHysOkUjXy4jembgZ1p+p6dPTuA==
   dependencies:
-    "@babel/runtime" "^7.8.7"
+    "@babel/runtime" "^7.9.2"
     fs-extra "^8.1.0"
     kebab-hash "^0.1.2"
     lodash "^4.17.15"
