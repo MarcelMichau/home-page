@@ -22,7 +22,7 @@
 		"gatsby-plugin-styled-components": "3.3.1",
 		"gatsby-source-filesystem": "2.3.1",
 		"gatsby-transformer-remark": "2.8.7",
-		"gatsby-transformer-sharp": "2.5.0",
+		"gatsby-transformer-sharp": "2.5.2",
 		"polished": "3.6.1",
 		"react": "16.13.1",
 		"react-dom": "16.13.1",
