@@ -1,18 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
-import { animated } from 'react-spring';
 import Layout from '../../components/Layout';
 import PageContainer from '../../components/PageContainer';
 import About from '../../components/About';
 import theme from '../../styles/theme';
 import { ThemeProvider } from 'styled-components';
 import Profile from '../../components/Profile';
-import useFadeInAnimation from '../../hooks/useFadeInAnimation';
 
-export function CVPage({ data, currentDate = new Date() }) {
-	theme.accentColour = theme.accentColourPalette[5];
-	const animation = useFadeInAnimation();
+export function CVPage({ data }) {
 	return (
 		<ThemeProvider theme={theme}>
 			<Layout>
@@ -21,10 +17,10 @@ export function CVPage({ data, currentDate = new Date() }) {
 						<Profile fixedResolutions={data.file.childImageSharp.fixed} />
 					}
 					mainContent={
-						<animated.div style={animation}>
+						<div>
 							<About />
 							<Link to="/">{'<'} Go to Main Page</Link>
-						</animated.div>
+						</div>
 					}
 				/>
 			</Layout>

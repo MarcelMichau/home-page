@@ -1,16 +1,22 @@
 import React from 'react';
-import { useSpring, animated } from 'react-spring';
+import styled from 'styled-components';
 import ProfileImage from './ProfileImage';
+import TypingSubtitle from '../components/TypingSubtitle';
+import SocialIcons from '../components/SocialIcons';
+
+const StyledNameTitle = styled.h2`
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 48px;
+`;
 
 const Profile = ({ fixedResolutions }) => {
-	const animationProps = useSpring({ opacity: 1, from: { opacity: 0 } });
-
 	return (
-		<animated.div style={animationProps}>
-			<h2>Marcel Michau</h2>
+		<div>
 			<ProfileImage fixed={fixedResolutions} />
-			<p>I write code & stuff</p>
-		</animated.div>
+			<StyledNameTitle>Marcel Michau</StyledNameTitle>
+			<TypingSubtitle />
+			<SocialIcons />
+		</div>
 	);
 };
 

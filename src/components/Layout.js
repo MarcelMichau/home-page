@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { createGlobalStyle } from 'styled-components';
-import { darken } from 'polished';
+import { lighten } from 'polished';
 
 export default ({ children }) => {
 	const GlobalStyle = createGlobalStyle`
@@ -20,10 +20,10 @@ export default ({ children }) => {
 			}
 
 			::-webkit-scrollbar-thumb {
-				background: ${(props) => darken(0.05, props.theme.accentColour)}; 
+				background: ${(props) => lighten(0.05, props.theme.accentColour)}; 
 			}
 			::-webkit-scrollbar-thumb:window-inactive {
-				background: ${(props) => darken(0.05, props.theme.accentColour)}; 
+				background: ${(props) => lighten(0.05, props.theme.accentColour)}; 
 			}
 		`;
 
@@ -40,6 +40,10 @@ export default ({ children }) => {
 					content="u17FNJFETGielUaXh6jVCfwAFwN1OM0pnJ6sYC2W2oc"
 				/>
 				<title>Marcel Michau - I write code & stuff</title>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans:wght@400;500&display=swap"
+					rel="stylesheet"
+				/>
 			</Helmet>
 			<div>
 				<GlobalStyle />
