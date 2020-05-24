@@ -7,7 +7,7 @@ const StyledSubtitle = styled.span`
 	font-size: 16px;
 
 	.console {
-		color: lightgray;
+		color: white;
 	}
 
 	.punctuation {
@@ -40,7 +40,7 @@ const TypingSubtitle = () => {
 		return function cleanup() {
 			typed.destroy();
 		};
-	});
+	}, []);
 
 	return (
 		<p>

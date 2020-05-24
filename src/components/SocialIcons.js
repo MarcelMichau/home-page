@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { lighten, darken } from 'polished';
+import { faGithub, faTwitter, faDev } from '@fortawesome/free-brands-svg-icons';
+import { lighten } from 'polished';
 
 const StyledSocialIcons = styled.div`
 	display: flex;
@@ -15,7 +15,7 @@ const StyledSocialIcons = styled.div`
 		color: ${(props) => lighten(0.45, props.theme.accentColour)};
 
 		:hover {
-			color: ${(props) => darken(0.5, props.theme.fontColour)};
+			color: ${(props) => lighten(0.3, props.theme.accentColour)};
 		}
 	}
 `;
@@ -24,6 +24,10 @@ const SocialIcons = () => (
 	<StyledSocialIcons>
 		<a href="https://github.com/MarcelMichau">
 			<FontAwesomeIcon icon={faGithub} size="2x" />
+		</a>
+
+		<a href="https://dev.to/marcelmichau">
+			<FontAwesomeIcon icon={faDev} size="2x" />
 		</a>
 
 		<a href="https://twitter.com/MarcelMichau">
