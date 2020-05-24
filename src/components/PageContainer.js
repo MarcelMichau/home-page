@@ -10,7 +10,7 @@ const Container = styled.div`
 	display: grid;
 	min-height: 100vh;
 	grid-template-columns: 1fr;
-	grid-template-rows: auto 1fr 100px;
+	grid-template-rows: auto 1fr;
 	grid-gap: 5px;
 	grid-template-areas:
 		'h'
@@ -20,6 +20,7 @@ const Container = styled.div`
 
 const AlignedHeader = styled(Header)`
 	grid-area: h;
+	height: 100vh;
 `;
 
 const AlignedMain = styled(Main)`
