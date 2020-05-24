@@ -26,12 +26,10 @@ const StyledSubtitle = styled.span`
 const TypingSubtitle = () => {
 	const inputEl = useRef(null);
 
-	console.log('I write code & stuff');
-
 	useEffect(() => {
 		const options = {
 			strings: [
-				'<span class="console">console</span><span class="punctuation">.</span><span class="log">log</span>(<span class="text"><span class="punctuation">"</span>I write code &amp; stuff...<span class="punctuation">"</span></span>)<span class="punctuation">;</span>',
+				'<span class="console">console</span><span class="punctuation">.</span><span class="log">log</span>(<span class="text"><span class="punctuation">"</span>I write code &amp; stuff<span class="punctuation">"</span></span>)<span class="punctuation">;</span>',
 			],
 			typeSpeed: 55,
 			backSpeed: 55,
