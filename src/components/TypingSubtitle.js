@@ -2,9 +2,10 @@ import React, { useRef, useEffect } from 'react';
 import Typed from 'typed.js';
 import styled from 'styled-components';
 
-const StyledSubtitle = styled.span`
+const StyledSubtitle = styled.div`
 	font-family: 'Fira Mono', 'Consolas', monospace;
 	font-size: 16px;
+	min-height: 20px;
 
 	.console {
 		color: white;
@@ -43,9 +44,9 @@ const TypingSubtitle = () => {
 	}, []);
 
 	return (
-		<p>
-			<StyledSubtitle ref={inputEl} />
-		</p>
+		<StyledSubtitle>
+			<span ref={inputEl}></span>
+		</StyledSubtitle>
 	);
 };
 
