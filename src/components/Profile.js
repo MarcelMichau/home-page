@@ -6,7 +6,7 @@ import SocialIcons from '../components/SocialIcons';
 
 const StyledNameTitle = styled.h2`
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 48px;
+	font-size: calc(32px + (48 - 32) * ((100vw - 300px) / (1600 - 300)));
 `;
 
 const Profile = ({ fixedResolutions }) => {
