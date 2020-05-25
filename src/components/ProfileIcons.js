@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter, faDev } from '@fortawesome/free-brands-svg-icons';
 import { lighten } from 'polished';
 
-const StyledSocialIcons = styled.div`
+const StyledProfileIcons = styled.div`
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0 auto;
@@ -20,8 +20,8 @@ const StyledSocialIcons = styled.div`
 	}
 `;
 
-const SocialIcons = () => (
-	<StyledSocialIcons>
+const ProfileIcons = () => (
+	<StyledProfileIcons>
 		<a href="https://github.com/MarcelMichau">
 			<FontAwesomeIcon icon={faGithub} size="2x" />
 		</a>
@@ -33,7 +33,7 @@ const SocialIcons = () => (
 		<a href="https://twitter.com/MarcelMichau">
 			<FontAwesomeIcon icon={faTwitter} size="2x" />
 		</a>
-	</StyledSocialIcons>
+	</StyledProfileIcons>
 );
 
-export default SocialIcons;
+export default ProfileIcons;

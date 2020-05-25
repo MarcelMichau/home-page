@@ -111,7 +111,7 @@ exports[`IndexPage renders correctly 1`] = `
 
 .c4 {
   font-family: 'Fira Sans',sans-serif;
-  font-size: 48px;
+  font-size: calc(32px + (48 - 32) * ((100vw - 300px) / (1600 - 300)));
 }
 
 <div>
@@ -128,10 +128,10 @@ exports[`IndexPage renders correctly 1`] = `
             style={
               Object {
                 "display": "inline-block",
-                "height": 350,
+                "height": 300,
                 "overflow": "hidden",
                 "position": "relative",
-                "width": 350,
+                "width": 300,
               }
             }
           >
@@ -144,7 +144,7 @@ exports[`IndexPage renders correctly 1`] = `
                   "border": "5px solid #FFFFFF",
                   "borderRadius": "50%",
                   "boxShadow": "0px 0px 15px 0px rgba(0,0,0,0.75)",
-                  "height": "300px",
+                  "height": "250px",
                   "left": 0,
                   "margin": "20px",
                   "objectFit": "cover",
@@ -153,37 +153,37 @@ exports[`IndexPage renders correctly 1`] = `
                   "position": "absolute",
                   "top": 0,
                   "transitionDelay": "500ms",
-                  "width": "300px",
+                  "width": "250px",
                 }
               }
             />
             <picture>
               <source
-                srcSet="/static/ceeab084c21596435216ed7397fb861b/1c688/profile.webp 1x,
-/static/ceeab084c21596435216ed7397fb861b/3d93e/profile.webp 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/91390/profile.webp 2x"
+                srcSet="/static/ceeab084c21596435216ed7397fb861b/50ead/profile.webp 1x,
+/static/ceeab084c21596435216ed7397fb861b/27933/profile.webp 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/ab687/profile.webp 2x"
                 type="image/webp"
               />
               <source
-                srcSet="/static/ceeab084c21596435216ed7397fb861b/3c28c/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/6d521/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/f211f/profile.jpg 2x"
+                srcSet="/static/ceeab084c21596435216ed7397fb861b/25e3f/profile.jpg 1x,
+/static/ceeab084c21596435216ed7397fb861b/f11e0/profile.jpg 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/7b2a1/profile.jpg 2x"
               />
               <img
                 alt="Profile Picture of Marcel Michau"
-                height={350}
+                height={300}
                 loading="lazy"
                 onLoad={[Function]}
-                src="/static/ceeab084c21596435216ed7397fb861b/3c28c/profile.jpg"
-                srcSet="/static/ceeab084c21596435216ed7397fb861b/3c28c/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/6d521/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/f211f/profile.jpg 2x"
+                src="/static/ceeab084c21596435216ed7397fb861b/25e3f/profile.jpg"
+                srcSet="/static/ceeab084c21596435216ed7397fb861b/25e3f/profile.jpg 1x,
+/static/ceeab084c21596435216ed7397fb861b/f11e0/profile.jpg 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/7b2a1/profile.jpg 2x"
                 style={
                   Object {
                     "border": "5px solid #FFFFFF",
                     "borderRadius": "50%",
                     "boxShadow": "0px 0px 15px 0px rgba(0,0,0,0.75)",
-                    "height": "300px",
+                    "height": "250px",
                     "left": 0,
                     "margin": "20px",
                     "objectFit": "cover",
@@ -192,22 +192,22 @@ exports[`IndexPage renders correctly 1`] = `
                     "position": "absolute",
                     "top": 0,
                     "transition": "opacity 500ms",
-                    "width": "300px",
+                    "width": "250px",
                   }
                 }
-                width={350}
+                width={300}
               />
             </picture>
             <noscript
               dangerouslySetInnerHTML={
                 Object {
-                  "__html": "<picture><source type='image/webp' srcset=\\"/static/ceeab084c21596435216ed7397fb861b/1c688/profile.webp 1x,
-/static/ceeab084c21596435216ed7397fb861b/3d93e/profile.webp 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/91390/profile.webp 2x\\" /><source srcset=\\"/static/ceeab084c21596435216ed7397fb861b/3c28c/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/6d521/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/f211f/profile.jpg 2x\\" /><img loading=\\"lazy\\" width=\\"350\\" height=\\"350\\" srcset=\\"/static/ceeab084c21596435216ed7397fb861b/3c28c/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/6d521/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/f211f/profile.jpg 2x\\" src=\\"/static/ceeab084c21596435216ed7397fb861b/3c28c/profile.jpg\\" alt=\\"Profile Picture of Marcel Michau\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                  "__html": "<picture><source type='image/webp' srcset=\\"/static/ceeab084c21596435216ed7397fb861b/50ead/profile.webp 1x,
+/static/ceeab084c21596435216ed7397fb861b/27933/profile.webp 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/ab687/profile.webp 2x\\" /><source srcset=\\"/static/ceeab084c21596435216ed7397fb861b/25e3f/profile.jpg 1x,
+/static/ceeab084c21596435216ed7397fb861b/f11e0/profile.jpg 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/7b2a1/profile.jpg 2x\\" /><img loading=\\"lazy\\" width=\\"300\\" height=\\"300\\" srcset=\\"/static/ceeab084c21596435216ed7397fb861b/25e3f/profile.jpg 1x,
+/static/ceeab084c21596435216ed7397fb861b/f11e0/profile.jpg 1.5x,
+/static/ceeab084c21596435216ed7397fb861b/7b2a1/profile.jpg 2x\\" src=\\"/static/ceeab084c21596435216ed7397fb861b/25e3f/profile.jpg\\" alt=\\"Profile Picture of Marcel Michau\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                 }
               }
             />
