@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ProfileImage from './ProfileImage';
 import TypingSubtitle from '../components/TypingSubtitle';
-import SocialIcons from '../components/SocialIcons';
+import ProfileIcons from './ProfileIcons';
 
 const StyledNameTitle = styled.h2`
 	font-family: 'Fira Sans', sans-serif;
@@ -15,7 +15,7 @@ const Profile = ({ fixedResolutions }) => {
 			<ProfileImage fixed={fixedResolutions} />
 			<StyledNameTitle>Marcel Michau</StyledNameTitle>
 			<TypingSubtitle />
-			<SocialIcons />
+			<ProfileIcons />
 		</div>
 	);
 };
