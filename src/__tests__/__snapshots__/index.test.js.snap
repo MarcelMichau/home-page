@@ -221,7 +221,9 @@ exports[`IndexPage renders correctly 1`] = `
             className="c5"
           >
             <a
+              aria-label="GitHub Profile"
               href="https://github.com/MarcelMichau"
+              title="GitHub Profile"
             >
               <svg
                 aria-hidden="true"
@@ -242,7 +244,9 @@ exports[`IndexPage renders correctly 1`] = `
               </svg>
             </a>
             <a
+              aria-label="DEV Community Profile"
               href="https://dev.to/marcelmichau"
+              title="DEV Community Profile"
             >
               <svg
                 aria-hidden="true"
@@ -263,7 +267,9 @@ exports[`IndexPage renders correctly 1`] = `
               </svg>
             </a>
             <a
+              aria-label="Twitter Profile"
               href="https://twitter.com/MarcelMichau"
+              title="Twitter Profile"
             >
               <svg
                 aria-hidden="true"
@@ -353,7 +359,7 @@ exports[`IndexPage renders correctly 1`] = `
         <path
           d="M0,192L48,192C96,192,192,192,288,160C384,128,480,64,576,80C672,96,768,192,864,208C960,224,1056,160,1152,154.7C1248,149,1344,203,1392,229.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
           fill="#022f40"
-          fill-opacity="1"
+          fillOpacity="1"
         />
       </svg>
       <div>
