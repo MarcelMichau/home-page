@@ -21,7 +21,7 @@ const ProfileImage = ({ fixed }) => {
 };
 
 ProfileImage.propTypes = {
-	src: PropTypes.string,
+	fixed: PropTypes.object.isRequired,
 };
 
 export default ProfileImage;

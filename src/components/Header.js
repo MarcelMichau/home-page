@@ -20,7 +20,6 @@ const Header = ({ className, children }) => {
 Header.propTypes = {
 	className: PropTypes.string,
 	children: PropTypes.object,
-	theme: PropTypes.object,
 };
 
 export default Header;

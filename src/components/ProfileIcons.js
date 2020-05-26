@@ -22,15 +22,27 @@ const StyledProfileIcons = styled.div`
 
 const ProfileIcons = () => (
 	<StyledProfileIcons>
-		<a href="https://github.com/MarcelMichau">
+		<a
+			href="https://github.com/MarcelMichau"
+			title="GitHub Profile"
+			aria-label="GitHub Profile"
+		>
 			<FontAwesomeIcon icon={faGithub} size="2x" />
 		</a>
 
-		<a href="https://dev.to/marcelmichau">
+		<a
+			href="https://dev.to/marcelmichau"
+			title="DEV Community Profile"
+			aria-label="DEV Community Profile"
+		>
 			<FontAwesomeIcon icon={faDev} size="2x" />
 		</a>
 
-		<a href="https://twitter.com/MarcelMichau">
+		<a
+			href="https://twitter.com/MarcelMichau"
+			title="Twitter Profile"
+			aria-label="Twitter Profile"
+		>
 			<FontAwesomeIcon icon={faTwitter} size="2x" />
 		</a>
 	</StyledProfileIcons>
