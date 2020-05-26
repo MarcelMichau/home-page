@@ -3,8 +3,7 @@ import { Helmet } from 'react-helmet';
 import { createGlobalStyle } from 'styled-components';
 import { lighten } from 'polished';
 
-export default ({ children }) => {
-	const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
 		body {
 			margin: 0;
 			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
@@ -27,6 +26,7 @@ export default ({ children }) => {
 			}
 		`;
 
+export default ({ children }) => {
 	return (
 		<div>
 			<Helmet>
@@ -40,6 +40,17 @@ export default ({ children }) => {
 					content="u17FNJFETGielUaXh6jVCfwAFwN1OM0pnJ6sYC2W2oc"
 				/>
 				<title>Marcel Michau - I write code & stuff</title>
+
+				<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+				<link rel="dns-prefetch" href="https://fonts.gstatic.com/" />
+
+				<link
+					rel="preconnect"
+					href="https://fonts.googleapis.com/"
+					crossorigin
+				/>
+				<link rel="dns-prefetch" href="https://fonts.googleapis.com/" />
+
 				<link
 					href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans:wght@400;500&display=swap"
 					rel="stylesheet"
