@@ -20,19 +20,36 @@ const StyledProfileIcons = styled.div`
 	}
 `;
 
+const profiles = [
+	{
+		link: 'https://github.com/MarcelMichau',
+		name: 'GitHub Profile',
+		icon: faGithub,
+	},
+	{
+		link: 'https://dev.to/marcelmichau',
+		name: 'DEV Community Profile',
+		icon: faDev,
+	},
+	{
+		link: 'https://twitter.com/MarcelMichau',
+		name: 'Twitter Profile',
+		icon: faTwitter,
+	},
+];
+
 const ProfileIcons = () => (
 	<StyledProfileIcons>
-		<a href="https://github.com/MarcelMichau">
-			<FontAwesomeIcon icon={faGithub} size="2x" />
-		</a>
-
-		<a href="https://dev.to/marcelmichau">
-			<FontAwesomeIcon icon={faDev} size="2x" />
-		</a>
-
-		<a href="https://twitter.com/MarcelMichau">
-			<FontAwesomeIcon icon={faTwitter} size="2x" />
-		</a>
+		{profiles.map((profile, index) => (
+			<a
+				key={index}
+				href={profile.link}
+				title={profile.name}
+				aria-label={profile.name}
+			>
+				<FontAwesomeIcon icon={profile.icon} size="2x" />
+			</a>
+		))}
 	</StyledProfileIcons>
 );
 
