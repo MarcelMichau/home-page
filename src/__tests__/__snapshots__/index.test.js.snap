@@ -328,7 +328,7 @@ exports[`IndexPage renders correctly 1`] = `
 </ul>
 <p>Deployed to:</p>
 <ul>
-<li><a href=\\"https://www.netlify.com/\\">Netlify</a></li>
+<li><a href=\\"https://vercel.com/\\">Vercel</a></li>
 </ul>
 <p>And code hosted on:</p>
 <ul>

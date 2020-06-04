@@ -1,7 +1,5 @@
 # Home Page 🏡📄
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8e835143-1db8-4057-8e26-c2dfa7f566a8/deploy-status)](https://app.netlify.com/sites/marcel-michau-home-page/deploys)
-
 [![Build Status](https://travis-ci.org/MarcelMichau/home-page.svg?branch=master)](https://travis-ci.org/MarcelMichau/home-page)
 
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=MarcelMichau/home-page)](https://dependabot.com)
@@ -40,7 +38,7 @@ Tested using:
 
 Deployed to:
 
-- [Netlify](https://www.netlify.com/)
+- [Vercel](https://vercel.com/)
 
 And code hosted on:
 
