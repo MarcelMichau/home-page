@@ -5,6 +5,10 @@
 			"source": "/(.*)",
 			"headers": [
 				{
+					"key": "Access-Control-Allow-Origin",
+					"value": "https://marcelmichau.dev"
+				},
+				{
 					"key": "X-Content-Type-Options",
 					"value": "nosniff"
 				},
