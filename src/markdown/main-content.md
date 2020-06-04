@@ -36,7 +36,7 @@ Tested using:
 
 Deployed to:
 
-- [Netlify](https://www.netlify.com/)
+- [Vercel](https://vercel.com/)
 
 And code hosted on:
 
