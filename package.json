@@ -7,7 +7,7 @@
 		"@fortawesome/fontawesome-svg-core": "1.2.30",
 		"@fortawesome/free-brands-svg-icons": "5.14.0",
 		"@fortawesome/react-fontawesome": "0.1.11",
-		"babel-plugin-styled-components": "1.10.7",
+		"babel-plugin-styled-components": "1.11.1",
 		"date-fns": "2.15.0",
 		"gatsby": "2.24.12",
 		"gatsby-cli": "2.12.67",
