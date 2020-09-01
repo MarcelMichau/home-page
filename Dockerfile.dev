@@ -11,7 +11,10 @@ RUN chmod +x ./cc-test-reporter
 
 COPY package.json .
 COPY yarn.lock .
-RUN yarn
+COPY .yarn ./.yarn
+COPY .pnp.js .
+COPY .yarnrc.yml .
+#RUN yarn
 
 COPY . .
 
