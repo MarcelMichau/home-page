@@ -1,6 +1,4 @@
-FROM node:alpine
-
-RUN apk --no-cache add curl git
+FROM node
 
 ENV CC_TEST_REPORTER_ID=${CC_TEST_REPORTER_ID}
 
@@ -11,7 +9,9 @@ RUN chmod +x ./cc-test-reporter
 
 COPY package.json .
 COPY yarn.lock .
-RUN yarn
+COPY .yarn ./.yarn
+COPY .pnp.js .
+COPY .yarnrc.yml .
 
 COPY . .
 
