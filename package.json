@@ -18,7 +18,7 @@
 		"gatsby-plugin-react-helmet": "3.3.14",
 		"gatsby-plugin-sharp": "2.6.43",
 		"gatsby-plugin-styled-components": "3.3.14",
-		"gatsby-source-filesystem": "2.3.37",
+		"gatsby-source-filesystem": "2.4.0",
 		"gatsby-transformer-remark": "2.8.47",
 		"gatsby-transformer-sharp": "2.5.20",
 		"polished": "4.0.3",
