@@ -11138,20 +11138,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-google-analytics@npm:2.3.19":
-  version: 2.3.19
-  resolution: "gatsby-plugin-google-analytics@npm:2.3.19"
-  dependencies:
-    "@babel/runtime": ^7.11.2
-    minimatch: 3.0.4
-  peerDependencies:
-    gatsby: ^2.0.0
-    react: ^16.4.2
-    react-dom: ^16.4.2
-  checksum: 295cf8e4ab2a61a135728b93945dfec4da3bc84b8c6f348f22cdef88f1a108baf70fa8a1a56f732a3d8f214d153af905a24d4ba306c77948c5fd9f5029d82977
-  languageName: node
-  linkType: hard
-
 "gatsby-plugin-manifest@npm:2.4.37":
   version: 2.4.37
   resolution: "gatsby-plugin-manifest@npm:2.4.37"
@@ -12510,7 +12496,6 @@ fsevents@^1.2.7:
     gatsby-image: 2.4.21
     gatsby-link: 2.4.16
     gatsby-plugin-favicon: 3.1.6
-    gatsby-plugin-google-analytics: 2.3.19
     gatsby-plugin-manifest: 2.4.37
     gatsby-plugin-react-helmet: 3.3.14
     gatsby-plugin-sharp: 2.6.43
