@@ -47,9 +47,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/fontawesome-svg-core", "npm:1.2.32"],
             ["@fortawesome/free-brands-svg-icons", "npm:5.15.1"],
             ["@fortawesome/react-fontawesome", "virtual:e2772491d44d94ef4a50b2777a2111e0397860dea26a4b18ae48d970efd490849ae3e0223c8fbbc96a70e1d760e6aa12771bfa66dcb8ec37ce638f4896528f50#npm:0.1.13"],
+            ["@types/jest", "npm:26.0.15"],
             ["@types/react", "npm:17.0.0"],
             ["@types/react-dom", "npm:17.0.0"],
             ["@types/react-helmet", "npm:6.1.0"],
+            ["@types/react-test-renderer", "npm:17.0.0"],
             ["@types/styled-components", "npm:5.1.4"],
             ["babel-core", "npm:6.26.3"],
             ["babel-jest", "virtual:e2772491d44d94ef4a50b2777a2111e0397860dea26a4b18ae48d970efd490849ae3e0223c8fbbc96a70e1d760e6aa12771bfa66dcb8ec37ce638f4896528f50#npm:26.6.3"],
@@ -82,6 +84,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-test-renderer", "virtual:e2772491d44d94ef4a50b2777a2111e0397860dea26a4b18ae48d970efd490849ae3e0223c8fbbc96a70e1d760e6aa12771bfa66dcb8ec37ce638f4896528f50#npm:17.0.1"],
             ["regenerator-runtime", "npm:0.13.7"],
             ["styled-components", "virtual:e2772491d44d94ef4a50b2777a2111e0397860dea26a4b18ae48d970efd490849ae3e0223c8fbbc96a70e1d760e6aa12771bfa66dcb8ec37ce638f4896528f50#npm:5.2.1"],
+            ["ts-jest", "virtual:e2772491d44d94ef4a50b2777a2111e0397860dea26a4b18ae48d970efd490849ae3e0223c8fbbc96a70e1d760e6aa12771bfa66dcb8ec37ce638f4896528f50#npm:26.4.4"],
             ["typed.js", "npm:2.0.11"],
             ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"]
           ],
@@ -6681,6 +6684,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@types/jest", [
+        ["npm:26.0.15", {
+          "packageLocation": "./.yarn/cache/@types-jest-npm-26.0.15-123adbed89-42fe39d582.zip/node_modules/@types/jest/",
+          "packageDependencies": [
+            ["@types/jest", "npm:26.0.15"],
+            ["jest-diff", "npm:26.6.2"],
+            ["pretty-format", "npm:26.6.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@types/json-schema", [
         ["npm:7.0.5", {
           "packageLocation": "./.yarn/cache/@types-json-schema-npm-7.0.5-6c7647c88d-6290f9fe93.zip/node_modules/@types/json-schema/",
@@ -6882,6 +6896,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-react-native-npm-0.63.37-21db8768e5-05c5ebb675.zip/node_modules/@types/react-native/",
           "packageDependencies": [
             ["@types/react-native", "npm:0.63.37"],
+            ["@types/react", "npm:16.9.36"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/react-test-renderer", [
+        ["npm:17.0.0", {
+          "packageLocation": "./.yarn/cache/@types-react-test-renderer-npm-17.0.0-bda0bc48c1-4931f75cfd.zip/node_modules/@types/react-test-renderer/",
+          "packageDependencies": [
+            ["@types/react-test-renderer", "npm:17.0.0"],
             ["@types/react", "npm:16.9.36"]
           ],
           "linkType": "HARD",
@@ -9249,6 +9273,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["electron-to-chromium", "npm:1.3.609"],
             ["escalade", "npm:3.1.1"],
             ["node-releases", "npm:1.1.67"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["bs-logger", [
+        ["npm:0.2.6", {
+          "packageLocation": "./.yarn/cache/bs-logger-npm-0.2.6-7670f88b66-f5f2f1315d.zip/node_modules/bs-logger/",
+          "packageDependencies": [
+            ["bs-logger", "npm:0.2.6"],
+            ["fast-json-stable-stringify", "npm:2.1.0"]
           ],
           "linkType": "HARD",
         }]
@@ -15725,9 +15759,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fortawesome/fontawesome-svg-core", "npm:1.2.32"],
             ["@fortawesome/free-brands-svg-icons", "npm:5.15.1"],
             ["@fortawesome/react-fontawesome", "virtual:e2772491d44d94ef4a50b2777a2111e0397860dea26a4b18ae48d970efd490849ae3e0223c8fbbc96a70e1d760e6aa12771bfa66dcb8ec37ce638f4896528f50#npm:0.1.13"],
+            ["@types/jest", "npm:26.0.15"],
             ["@types/react", "npm:17.0.0"],
             ["@types/react-dom", "npm:17.0.0"],
             ["@types/react-helmet", "npm:6.1.0"],
+            ["@types/react-test-renderer", "npm:17.0.0"],
             ["@types/styled-components", "npm:5.1.4"],
             ["babel-core", "npm:6.26.3"],
             ["babel-jest", "virtual:e2772491d44d94ef4a50b2777a2111e0397860dea26a4b18ae48d970efd490849ae3e0223c8fbbc96a70e1d760e6aa12771bfa66dcb8ec37ce638f4896528f50#npm:26.6.3"],
@@ -15760,6 +15796,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-test-renderer", "virtual:e2772491d44d94ef4a50b2777a2111e0397860dea26a4b18ae48d970efd490849ae3e0223c8fbbc96a70e1d760e6aa12771bfa66dcb8ec37ce638f4896528f50#npm:17.0.1"],
             ["regenerator-runtime", "npm:0.13.7"],
             ["styled-components", "virtual:e2772491d44d94ef4a50b2777a2111e0397860dea26a4b18ae48d970efd490849ae3e0223c8fbbc96a70e1d760e6aa12771bfa66dcb8ec37ce638f4896528f50#npm:5.2.1"],
+            ["ts-jest", "virtual:e2772491d44d94ef4a50b2777a2111e0397860dea26a4b18ae48d970efd490849ae3e0223c8fbbc96a70e1d760e6aa12771bfa66dcb8ec37ce638f4896528f50#npm:26.4.4"],
             ["typed.js", "npm:2.0.11"],
             ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"]
           ],
@@ -18899,6 +18936,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["make-dir", "npm:3.1.0"],
             ["semver", "npm:6.3.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["make-error", [
+        ["npm:1.3.6", {
+          "packageLocation": "./.yarn/cache/make-error-npm-1.3.6-ccb85d9458-2c780bab84.zip/node_modules/make-error/",
+          "packageDependencies": [
+            ["make-error", "npm:1.3.6"]
           ],
           "linkType": "HARD",
         }]
@@ -25966,6 +26012,35 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["ts-jest", [
+        ["virtual:e2772491d44d94ef4a50b2777a2111e0397860dea26a4b18ae48d970efd490849ae3e0223c8fbbc96a70e1d760e6aa12771bfa66dcb8ec37ce638f4896528f50#npm:26.4.4", {
+          "packageLocation": "./.yarn/$$virtual/ts-jest-virtual-3aefa6c8d3/0/cache/ts-jest-npm-26.4.4-6fd34d9b91-bee46b789c.zip/node_modules/ts-jest/",
+          "packageDependencies": [
+            ["ts-jest", "virtual:e2772491d44d94ef4a50b2777a2111e0397860dea26a4b18ae48d970efd490849ae3e0223c8fbbc96a70e1d760e6aa12771bfa66dcb8ec37ce638f4896528f50#npm:26.4.4"],
+            ["@types/jest", "npm:26.0.15"],
+            ["@types/typescript", null],
+            ["bs-logger", "npm:0.2.6"],
+            ["buffer-from", "npm:1.1.1"],
+            ["fast-json-stable-stringify", "npm:2.1.0"],
+            ["jest", "npm:26.6.3"],
+            ["jest-util", "npm:26.6.2"],
+            ["json5", "npm:2.1.3"],
+            ["lodash.memoize", "npm:4.1.2"],
+            ["make-error", "npm:1.3.6"],
+            ["mkdirp", "npm:1.0.4"],
+            ["semver", "npm:7.3.2"],
+            ["typescript", "patch:typescript@npm%3A4.1.2#builtin<compat/typescript>::version=4.1.2&hash=5bf698"],
+            ["yargs-parser", "npm:20.2.4"]
+          ],
+          "packagePeers": [
+            "@types/jest",
+            "@types/typescript",
+            "jest",
+            "typescript"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["ts-pnp", [
         ["virtual:c497046afcbefb679e3fe12575088ec12205b913a36c3d158b27e7cd646d448426540ab27ba98e54ddb75b1ed97de7e3ce5dc0158c9ba4e76ce942c87e5d02d8#npm:1.2.0", {
           "packageLocation": "./.yarn/$$virtual/ts-pnp-virtual-abd2827f29/0/cache/ts-pnp-npm-1.2.0-43620de7df-78341a2793.zip/node_modules/ts-pnp/",
@@ -27771,6 +27846,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["yargs-parser", "npm:18.1.3"],
             ["camelcase", "npm:5.3.1"],
             ["decamelize", "npm:1.2.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:20.2.4", {
+          "packageLocation": "./.yarn/cache/yargs-parser-npm-20.2.4-1de20916a6-00dd0f23b6.zip/node_modules/yargs-parser/",
+          "packageDependencies": [
+            ["yargs-parser", "npm:20.2.4"]
           ],
           "linkType": "HARD",
         }]

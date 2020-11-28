@@ -7,7 +7,7 @@ export type PageProps = {
 		};
 		file: {
 			childImageSharp: {
-				fixed: FixedObject[];
+				fixed: FixedObject | FixedObject[];
 			};
 		};
 	};

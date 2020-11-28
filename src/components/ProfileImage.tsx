@@ -3,7 +3,7 @@ import Img, { FixedObject } from 'gatsby-image';
 import { theme } from '../styles/theme';
 
 type ProfileImageProps = {
-	fixed: FixedObject[];
+	fixed: FixedObject | FixedObject[];
 };
 
 const ProfileImage = ({ fixed }: ProfileImageProps) => {
