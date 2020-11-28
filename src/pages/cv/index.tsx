@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
-import { FixedObject } from 'gatsby-image';
+import { PageProps } from '../PageProps';
 import Layout from '../../components/Layout';
 import PageContainer from '../../components/PageContainer';
 import About from '../../components/About';
@@ -8,20 +8,7 @@ import { theme } from '../../styles/theme';
 import { ThemeProvider } from 'styled-components';
 import Profile from '../../components/Profile';
 
-type CVPageProps = {
-	data: {
-		markdownRemark: {
-			html: string;
-		};
-		file: {
-			childImageSharp: {
-				fixed: FixedObject[];
-			};
-		};
-	};
-};
-
-export function CVPage({ data }: CVPageProps) {
+export function CVPage({ data }: PageProps) {
 	return (
 		<ThemeProvider theme={theme}>
 			<Layout>

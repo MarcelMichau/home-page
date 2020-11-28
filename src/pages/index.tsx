@@ -1,26 +1,13 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { FixedObject } from 'gatsby-image';
+import { PageProps } from './PageProps';
 import Layout from '../components/Layout';
 import PageContainer from '../components/PageContainer';
 import Profile from '../components/Profile';
 import { theme } from '../styles/theme';
 import { ThemeProvider } from 'styled-components';
 
-type IndexPageProps = {
-	data: {
-		markdownRemark: {
-			html: string;
-		};
-		file: {
-			childImageSharp: {
-				fixed: FixedObject[];
-			};
-		};
-	};
-};
-
-export function IndexPage({ data }: IndexPageProps) {
+export function IndexPage({ data }: PageProps) {
 	return (
 		<ThemeProvider theme={theme}>
 			<Layout>
