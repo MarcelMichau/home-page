@@ -12,6 +12,7 @@ This is my website. No one else's.
 
 It's built using:
 
+- [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/)
 
 Along with:
