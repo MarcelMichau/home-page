@@ -1,6 +1,6 @@
 ---
 path: '/'
-date: '2020-05-24'
+date: '2020-11-28'
 title: 'Main Content'
 ---
 
@@ -10,6 +10,7 @@ Look how minimal it is.
 
 It's built using:
 
+- [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/)
 
 Along with:
