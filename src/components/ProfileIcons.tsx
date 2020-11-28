@@ -9,7 +9,7 @@ const StyledProfileIcons = styled.div`
 	justify-content: space-evenly;
 	margin: 0 auto;
 	max-width: 200px;
-	padding: 2em;
+	/* padding: 2em; */
 
 	a {
 		color: ${(props) => lighten(0.45, props.theme.accentColour)};

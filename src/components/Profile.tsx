@@ -11,7 +11,7 @@ const StyledNameTitle = styled.h2`
 `;
 
 type ProfileProps = {
-	fixedResolutions: FixedObject[];
+	fixedResolutions: FixedObject | FixedObject[];
 };
 
 const Profile = ({ fixedResolutions }: ProfileProps) => {

@@ -1,126 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`IndexPage renders correctly 1`] = `
-.c2 {
-  text-align: center;
-  background-color: #1c1d20;
-  color: #FFFFFF;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding-top: 1em;
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 2em;
-  color: #FFFFFF;
-}
-
-.c6 a {
-  color: #2fc1f9;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c6 a:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-}
-
-.c9 {
-  background-color: #022f40;
-  padding-top: 1em;
-  padding-bottom: 2em;
-}
-
-.c8 {
-  margin-bottom: -10px;
-}
-
-.c0 {
-  background-color: #1c1d20;
-  display: grid;
-  min-height: 100vh;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr;
-  grid-gap: 5px;
-  grid-template-areas: 'h' 'm' 'f';
-}
-
-.c3 {
-  grid-area: h;
-  height: 100vh;
-}
-
-.c7 {
-  grid-area: m;
-}
-
-.c10 {
-  grid-area: f;
-}
-
-.c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-  -webkit-justify-content: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-  margin: 0 auto;
-  max-width: 200px;
-  padding: 2em;
-}
-
-.c5 a {
-  color: #2fc1f9;
-}
-
-.c5 a:hover {
-  color: #079cd4;
-}
-
-.c4 {
-  font-family: 'Fira Sans',sans-serif;
-  font-size: calc(32px + (48 - 32) * ((100vw - 300px) / (1600 - 300)));
-}
-
 <div>
   <div>
     <div
-      className="c0"
+      className=""
     >
       <header
-        className="c1 c2 c3"
+        className=""
       >
         <div>
           <div
@@ -136,7 +23,7 @@ exports[`IndexPage renders correctly 1`] = `
             }
           >
             <img
-              alt=""
+              alt="Profile Picture of Marcel Michau"
               aria-hidden={true}
               src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMEBQEC/8QAFwEBAAMAAAAAAAAAAAAAAAAAAgABA//aAAwDAQACEAMQAAABn7XkD8JV55GmRVQD/8QAHRAAAgIBBQAAAAAAAAAAAAAAAQIAAyEEERITFP/aAAgBAQABBQInZEDz1QENp0GEqrVaXPbdicZ//8QAFhEBAQEAAAAAAAAAAAAAAAAAEAFB/9oACAEDAQE/AYYf/8QAFhEBAQEAAAAAAAAAAAAAAAAAEAEx/9oACAECAQE/AS6f/8QAHxAAAgECBwAAAAAAAAAAAAAAAAESESECEDFRYXGB/9oACAEBAAY/ApcEpeGg6jdWl2XaZh2ZBWTWX//EABsQAQACAwEBAAAAAAAAAAAAAAEAESFBUTFx/9oACAEBAAE/IR36EaWu+4Yg6lQwLlQNTFQQ7EgtpSahOxEPsw2z/9oADAMBAAIAAwAAABCzCP8A/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQAhETH/2gAIAQMBAT8QIm2x7uF//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EKyoMf/EAB0QAQACAgMBAQAAAAAAAAAAAAEAESFRMUFh0aH/2gAIAQEAAT8QUksYHtoD9lbDmSttETkb4csBoBAX2JCGZVxBx77ATWqpCU1pTs63HAbfYU+RDQqc5r5P/9k="
               style={
@@ -157,47 +44,6 @@ exports[`IndexPage renders correctly 1`] = `
                 }
               }
             />
-            <picture>
-              <source
-                srcSet="/static/ceeab084c21596435216ed7397fb861b/50ead/profile.webp 1x,
-/static/ceeab084c21596435216ed7397fb861b/27933/profile.webp 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/ab687/profile.webp 2x"
-                type="image/webp"
-              />
-              <source
-                srcSet="/static/ceeab084c21596435216ed7397fb861b/25e3f/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/f11e0/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/7b2a1/profile.jpg 2x"
-              />
-              <img
-                alt="Profile Picture of Marcel Michau"
-                height={300}
-                loading="lazy"
-                onLoad={[Function]}
-                src="/static/ceeab084c21596435216ed7397fb861b/25e3f/profile.jpg"
-                srcSet="/static/ceeab084c21596435216ed7397fb861b/25e3f/profile.jpg 1x,
-/static/ceeab084c21596435216ed7397fb861b/f11e0/profile.jpg 1.5x,
-/static/ceeab084c21596435216ed7397fb861b/7b2a1/profile.jpg 2x"
-                style={
-                  Object {
-                    "border": "5px solid #FFFFFF",
-                    "borderRadius": "50%",
-                    "boxShadow": "0px 0px 15px 0px rgba(0,0,0,0.75)",
-                    "height": "250px",
-                    "left": 0,
-                    "margin": "20px",
-                    "objectFit": "cover",
-                    "objectPosition": "center",
-                    "opacity": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "transition": "opacity 500ms",
-                    "width": "250px",
-                  }
-                }
-                width={300}
-              />
-            </picture>
             <noscript
               dangerouslySetInnerHTML={
                 Object {
@@ -213,12 +59,12 @@ exports[`IndexPage renders correctly 1`] = `
             />
           </div>
           <h2
-            className="c4"
+            className=""
           >
             Marcel Michau
           </h2>
           <div
-            className="c5"
+            className=""
           >
             <a
               aria-label="GitHub Profile"
@@ -293,7 +139,7 @@ exports[`IndexPage renders correctly 1`] = `
         </div>
       </header>
       <main
-        className="c6 c7"
+        className=""
       >
         <div
           dangerouslySetInnerHTML={
@@ -353,7 +199,7 @@ exports[`IndexPage renders correctly 1`] = `
         />
       </main>
       <svg
-        className="c8"
+        className=""
         viewBox="0 0 1440 320"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -365,7 +211,7 @@ exports[`IndexPage renders correctly 1`] = `
       </svg>
       <div>
         <footer
-          className="c9 c2 c10"
+          className=""
         >
           Marcel Michau © 
           2020
