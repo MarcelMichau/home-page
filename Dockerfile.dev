@@ -7,12 +7,6 @@ WORKDIR /app
 RUN curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
 RUN chmod +x ./cc-test-reporter
 
-COPY package.json .
-COPY yarn.lock .
-COPY .yarn ./.yarn
-COPY .pnp.js .
-COPY .yarnrc.yml .
-
 COPY . .
 
 CMD ["yarn", "test"]
