@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql, Link } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import { PageProps } from '../../types/PageProps';
 import Layout from '../../components/Layout';
 import PageContainer from '../../components/PageContainer';
@@ -14,7 +14,9 @@ export function CVPage({ data }: PageProps) {
 			<Layout>
 				<PageContainer
 					headerContent={
-						<Profile fixedResolutions={data.file.childImageSharp.fixed} />
+						<Profile
+							fixedResolutions={data.profileImage.childImageSharp.fixed}
+						/>
 					}
 					mainContent={
 						<div>
@@ -22,6 +24,7 @@ export function CVPage({ data }: PageProps) {
 							<Link to="/">{'<'} Go to Main Page</Link>
 						</div>
 					}
+					logoImageResolutions={data.logoImage.childImageSharp.fixed}
 				/>
 			</Layout>
 		</ThemeProvider>
@@ -32,15 +35,6 @@ export default CVPage;
 
 export const pageQuery = graphql`
 	query($path: String!) {
-		markdownRemark(frontmatter: { path: { eq: $path } }) {
-			html
-		}
-		file(relativePath: { eq: "profile.jpg" }) {
-			childImageSharp {
-				fixed(width: 300, height: 300) {
-					...GatsbyImageSharpFixed_withWebp_tracedSVG
-				}
-			}
-		}
+		...PageInformation
 	}
 `;

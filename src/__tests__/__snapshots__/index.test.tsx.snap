@@ -44,7 +44,7 @@ exports[`IndexPage renders correctly 1`] = `
 }
 
 .c6 a {
-  color: #2fc1f9;
+  color: #f92f2f;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
@@ -55,7 +55,7 @@ exports[`IndexPage renders correctly 1`] = `
 }
 
 .c9 {
-  background-color: #022f40;
+  background-color: #400202;
   padding-top: 1em;
   padding-bottom: 2em;
 }
@@ -102,11 +102,11 @@ exports[`IndexPage renders correctly 1`] = `
 }
 
 .c5 a {
-  color: #2fc1f9;
+  color: #f92f2f;
 }
 
 .c5 a:hover {
-  color: #079cd4;
+  color: #d40707;
 }
 
 .c4 {
@@ -138,10 +138,10 @@ exports[`IndexPage renders correctly 1`] = `
             <img
               alt=""
               aria-hidden={true}
-              src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMEBQEC/8QAFwEBAAMAAAAAAAAAAAAAAAAAAgABA//aAAwDAQACEAMQAAABn7XkD8JV55GmRVQD/8QAHRAAAgIBBQAAAAAAAAAAAAAAAQIAAyEEERITFP/aAAgBAQABBQInZEDz1QENp0GEqrVaXPbdicZ//8QAFhEBAQEAAAAAAAAAAAAAAAAAEAFB/9oACAEDAQE/AYYf/8QAFhEBAQEAAAAAAAAAAAAAAAAAEAEx/9oACAECAQE/AS6f/8QAHxAAAgECBwAAAAAAAAAAAAAAAAESESECEDFRYXGB/9oACAEBAAY/ApcEpeGg6jdWl2XaZh2ZBWTWX//EABsQAQACAwEBAAAAAAAAAAAAAAEAESFBUTFx/9oACAEBAAE/IR36EaWu+4Yg6lQwLlQNTFQQ7EgtpSahOxEPsw2z/9oADAMBAAIAAwAAABCzCP8A/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQAhETH/2gAIAQMBAT8QIm2x7uF//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EKyoMf/EAB0QAQACAgMBAQAAAAAAAAAAAAEAESFRMUFh0aH/2gAIAQEAAT8QUksYHtoD9lbDmSttETkb4csBoBAX2JCGZVxBx77ATWqpCU1pTs63HAbfYU+RDQqc5r5P/9k="
+              src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMEBQEC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgEAA//aAAwDAQACEAMQAAABn7XkD8JV55GmZVwZ/8QAHRAAAgEEAwAAAAAAAAAAAAAAAQIDAAQRIRITFP/aAAgBAQABBQIthED49RrIa3QaRI1WFz2z6PGv/8QAFhEBAQEAAAAAAAAAAAAAAAAAEAFB/9oACAEDAQE/AYYf/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQETH/2gAIAQIBAT8BKHsf/8QAHRAAAgIBBQAAAAAAAAAAAAAAAAEREmEQITEycf/aAAgBAQAGPwK2C1jqbjctL0iUxZKLhrT/xAAbEAEBAQADAQEAAAAAAAAAAAABEQAhMVFBcf/aAAgBAQABPyG2eYJvuLLE4whgy+usR5Jy6M9dCrRRHrA6CxD90n13/9oADAMBAAIAAwAAABDwwMD/xAAYEQEBAAMAAAAAAAAAAAAAAAABABEhMf/aAAgBAwEBPxAiK247sF//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8QrSDI/8QAHRABAAICAwEBAAAAAAAAAAAAAQARIUExUdFhsf/aAAgBAQABPxAhFgB20BFpPjJl0dQ40vfMBMAx+hqDbYRBkr9h+1FUMx9e3RF61BR60M08lhrPnNeT/9k="
               style={
                 Object {
-                  "border": "5px solid #FFFFFF",
+                  "border": "5px solid #f92f2f",
                   "borderRadius": "50%",
                   "boxShadow": "0px 0px 15px 0px rgba(0,0,0,0.75)",
                   "height": "250px",
@@ -180,7 +180,7 @@ exports[`IndexPage renders correctly 1`] = `
 /static/ceeab084c21596435216ed7397fb861b/7b2a1/profile.jpg 2x"
                 style={
                   Object {
-                    "border": "5px solid #FFFFFF",
+                    "border": "5px solid #f92f2f",
                     "borderRadius": "50%",
                     "boxShadow": "0px 0px 15px 0px rgba(0,0,0,0.75)",
                     "height": "250px",
@@ -359,7 +359,7 @@ exports[`IndexPage renders correctly 1`] = `
       >
         <path
           d="M0,192L48,192C96,192,192,192,288,160C384,128,480,64,576,80C672,96,768,192,864,208C960,224,1056,160,1152,154.7C1248,149,1344,203,1392,229.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          fill="#022f40"
+          fill="#400202"
           fillOpacity="1"
         />
       </svg>
@@ -367,8 +367,91 @@ exports[`IndexPage renders correctly 1`] = `
         <footer
           className="c9 c2 c10"
         >
-          Marcel Michau © 
-          2020
+          <div
+            className=" gatsby-image-wrapper"
+            style={
+              Object {
+                "display": "inline-block",
+                "height": 30,
+                "overflow": "hidden",
+                "position": "relative",
+                "width": 30,
+              }
+            }
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACZElEQVQ4y8WUz2saQRTHPYVADmm0uqu7sz90191xZhQtiPEo9GBAS6jk0pOXQI/NIYEaGtt4qC2lIE1haXsQzCEQoamB0oQmJ4WYi0EpFCxtLRaaU/6BYsdNmkRMeukhj4GZfXw/8x7vzVuL7z/McqUwNNc/TL8Mphjx+QIQUgW6SEEFQf1i3CIhFITwEQDDPPb5ZIQSXu+8KNIDHoYFhCizxTDLAIBzCmTGVCHcdDqfcRyPEDn2IwRNO4lM97cs+9lmSyqK+y+PIZQIuQ/hr/HxhwAIpp+SmqaFQiFCCOX7MJWWnc6vVut7hgnoumZWQSZkGoAv2ey3ycllm02g8n4B+gENwwiHw/QWi2im/YFhXrlcuw7HC46TzVxuYLw1OvqzVDra2XlgtYoYBwjhOC6fz3c6HZqCrut9mIbaZZglAJKq+t1qTbvdDoyLAFTGxoqG0ev1CouLgih6PJ5UKtXtdpvNpt/vP4M/MsxTjrtGSAGAqt2eEcVPdnuMZV+urh6urHT39pKplK5p9Xo9l8vVarVgMDgAP+F5J80NwncsezgxMS9J1wWhWC7/mJ2tzsxs7+9vbmwUCoVoNNpqtQKBwBm8zTCPeZ62SkFoWlUNlwsiJArC67W1o4WFexbLm/X11sGBJEnxeLzRaAzAVYfjOce5zGbqZocRxiLPlyqV35lMdmQERqM3YzH6FBKJRLvdPoFVs7Z3Zfk2LQhCpy+MHlVFuZNOL01N3QLAA6Hm9VIgEonMzc1hjPt9PlbTbp8nT3m3LPOKomCMzM/+kOi6IAgDI4kvmQoaAQ9dSn1X/TP4A2wFC55ksmlIAAAAAElFTkSuQmCC"
+              style={
+                Object {
+                  "height": "30px",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "top": 0,
+                  "transitionDelay": "500ms",
+                  "width": "30px",
+                }
+              }
+            />
+            <picture>
+              <source
+                srcSet="/static/c00cc6c3bc3f72f0b02f48f021e7ba06/e711a/mm-logo.webp 1x,
+/static/c00cc6c3bc3f72f0b02f48f021e7ba06/a1b10/mm-logo.webp 1.5x,
+/static/c00cc6c3bc3f72f0b02f48f021e7ba06/ca41d/mm-logo.webp 2x"
+                type="image/webp"
+              />
+              <source
+                srcSet="/static/c00cc6c3bc3f72f0b02f48f021e7ba06/91664/mm-logo.png 1x,
+/static/c00cc6c3bc3f72f0b02f48f021e7ba06/ad39b/mm-logo.png 1.5x,
+/static/c00cc6c3bc3f72f0b02f48f021e7ba06/183c2/mm-logo.png 2x"
+              />
+              <img
+                alt="MM Logo"
+                height={30}
+                loading="lazy"
+                onLoad={[Function]}
+                src="/static/c00cc6c3bc3f72f0b02f48f021e7ba06/91664/mm-logo.png"
+                srcSet="/static/c00cc6c3bc3f72f0b02f48f021e7ba06/91664/mm-logo.png 1x,
+/static/c00cc6c3bc3f72f0b02f48f021e7ba06/ad39b/mm-logo.png 1.5x,
+/static/c00cc6c3bc3f72f0b02f48f021e7ba06/183c2/mm-logo.png 2x"
+                style={
+                  Object {
+                    "height": "30px",
+                    "left": 0,
+                    "objectFit": "cover",
+                    "objectPosition": "center",
+                    "opacity": 0,
+                    "position": "absolute",
+                    "top": 0,
+                    "transition": "opacity 500ms",
+                    "width": "30px",
+                  }
+                }
+                width={30}
+              />
+            </picture>
+            <noscript
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<picture><source type='image/webp' srcset=\\"/static/c00cc6c3bc3f72f0b02f48f021e7ba06/e711a/mm-logo.webp 1x,
+/static/c00cc6c3bc3f72f0b02f48f021e7ba06/a1b10/mm-logo.webp 1.5x,
+/static/c00cc6c3bc3f72f0b02f48f021e7ba06/ca41d/mm-logo.webp 2x\\" /><source srcset=\\"/static/c00cc6c3bc3f72f0b02f48f021e7ba06/91664/mm-logo.png 1x,
+/static/c00cc6c3bc3f72f0b02f48f021e7ba06/ad39b/mm-logo.png 1.5x,
+/static/c00cc6c3bc3f72f0b02f48f021e7ba06/183c2/mm-logo.png 2x\\" /><img loading=\\"lazy\\" width=\\"30\\" height=\\"30\\" srcset=\\"/static/c00cc6c3bc3f72f0b02f48f021e7ba06/91664/mm-logo.png 1x,
+/static/c00cc6c3bc3f72f0b02f48f021e7ba06/ad39b/mm-logo.png 1.5x,
+/static/c00cc6c3bc3f72f0b02f48f021e7ba06/183c2/mm-logo.png 2x\\" src=\\"/static/c00cc6c3bc3f72f0b02f48f021e7ba06/91664/mm-logo.png\\" alt=\\"MM Logo\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                }
+              }
+            />
+          </div>
+          <div>
+            Marcel Michau © 
+            2020
+          </div>
         </footer>
       </div>
     </div>

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
+import { FixedObject } from 'gatsby-image';
 
 const Container = styled.div`
 	background-color: ${(props) => props.theme.backgroundColour};
@@ -33,13 +34,18 @@ const AlignedFooter = styled(Footer)`
 type PageContainerProps = {
 	headerContent: React.ReactNode;
 	mainContent: React.ReactNode;
+	logoImageResolutions: FixedObject | FixedObject[];
 };
 
-const PageContainer = ({ headerContent, mainContent }: PageContainerProps) => (
+const PageContainer = ({
+	headerContent,
+	mainContent,
+	logoImageResolutions,
+}: PageContainerProps) => (
 	<Container>
 		<AlignedHeader>{headerContent}</AlignedHeader>
 		<AlignedMain>{mainContent}</AlignedMain>
-		<AlignedFooter />
+		<AlignedFooter logoImageResolutions={logoImageResolutions} />
 	</Container>
 );
 
