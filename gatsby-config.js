@@ -1,3 +1,5 @@
+const path = require(`path`);
+
 module.exports = {
 	siteMetadata: {
 		title: `Marcel Michau - I write code & stuff`,
@@ -7,17 +9,19 @@ module.exports = {
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
-				path: `${__dirname}/src/markdown`,
-				name: 'markdown-pages',
+				path: path.join(__dirname, `src`, `markdown`),
+				name: 'pages',
 			},
+			__key: 'pages',
 		},
 		`gatsby-transformer-remark`,
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
-				name: `img`,
-				path: `${__dirname}/src/images/`,
+				name: `images`,
+				path: path.join(__dirname, `src`, `images`),
 			},
+			__key: 'images',
 		},
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
@@ -31,23 +35,18 @@ module.exports = {
 				background_color: '#272932',
 				theme_color: '#30333c',
 				display: 'minimal-ui',
-				icon: 'src/images/favicon.png', // This path is relative to the root of the site.
+				icon: path.join(__dirname, `src`, `images`, `mm-logo.png`), // This path is relative to the root of the site.
 			},
 		},
 		{
-			resolve: `gatsby-plugin-favicon`,
+			resolve: `gatsby-plugin-favicons`,
 			options: {
-				logo: './src/images/favicon.png',
-				injectHTML: true,
+				logo: path.join(__dirname, `src`, `images`, `mm-logo.png`),
 				icons: {
 					android: true,
 					appleIcon: true,
 					appleStartup: true,
-					coast: false,
 					favicons: true,
-					firefox: true,
-					twitter: true,
-					yandex: false,
 					windows: true,
 				},
 			},

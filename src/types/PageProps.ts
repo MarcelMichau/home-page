@@ -2,10 +2,15 @@ import { FixedObject } from 'gatsby-image';
 
 export type PageProps = {
 	data: {
-		markdownRemark: {
+		markdownContent: {
 			html: string;
 		};
-		file: {
+		profileImage: {
+			childImageSharp: {
+				fixed: FixedObject | FixedObject[];
+			};
+		};
+		logoImage: {
 			childImageSharp: {
 				fixed: FixedObject | FixedObject[];
 			};
