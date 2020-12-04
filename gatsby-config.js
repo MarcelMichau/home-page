@@ -39,14 +39,17 @@ module.exports = {
 			},
 		},
 		{
-			resolve: `gatsby-plugin-favicons`,
+			resolve: `gatsby-plugin-favicon`,
 			options: {
 				logo: path.join(__dirname, `src`, `images`, `mm-logo.png`),
+				injectHTML: true,
 				icons: {
 					android: true,
 					appleIcon: true,
 					appleStartup: true,
 					favicons: true,
+					firefox: true,
+					twitter: true,
 					windows: true,
 				},
 			},

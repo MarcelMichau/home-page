@@ -1,2 +1,2 @@
 exclude_patterns:
-  - "src/__tests__/index.test.jsx"
+  - "src/__tests__/index.test.tsx"
