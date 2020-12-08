@@ -1,6 +1,6 @@
 # Home Page 🏡📄
 
-[![Build Status](https://travis-ci.org/MarcelMichau/home-page.svg?branch=master)](https://travis-ci.org/MarcelMichau/home-page)
+![Run Tests & Upload Coverage Results](https://github.com/MarcelMichau/home-page/workflows/Run%20Tests%20&%20Upload%20Coverage%20Results/badge.svg)
 
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=MarcelMichau/home-page)](https://dependabot.com)
 
@@ -17,11 +17,11 @@ It's built using:
 
 Along with:
 
-- [Gatsby](https://www.gatsbyjs.org/)
+- [Gatsby](https://www.gatsbyjs.com/)
 
 With some help from:
 
-- [Styled Components](https://www.styled-components.com/)
+- [Styled Components](https://styled-components.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [Typed.js](https://mattboldt.com/demos/typed-js/)
 - [getwaves.io](https://getwaves.io/)
@@ -35,7 +35,7 @@ Tested using:
 
 - [Jest](https://jestjs.io/)
 - [Docker](https://www.docker.com/)
-- [Travis CI](https://travis-ci.com/MarcelMichau/home-page)
+- [GitHub Actions](https://github.com/features/actions)
 
 Deployed to:
 

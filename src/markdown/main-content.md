@@ -15,11 +15,11 @@ It's built using:
 
 Along with:
 
-- [Gatsby](https://www.gatsbyjs.org/)
+- [Gatsby](https://www.gatsbyjs.com/)
 
 With some help from:
 
-- [Styled Components](https://www.styled-components.com/)
+- [Styled Components](https://styled-components.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [Typed.js](https://mattboldt.com/demos/typed-js/)
 - [getwaves.io](https://getwaves.io/)
@@ -33,7 +33,7 @@ Tested using:
 
 - [Jest](https://jestjs.io/)
 - [Docker](https://www.docker.com/)
-- [Travis CI](https://travis-ci.com/MarcelMichau/home-page)
+- [GitHub Actions](https://github.com/features/actions)
 
 Deployed to:
 
