@@ -9,3 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: docker build -t marcelmichau/home-page -f Dockerfile.dev .
+      - run: docker run -t marcelmichau/home-page npm test
+      - run: CONTAINER_ID=$(docker ps -alq)
+      - run: docker cp $CONTAINER_ID:/app/coverage $(pwd)/coverage
+      - uses: paambaati/codeclimate-action@v2.2.4
+        env:
+          CC_TEST_REPORTER_ID: 7672e20d57be9ceb1846716afe90826b89b13ff79a7172f1eb9927630d31e51e
