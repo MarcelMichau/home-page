@@ -1,6 +1,6 @@
 # Home Page 🏡📄
 
-[![Build Status](https://travis-ci.org/MarcelMichau/home-page.svg?branch=master)](https://travis-ci.org/MarcelMichau/home-page)
+![Run Tests & Upload Coverage Results](https://github.com/MarcelMichau/home-page/workflows/Run%20Tests%20&%20Upload%20Coverage%20Results/badge.svg)
 
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=MarcelMichau/home-page)](https://dependabot.com)
 
@@ -35,7 +35,7 @@ Tested using:
 
 - [Jest](https://jestjs.io/)
 - [Docker](https://www.docker.com/)
-- [Travis CI](https://travis-ci.com/MarcelMichau/home-page)
+- [GitHub Actions](https://github.com/features/actions)
 
 Deployed to:
 

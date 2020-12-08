@@ -325,7 +325,7 @@ exports[`IndexPage renders correctly 1`] = `
 <ul>
 <li><a href=\\"https://jestjs.io/\\">Jest</a></li>
 <li><a href=\\"https://www.docker.com/\\">Docker</a></li>
-<li><a href=\\"https://travis-ci.com/MarcelMichau/home-page\\">Travis CI</a></li>
+<li><a href=\\"https://github.com/features/actions\\">GitHub Actions</a></li>
 </ul>
 <p>Deployed to:</p>
 <ul>

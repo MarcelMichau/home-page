@@ -33,7 +33,7 @@ Tested using:
 
 - [Jest](https://jestjs.io/)
 - [Docker](https://www.docker.com/)
-- [Travis CI](https://travis-ci.com/MarcelMichau/home-page)
+- [GitHub Actions](https://github.com/features/actions)
 
 Deployed to:
 
