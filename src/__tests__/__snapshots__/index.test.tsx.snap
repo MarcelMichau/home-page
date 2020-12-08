@@ -141,7 +141,7 @@ exports[`IndexPage renders correctly 1`] = `
               src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMEBQEC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgEAA//aAAwDAQACEAMQAAABn7XkD8JV55GmZVwZ/8QAHRAAAgEEAwAAAAAAAAAAAAAAAQIDAAQRIRITFP/aAAgBAQABBQIthED49RrIa3QaRI1WFz2z6PGv/8QAFhEBAQEAAAAAAAAAAAAAAAAAEAFB/9oACAEDAQE/AYYf/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQETH/2gAIAQIBAT8BKHsf/8QAHRAAAgIBBQAAAAAAAAAAAAAAAAEREmEQITEycf/aAAgBAQAGPwK2C1jqbjctL0iUxZKLhrT/xAAbEAEBAQADAQEAAAAAAAAAAAABEQAhMVFBcf/aAAgBAQABPyG2eYJvuLLE4whgy+usR5Jy6M9dCrRRHrA6CxD90n13/9oADAMBAAIAAwAAABDwwMD/xAAYEQEBAAMAAAAAAAAAAAAAAAABABEhMf/aAAgBAwEBPxAiK247sF//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8QrSDI/8QAHRABAAICAwEBAAAAAAAAAAAAAQARIUExUdFhsf/aAAgBAQABPxAhFgB20BFpPjJl0dQ40vfMBMAx+hqDbYRBkr9h+1FUMx9e3RF61BR60M08lhrPnNeT/9k="
               style={
                 Object {
-                  "border": "5px solid #f92f2f",
+                  "border": "5px solid #a30505",
                   "borderRadius": "50%",
                   "boxShadow": "0px 0px 15px 0px rgba(0,0,0,0.75)",
                   "height": "250px",
@@ -180,7 +180,7 @@ exports[`IndexPage renders correctly 1`] = `
 /static/ceeab084c21596435216ed7397fb861b/7b2a1/profile.jpg 2x"
                 style={
                   Object {
-                    "border": "5px solid #f92f2f",
+                    "border": "5px solid #a30505",
                     "borderRadius": "50%",
                     "boxShadow": "0px 0px 15px 0px rgba(0,0,0,0.75)",
                     "height": "250px",
