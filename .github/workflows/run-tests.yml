@@ -1,0 +1,11 @@
+name: Run Tests & Upload Coverage Results
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker build -t marcelmichau/home-page -f Dockerfile.dev .
