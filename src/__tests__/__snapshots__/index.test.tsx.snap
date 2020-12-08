@@ -307,11 +307,11 @@ exports[`IndexPage renders correctly 1`] = `
 </ul>
 <p>Along with:</p>
 <ul>
-<li><a href=\\"https://www.gatsbyjs.org/\\">Gatsby</a></li>
+<li><a href=\\"https://www.gatsbyjs.com/\\">Gatsby</a></li>
 </ul>
 <p>With some help from:</p>
 <ul>
-<li><a href=\\"https://www.styled-components.com/\\">Styled Components</a></li>
+<li><a href=\\"https://styled-components.com/\\">Styled Components</a></li>
 <li><a href=\\"https://fontawesome.com/\\">Font Awesome</a></li>
 <li><a href=\\"https://mattboldt.com/demos/typed-js/\\">Typed.js</a></li>
 <li><a href=\\"https://getwaves.io/\\">getwaves.io</a></li>
