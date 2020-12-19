@@ -1,6 +1,6 @@
 FROM node:15.4.0
 
-RUN npm i -g npm@7.1.0
+RUN npm i -g npm@7.3.0
 
 WORKDIR /app
 
