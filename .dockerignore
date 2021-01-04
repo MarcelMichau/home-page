@@ -6,3 +6,8 @@ node_modules
 public/
 .DS_Store
 coverage
+.vscode
+.github
+LICENSE
+README.md
+vercel.json
