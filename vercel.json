@@ -2,7 +2,7 @@
 	"name": "home-page",
 	"headers": [
 		{
-			"source": "/(*.html)",
+			"source": "/(.*.html)",
 			"headers": [
 				{
 					"key": "X-XSS-Protection",
