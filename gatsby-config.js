@@ -23,6 +23,7 @@ module.exports = {
 			},
 			__key: 'images',
 		},
+		`gatsby-plugin-image`,
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
 		`gatsby-plugin-styled-components`,
@@ -35,20 +36,7 @@ module.exports = {
 				background_color: '#272932',
 				theme_color: '#30333c',
 				display: 'minimal-ui',
-				icon: path.join(__dirname, `src`, `images`, `mm-logo.png`), // This path is relative to the root of the site.
-			},
-		},
-		{
-			resolve: `gatsby-plugin-favicons`,
-			options: {
-				logo: path.join(__dirname, `src`, `images`, `mm-logo.png`),
-				icons: {
-					android: true,
-					appleIcon: true,
-					appleStartup: true,
-					favicons: true,
-					windows: true,
-				},
+				icon: path.join(__dirname, `src`, `images`, `mm-logo.png`),
 			},
 		},
 	],

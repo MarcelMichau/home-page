@@ -10,12 +10,13 @@ const StyledProfileIcons = styled.div`
 	margin: 0 auto;
 	max-width: 200px;
 	padding: 2em;
+	min-height: 32px;
 
 	a {
-		color: ${(props) => lighten(0.45, props.theme.accentColour)};
+		color: ${(props) => lighten(0.55, props.theme.accentColour)};
 
 		:hover {
-			color: ${(props) => lighten(0.3, props.theme.accentColour)};
+			color: ${(props) => lighten(0.4, props.theme.accentColour)};
 		}
 	}
 `;

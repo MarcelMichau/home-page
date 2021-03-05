@@ -1,25 +1,30 @@
 import React from 'react';
-import Img, { FixedObject } from 'gatsby-image';
+import { StaticImage } from 'gatsby-plugin-image';
 import { lighten } from 'polished';
 import { theme } from '../styles/theme';
 
-type ProfileImageProps = {
-	fixed: FixedObject | FixedObject[];
-};
+const ProfileImage = () => {
+	const imageSize = 250;
+	const padding = 5;
 
-const ProfileImage = ({ fixed }: ProfileImageProps) => {
 	return (
-		<Img
+		<StaticImage
 			imgStyle={{
+				background: `${lighten(0.15, theme.accentColour)}`,
 				borderRadius: '50%',
-				height: '250px',
-				width: '250px',
-				margin: '20px',
-				border: `5px solid ${lighten(0.2, theme.accentColour)}`,
+				width: `${imageSize - padding * 2}px`,
+				height: `${imageSize - padding * 2}px`,
+				padding: `${padding}px`,
+			}}
+			style={{
+				borderRadius: '50%',
 				boxShadow: '0px 0px 15px 0px rgba(0,0,0,0.75)',
 			}}
-			fixed={fixed}
+			src="../images/profile.jpg"
 			alt="Profile Picture of Marcel Michau"
+			placeholder="tracedSVG"
+			width={imageSize}
+			height={imageSize}
 		/>
 	);
 };
