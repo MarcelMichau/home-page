@@ -15,10 +15,10 @@ const ProfileImage = () => {
 				width: `${imageSize - padding * 2}px`,
 				height: `${imageSize - padding * 2}px`,
 				padding: `${padding}px`,
-				boxShadow: '0px 0px 15px 0px rgba(0,0,0,0.75)',
 			}}
 			style={{
 				borderRadius: '50%',
+				boxShadow: '0px 0px 15px 0px rgba(0,0,0,0.75)',
 			}}
 			src="../images/profile.jpg"
 			alt="Profile Picture of Marcel Michau"

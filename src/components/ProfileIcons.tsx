@@ -10,6 +10,7 @@ const StyledProfileIcons = styled.div`
 	margin: 0 auto;
 	max-width: 200px;
 	padding: 2em;
+	min-height: 32px;
 
 	a {
 		color: ${(props) => lighten(0.55, props.theme.accentColour)};
