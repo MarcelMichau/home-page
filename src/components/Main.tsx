@@ -15,7 +15,7 @@ const StyledMain = styled.main`
 	color: ${(props) => props.theme.fontColour};
 
 	a {
-		color: ${(props) => lighten(0.45, props.theme.accentColour)};
+		color: ${(props) => lighten(0.55, props.theme.accentColour)};
 		text-decoration: none;
 
 		:hover {

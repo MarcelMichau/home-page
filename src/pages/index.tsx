@@ -12,17 +12,12 @@ export function IndexPage({ data }: PageProps) {
 		<ThemeProvider theme={theme}>
 			<Layout>
 				<PageContainer
-					headerContent={
-						<Profile
-							fixedResolutions={data.profileImage.childImageSharp.fixed}
-						/>
-					}
+					headerContent={<Profile />}
 					mainContent={
 						<div
 							dangerouslySetInnerHTML={{ __html: data.markdownContent.html }}
 						/>
 					}
-					logoImageResolutions={data.logoImage.childImageSharp.fixed}
 				/>
 			</Layout>
 		</ThemeProvider>

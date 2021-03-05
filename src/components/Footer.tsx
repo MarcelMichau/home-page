@@ -1,5 +1,5 @@
 import React from 'react';
-import Img, { FixedObject } from 'gatsby-image';
+import { StaticImage } from 'gatsby-plugin-image';
 import styled, { withTheme, DefaultTheme } from 'styled-components';
 import Centered from './Centered';
 
@@ -16,10 +16,9 @@ const StyledWave = styled.svg`
 type FooterProps = {
 	className?: string;
 	theme: DefaultTheme;
-	logoImageResolutions: FixedObject | FixedObject[];
 };
 
-let Footer = ({ className, theme, logoImageResolutions }: FooterProps) => (
+let Footer = ({ className, theme }: FooterProps) => (
 	<>
 		<StyledWave xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
 			<path
@@ -31,13 +30,12 @@ let Footer = ({ className, theme, logoImageResolutions }: FooterProps) => (
 		<div>
 			<Centered className={className}>
 				<StyledFooter>
-					<Img
-						imgStyle={{
-							height: '30px',
-							width: '30px',
-						}}
-						fixed={logoImageResolutions}
+					<StaticImage
+						src="../images/mm-logo.png"
 						alt="MM Logo"
+						placeholder="tracedSVG"
+						width={30}
+						height={30}
 					/>
 					<div>Marcel Michau &copy; {new Date().getFullYear()}</div>
 				</StyledFooter>
