@@ -39,5 +39,14 @@ module.exports = {
 				icon: path.join(__dirname, `src`, `images`, `mm-logo.png`),
 			},
 		},
+		{
+			resolve: 'gatsby-plugin-web-font-loader',
+			options: {
+				google: {
+					families: ['Fira Sans:400,500', 'Fira Mono'],
+					text: 'acdefghiIlMnorstuw.&"();',
+				},
+			},
+		},
 	],
 };

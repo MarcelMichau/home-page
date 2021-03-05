@@ -40,25 +40,6 @@ export default ({ children }: { children: React.ReactNode }) => {
 					content="u17FNJFETGielUaXh6jVCfwAFwN1OM0pnJ6sYC2W2oc"
 				/>
 				<title>Marcel Michau - I write code & stuff</title>
-
-				<link
-					rel="preconnect"
-					href="https://fonts.gstatic.com/"
-					crossOrigin={'anonymous'}
-				/>
-				<link rel="dns-prefetch" href="https://fonts.gstatic.com/" />
-
-				<link
-					rel="preconnect"
-					href="https://fonts.googleapis.com/"
-					crossOrigin={'anonymous'}
-				/>
-				<link rel="dns-prefetch" href="https://fonts.googleapis.com/" />
-
-				<link
-					href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans:wght@400;500&display=swap"
-					rel="stylesheet"
-				/>
 			</Helmet>
 			<div>
 				<GlobalStyle />
