@@ -44,7 +44,7 @@ exports[`IndexPage renders correctly 1`] = `
 }
 
 .c6 a {
-  color: #f92f2f;
+  color: #fa6060;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
@@ -99,14 +99,15 @@ exports[`IndexPage renders correctly 1`] = `
   margin: 0 auto;
   max-width: 200px;
   padding: 2em;
+  min-height: 32px;
 }
 
 .c5 a {
-  color: #f92f2f;
+  color: #fa6060;
 }
 
 .c5 a:hover {
-  color: #d40707;
+  color: #f81616;
 }
 
 .c4 {
