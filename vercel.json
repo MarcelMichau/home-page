@@ -2,7 +2,7 @@
 	"name": "home-page",
 	"headers": [
 		{
-			"source": "/(.html)",
+			"source": "/*.html",
 			"headers": [
 				{
 					"key": "X-XSS-Protection",
@@ -15,10 +15,6 @@
 				{
 					"key": "Access-Control-Allow-Origin",
 					"value": "https://marcelmichau.dev"
-				},
-				{
-					"key": "X-Content-Type-Options",
-					"value": "nosniff"
 				},
 				{
 					"key": "X-Frame-Options",
@@ -47,6 +43,15 @@
 				{
 					"key": "Cross-Origin-Resource-Policy",
 					"value": "same-origin"
+				}
+			]
+		},
+		{
+			"source": "/(.*)",
+			"headers": [
+				{
+					"key": "X-Content-Type-Options",
+					"value": "nosniff"
 				}
 			]
 		}
