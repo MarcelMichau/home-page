@@ -2,7 +2,16 @@
 	"name": "home-page",
 	"headers": [
 		{
-			"source": "/index.html",
+			"source": "/(.*)",
+			"headers": [
+				{
+					"key": "X-Content-Type-Options",
+					"value": "nosniff"
+				}
+			]
+		},
+		{
+			"source": "/(.*).html",
 			"headers": [
 				{
 					"key": "X-XSS-Protection",
@@ -43,15 +52,6 @@
 				{
 					"key": "Cross-Origin-Resource-Policy",
 					"value": "same-origin"
-				}
-			]
-		},
-		{
-			"source": "/(.*)",
-			"headers": [
-				{
-					"key": "X-Content-Type-Options",
-					"value": "nosniff"
 				}
 			]
 		}
