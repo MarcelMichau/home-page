@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"source": "/(.*).html",
+			"source": "/(.*).vercel.app",
 			"headers": [
 				{
 					"key": "X-XSS-Protection",
