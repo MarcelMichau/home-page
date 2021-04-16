@@ -34,7 +34,7 @@
 				},
 				{
 					"key": "Permissions-Policy",
-					"value": "camera=(), microphone=(), geolocation=(), accelerometer=(), gyroscope=(), autoplay=()"
+					"value": "camera=(), microphone=(), geolocation=(), accelerometer=(), gyroscope=(), autoplay=(), interest-cohort=()"
 				},
 				{
 					"key": "Cross-Origin-Embedder-Policy",
