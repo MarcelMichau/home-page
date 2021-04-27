@@ -1,56 +1,65 @@
-import React, { useRef, useEffect } from 'react';
-import Typed from 'typed.js';
+import React from 'react';
 import styled from 'styled-components';
 
-const StyledSubtitle = styled.div`
+const StyledSubtitleWrapper = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+`;
+
+const StyledSubtitle = styled.span`
 	font-family: 'Fira Mono', 'Consolas', monospace;
 	font-size: 16px;
 	min-height: 20px;
+	width: 36ch;
+	animation: typing 2s steps(36), blink 0.5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 2px solid;
 
-	.console {
-		color: white;
+	@keyframes typing {
+		from {
+			width: 0;
+		}
 	}
 
-	.punctuation {
-		color: lightblue;
-	}
-
-	.log {
-		color: lightpink;
-	}
-
-	.text {
-		color: lightgreen;
+	@keyframes blink {
+		50% {
+			border-color: transparent;
+		}
 	}
 `;
 
+const StyledConsole = styled.span`
+	color: white;
+`;
+
+const StyledPunctuation = styled.span`
+	color: lightblue;
+`;
+
+const StyledLog = styled.span`
+	color: lightpink;
+`;
+
+const StyledText = styled.span`
+	color: lightgreen;
+`;
+
 const TypingSubtitle = () => {
-	const inputEl = useRef<HTMLSpanElement>(null);
-
-	useEffect(() => {
-		const options = {
-			strings: [
-				'<span class="console">console</span><span class="punctuation">.</span><span class="log">log</span>(<span class="text"><span class="punctuation">"</span>I write code &amp; stuff<span class="punctuation">"</span></span>)<span class="punctuation">;</span>',
-			],
-			typeSpeed: 55,
-			backSpeed: 55,
-		};
-
-		// @ts-ignore
-		const typed = new Typed(inputEl.current, options);
-		// This is the approach recommended by Typed.js docs, but throws error:
-		// Argument of type 'HTMLSpanElement | null' is not assignable to parameter of type 'string'. Type 'null' is not assignable to type 'string'.
-		// But the code still works ¯\_(ツ)_/¯
-
-		return function cleanup() {
-			typed.destroy();
-		};
-	}, []);
-
 	return (
-		<StyledSubtitle>
-			<span ref={inputEl}></span>
-		</StyledSubtitle>
+		<StyledSubtitleWrapper>
+			<StyledSubtitle>
+				<StyledConsole>console</StyledConsole>
+				<StyledPunctuation>.</StyledPunctuation>
+				<StyledLog>log</StyledLog>(
+				<StyledText>
+					<StyledPunctuation>"</StyledPunctuation>I write code & stuff
+					<StyledPunctuation>"</StyledPunctuation>
+				</StyledText>
+				)<StyledPunctuation>;</StyledPunctuation>
+			</StyledSubtitle>
+		</StyledSubtitleWrapper>
 	);
 };
 
