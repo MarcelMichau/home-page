@@ -1,7 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const StyledSubtitle = styled.div`
+const StyledSubtitleWrapper = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+`;
+
+const StyledSubtitle = styled.span`
 	font-family: 'Fira Mono', 'Consolas', monospace;
 	font-size: 16px;
 	min-height: 20px;
@@ -42,16 +48,18 @@ const StyledSubtitle = styled.div`
 
 const TypingSubtitle = () => {
 	return (
-		<StyledSubtitle>
-			<span className="console">console</span>
-			<span className="punctuation">.</span>
-			<span className="log">log</span>(
-			<span className="text">
-				<span className="punctuation">"</span>I write code & stuff
-				<span className="punctuation">"</span>
-			</span>
-			)<span className="punctuation">;</span>
-		</StyledSubtitle>
+		<StyledSubtitleWrapper>
+			<StyledSubtitle>
+				<span className="console">console</span>
+				<span className="punctuation">.</span>
+				<span className="log">log</span>(
+				<span className="text">
+					<span className="punctuation">"</span>I write code & stuff
+					<span className="punctuation">"</span>
+				</span>
+				)<span className="punctuation">;</span>
+			</StyledSubtitle>
+		</StyledSubtitleWrapper>
 	);
 };
 
