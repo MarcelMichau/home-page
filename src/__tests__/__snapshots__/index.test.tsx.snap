@@ -22,7 +22,7 @@ exports[`IndexPage renders correctly 1`] = `
   justify-content: center;
 }
 
-.c7 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -43,24 +43,24 @@ exports[`IndexPage renders correctly 1`] = `
   color: #FFFFFF;
 }
 
-.c7 a {
+.c8 a {
   color: #fa6060;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c7 a:hover {
+.c8 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c10 {
+.c11 {
   background-color: #400202;
   padding-top: 1em;
   padding-bottom: 2em;
 }
 
-.c9 {
+.c10 {
   margin-bottom: -10px;
 }
 
@@ -79,15 +79,30 @@ exports[`IndexPage renders correctly 1`] = `
   height: 100vh;
 }
 
-.c8 {
+.c9 {
   grid-area: m;
 }
 
-.c11 {
+.c12 {
   grid-area: f;
 }
 
 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
   font-family: 'Fira Mono','Consolas',monospace;
   font-size: 16px;
   min-height: 20px;
@@ -99,23 +114,23 @@ exports[`IndexPage renders correctly 1`] = `
   border-right: 3px solid;
 }
 
-.c5 .console {
+.c6 .console {
   color: white;
 }
 
-.c5 .punctuation {
+.c6 .punctuation {
   color: lightblue;
 }
 
-.c5 .log {
+.c6 .log {
   color: lightpink;
 }
 
-.c5 .text {
+.c6 .text {
   color: lightgreen;
 }
 
-.c6 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -130,11 +145,11 @@ exports[`IndexPage renders correctly 1`] = `
   min-height: 32px;
 }
 
-.c6 a {
+.c7 a {
   color: #fa6060;
 }
 
-.c6 a:hover {
+.c7 a:hover {
   color: #f81616;
 }
 
@@ -161,45 +176,49 @@ exports[`IndexPage renders correctly 1`] = `
             className="c5"
           >
             <span
-              className="console"
+              className="c6"
             >
-              console
-            </span>
-            <span
-              className="punctuation"
-            >
-              .
-            </span>
-            <span
-              className="log"
-            >
-              log
-            </span>
-            (
-            <span
-              className="text"
-            >
+              <span
+                className="console"
+              >
+                console
+              </span>
               <span
                 className="punctuation"
               >
-                "
+                .
               </span>
-              I write code & stuff
+              <span
+                className="log"
+              >
+                log
+              </span>
+              (
+              <span
+                className="text"
+              >
+                <span
+                  className="punctuation"
+                >
+                  "
+                </span>
+                I write code & stuff
+                <span
+                  className="punctuation"
+                >
+                  "
+                </span>
+              </span>
+              )
               <span
                 className="punctuation"
               >
-                "
+                ;
               </span>
-            </span>
-            )
-            <span
-              className="punctuation"
-            >
-              ;
             </span>
           </div>
           <div
-            className="c6"
+            className="c7"
           >
             <a
               aria-label="GitHub Profile"
@@ -274,7 +293,7 @@ exports[`IndexPage renders correctly 1`] = `
         </div>
       </header>
       <main
-        className="c7 c8"
+        className="c8 c9"
       >
         <div
           dangerouslySetInnerHTML={
@@ -333,7 +352,7 @@ exports[`IndexPage renders correctly 1`] = `
         />
       </main>
       <svg
-        className="c9"
+        className="c10"
         viewBox="0 0 1440 320"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -345,7 +364,7 @@ exports[`IndexPage renders correctly 1`] = `
       </svg>
       <div>
         <footer
-          className="c10 c2 c11"
+          className="c11 c2 c12"
         >
           <div>
             Marcel Michau © 
