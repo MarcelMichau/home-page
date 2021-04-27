@@ -21,7 +21,6 @@ With some help from:
 
 - [Styled Components](https://styled-components.com/)
 - [Font Awesome](https://fontawesome.com/)
-- [Typed.js](https://mattboldt.com/demos/typed-js/)
 - [getwaves.io](https://getwaves.io/)
 
 With code kept in line by:

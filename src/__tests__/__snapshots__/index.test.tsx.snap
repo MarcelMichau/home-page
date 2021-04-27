@@ -22,7 +22,7 @@ exports[`IndexPage renders correctly 1`] = `
   justify-content: center;
 }
 
-.c6 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -43,24 +43,24 @@ exports[`IndexPage renders correctly 1`] = `
   color: #FFFFFF;
 }
 
-.c6 a {
+.c7 a {
   color: #fa6060;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c6 a:hover {
+.c7 a:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
 
-.c9 {
+.c10 {
   background-color: #400202;
   padding-top: 1em;
   padding-bottom: 2em;
 }
 
-.c8 {
+.c9 {
   margin-bottom: -10px;
 }
 
@@ -79,15 +79,43 @@ exports[`IndexPage renders correctly 1`] = `
   height: 100vh;
 }
 
-.c7 {
+.c8 {
   grid-area: m;
 }
 
-.c10 {
+.c11 {
   grid-area: f;
 }
 
 .c5 {
+  font-family: 'Fira Mono','Consolas',monospace;
+  font-size: 16px;
+  min-height: 20px;
+  width: 36ch;
+  -webkit-animation: typing 2s steps(36),blink 0.5s step-end infinite alternate;
+  animation: typing 2s steps(36),blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+.c5 .console {
+  color: white;
+}
+
+.c5 .punctuation {
+  color: lightblue;
+}
+
+.c5 .log {
+  color: lightpink;
+}
+
+.c5 .text {
+  color: lightgreen;
+}
+
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -102,11 +130,11 @@ exports[`IndexPage renders correctly 1`] = `
   min-height: 32px;
 }
 
-.c5 a {
+.c6 a {
   color: #fa6060;
 }
 
-.c5 a:hover {
+.c6 a:hover {
   color: #f81616;
 }
 
@@ -131,6 +159,47 @@ exports[`IndexPage renders correctly 1`] = `
           </h2>
           <div
             className="c5"
+          >
+            <span
+              className="console"
+            >
+              console
+            </span>
+            <span
+              className="punctuation"
+            >
+              .
+            </span>
+            <span
+              className="log"
+            >
+              log
+            </span>
+            (
+            <span
+              className="text"
+            >
+              <span
+                className="punctuation"
+              >
+                "
+              </span>
+              I write code & stuff
+              <span
+                className="punctuation"
+              >
+                "
+              </span>
+            </span>
+            )
+            <span
+              className="punctuation"
+            >
+              ;
+            </span>
+          </div>
+          <div
+            className="c6"
           >
             <a
               aria-label="GitHub Profile"
@@ -205,7 +274,7 @@ exports[`IndexPage renders correctly 1`] = `
         </div>
       </header>
       <main
-        className="c6 c7"
+        className="c7 c8"
       >
         <div
           dangerouslySetInnerHTML={
@@ -225,7 +294,6 @@ exports[`IndexPage renders correctly 1`] = `
 <ul>
 <li><a href=\\"https://styled-components.com/\\">Styled Components</a></li>
 <li><a href=\\"https://fontawesome.com/\\">Font Awesome</a></li>
-<li><a href=\\"https://mattboldt.com/demos/typed-js/\\">Typed.js</a></li>
 <li><a href=\\"https://getwaves.io/\\">getwaves.io</a></li>
 </ul>
 <p>With code kept in line by:</p>
@@ -265,7 +333,7 @@ exports[`IndexPage renders correctly 1`] = `
         />
       </main>
       <svg
-        className="c8"
+        className="c9"
         viewBox="0 0 1440 320"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -277,7 +345,7 @@ exports[`IndexPage renders correctly 1`] = `
       </svg>
       <div>
         <footer
-          className="c9 c2 c10"
+          className="c10 c2 c11"
         >
           <div>
             Marcel Michau © 
