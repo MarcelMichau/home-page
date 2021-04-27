@@ -15,23 +15,7 @@ const StyledSubtitle = styled.span`
 	animation: typing 2s steps(36), blink 0.5s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
-	border-right: 3px solid;
-
-	.console {
-		color: white;
-	}
-
-	.punctuation {
-		color: lightblue;
-	}
-
-	.log {
-		color: lightpink;
-	}
-
-	.text {
-		color: lightgreen;
-	}
+	border-right: 2px solid;
 
 	@keyframes typing {
 		from {
@@ -46,18 +30,34 @@ const StyledSubtitle = styled.span`
 	}
 `;
 
+const StyledConsole = styled.span`
+	color: white;
+`;
+
+const StyledPunctuation = styled.span`
+	color: lightblue;
+`;
+
+const StyledLog = styled.span`
+	color: lightpink;
+`;
+
+const StyledText = styled.span`
+	color: lightgreen;
+`;
+
 const TypingSubtitle = () => {
 	return (
 		<StyledSubtitleWrapper>
 			<StyledSubtitle>
-				<span className="console">console</span>
-				<span className="punctuation">.</span>
-				<span className="log">log</span>(
-				<span className="text">
-					<span className="punctuation">"</span>I write code & stuff
-					<span className="punctuation">"</span>
-				</span>
-				)<span className="punctuation">;</span>
+				<StyledConsole>console</StyledConsole>
+				<StyledPunctuation>.</StyledPunctuation>
+				<StyledLog>log</StyledLog>(
+				<StyledText>
+					<StyledPunctuation>"</StyledPunctuation>I write code & stuff
+					<StyledPunctuation>"</StyledPunctuation>
+				</StyledText>
+				)<StyledPunctuation>;</StyledPunctuation>
 			</StyledSubtitle>
 		</StyledSubtitleWrapper>
 	);
