@@ -16,7 +16,7 @@
 		"gatsby-plugin-sharp": "3.5.0",
 		"gatsby-plugin-styled-components": "4.5.0",
 		"gatsby-plugin-web-font-loader": "1.0.4",
-		"gatsby-source-filesystem": "3.5.0",
+		"gatsby-source-filesystem": "3.7.0",
 		"gatsby-transformer-remark": "4.2.0",
 		"gatsby-transformer-sharp": "3.5.0",
 		"polished": "4.1.2",
