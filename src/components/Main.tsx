@@ -13,6 +13,7 @@ const StyledMain = styled.main`
 	margin: 0 auto;
 	line-height: 2em;
 	color: ${(props) => props.theme.fontColour};
+	text-align: center;
 
 	a {
 		color: ${(props) => lighten(0.55, props.theme.accentColour)};
@@ -21,6 +22,11 @@ const StyledMain = styled.main`
 		:hover {
 			text-decoration: underline;
 		}
+	}
+
+	ul {
+		list-style: none;
+		padding-inline-start: 0px;
 	}
 `;
 

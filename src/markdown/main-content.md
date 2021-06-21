@@ -1,6 +1,6 @@
 ---
 path: '/'
-date: '2020-11-28'
+date: '2021-06-21'
 title: 'Main Content'
 ---
 
@@ -36,7 +36,8 @@ Tested using:
 
 Deployed to:
 
-- [Vercel](https://vercel.com/)
+- [Cloudflare Pages](https://pages.cloudflare.com/)
+- [Cloudflare Workers](https://workers.cloudflare.com/)
 
 And code hosted on:
 
@@ -48,9 +49,16 @@ It is intended to be:
 - Agile 🐢
 - Scalable ⚖️
 - Cloud-native 🌧️
+- Distributed 🎊
+- Resilient 🔨
+- Asynchronous ⏲
+- Sustainable 🌲
+- Privacy-focused 🔒
 - Enterprise-ready 🏢
 - Containerized 📦
-- Microservice-based 🔍
+- Built on Microservices 🔍
 - Powered by Machine Learning 🤖
 - Blockchain ₿
-- Filled with all the buzz words so that search engines pick this up 😁
+- Something about Artificial Intelligence 💡
+- Gluten-free 🍕
+- Filled with buzz words so that search engines pick this up 😁
