@@ -1,224 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`IndexPage renders correctly 1`] = `
-.c2 {
-  text-align: center;
-  background-color: #1c1d20;
-  color: #FFFFFF;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c12 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding-top: 1em;
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 2em;
-  color: #FFFFFF;
-}
-
-.c12 a {
-  color: #fa6060;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c12 a:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-}
-
-.c15 {
-  background-color: #400202;
-  padding-top: 1em;
-  padding-bottom: 2em;
-}
-
-.c14 {
-  margin-bottom: -10px;
-}
-
-.c0 {
-  background-color: #1c1d20;
-  display: grid;
-  min-height: 100vh;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr;
-  grid-gap: 5px;
-  grid-template-areas: 'h' 'm' 'f';
-}
-
-.c3 {
-  grid-area: h;
-  height: 100vh;
-}
-
-.c13 {
-  grid-area: m;
-}
-
-.c16 {
-  grid-area: f;
-}
-
-.c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c6 {
-  font-family: 'Fira Mono','Consolas',monospace;
-  font-size: 16px;
-  min-height: 20px;
-  width: 36ch;
-  -webkit-animation: typing 2s steps(36),blink 0.5s step-end infinite alternate;
-  animation: typing 2s steps(36),blink 0.5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 2px solid;
-}
-
-.c7 {
-  color: white;
-}
-
-.c8 {
-  color: lightblue;
-}
-
-.c9 {
-  color: lightpink;
-}
-
-.c10 {
-  color: lightgreen;
-}
-
-.c11 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-  -webkit-justify-content: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-  margin: 0 auto;
-  max-width: 200px;
-  padding: 2em;
-  min-height: 32px;
-}
-
-.c11 a {
-  color: #fa6060;
-}
-
-.c11 a:hover {
-  color: #f81616;
-}
-
-.c4 {
-  font-family: 'Fira Sans',sans-serif;
-  font-size: calc(32px + (48 - 32) * ((100vw - 300px) / (1600 - 300)));
-}
-
 <div>
   <div>
     <div
-      className="c0"
+      className=""
     >
       <header
-        className="c1 c2 c3"
+        className=""
       >
         <div>
           <h2
-            className="c4"
+            className=""
           >
             Marcel Michau
           </h2>
           <div
-            className="c5"
+            className=""
           >
             <span
-              className="c6"
+              className=""
             >
               <span
-                className="c7"
+                className=""
               >
                 console
               </span>
               <span
-                className="c8"
+                className=""
               >
                 .
               </span>
               <span
-                className="c9"
+                className=""
               >
                 log
               </span>
               (
               <span
-                className="c10"
+                className=""
               >
                 <span
-                  className="c8"
+                  className=""
                 >
                   "
                 </span>
                 I write code & stuff
                 <span
-                  className="c8"
+                  className=""
                 >
                   "
                 </span>
               </span>
               )
               <span
-                className="c8"
+                className=""
               >
                 ;
               </span>
             </span>
           </div>
           <div
-            className="c11"
+            className=""
           >
             <a
               aria-label="GitHub Profile"
@@ -293,7 +136,7 @@ exports[`IndexPage renders correctly 1`] = `
         </div>
       </header>
       <main
-        className="c12 c13"
+        className=""
       >
         <div
           dangerouslySetInnerHTML={
@@ -328,7 +171,8 @@ exports[`IndexPage renders correctly 1`] = `
 </ul>
 <p>Deployed to:</p>
 <ul>
-<li><a href=\\"https://vercel.com/\\">Vercel</a></li>
+<li><a href=\\"https://pages.cloudflare.com/\\">Cloudflare Pages</a></li>
+<li><a href=\\"https://workers.cloudflare.com/\\">Cloudflare Workers</a></li>
 </ul>
 <p>And code hosted on:</p>
 <ul>
@@ -340,19 +184,26 @@ exports[`IndexPage renders correctly 1`] = `
 <li>Agile 🐢</li>
 <li>Scalable ⚖️</li>
 <li>Cloud-native 🌧️</li>
+<li>Distributed 🎊</li>
+<li>Resilient 🔨</li>
+<li>Asynchronous ⏲</li>
+<li>Sustainable 🌲</li>
+<li>Privacy-focused 🔒</li>
 <li>Enterprise-ready 🏢</li>
 <li>Containerized 📦</li>
-<li>Microservice-based 🔍</li>
+<li>Built on Microservices 🔍</li>
 <li>Powered by Machine Learning 🤖</li>
 <li>Blockchain ₿</li>
-<li>Filled with all the buzz words so that search engines pick this up 😁</li>
+<li>Something about Artificial Intelligence 💡</li>
+<li>Gluten-free 🍕</li>
+<li>Filled with buzz words so that search engines pick this up 😁</li>
 </ul>",
             }
           }
         />
       </main>
       <svg
-        className="c14"
+        className=""
         viewBox="0 0 1440 320"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -364,7 +215,7 @@ exports[`IndexPage renders correctly 1`] = `
       </svg>
       <div>
         <footer
-          className="c15 c2 c16"
+          className=""
         >
           <div>
             Marcel Michau © 
