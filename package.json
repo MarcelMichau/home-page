@@ -50,7 +50,7 @@
 		"@types/react-test-renderer": "17.0.1",
 		"@types/styled-components": "5.1.10",
 		"babel-core": "6.26.3",
-		"babel-jest": "27.0.2",
+		"babel-jest": "27.0.5",
 		"babel-preset-gatsby": "1.7.1",
 		"identity-obj-proxy": "3.0.0",
 		"jest": "27.0.4",
