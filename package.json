@@ -12,7 +12,7 @@
 		"gatsby": "3.7.2",
 		"gatsby-plugin-image": "1.7.1",
 		"gatsby-plugin-manifest": "3.7.1",
-		"gatsby-plugin-react-helmet": "4.7.1",
+		"gatsby-plugin-react-helmet": "4.8.0",
 		"gatsby-plugin-sharp": "3.7.1",
 		"gatsby-plugin-styled-components": "4.7.1",
 		"gatsby-plugin-web-font-loader": "1.0.4",
