@@ -10,7 +10,6 @@ const Container = styled.div`
 	min-height: 100vh;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto 1fr;
-	grid-gap: 5px;
 	grid-template-areas:
 		'h'
 		'm'
