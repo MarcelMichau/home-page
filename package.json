@@ -51,7 +51,7 @@
 		"@types/styled-components": "5.1.11",
 		"babel-core": "6.26.3",
 		"babel-jest": "27.0.6",
-		"babel-preset-gatsby": "1.9.0",
+		"babel-preset-gatsby": "1.10.0",
 		"identity-obj-proxy": "3.0.0",
 		"jest": "27.0.6",
 		"jest-styled-components": "7.0.5",
