@@ -11,10 +11,8 @@ const StyledSubtitle = styled.span`
 	font-family: 'Fira Mono', 'Consolas', monospace;
 	font-size: 16px;
 	min-height: 20px;
-	width: 36ch;
 	animation: typing 2s steps(36), blink 0.5s step-end infinite alternate;
 	white-space: nowrap;
-	overflow: hidden;
 	border-right: 2px solid;
 
 	@keyframes typing {
