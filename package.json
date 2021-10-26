@@ -44,7 +44,7 @@
 		"@babel/plugin-syntax-dynamic-import": "7.8.3",
 		"@babel/preset-typescript": "7.15.0",
 		"@types/jest": "26.0.24",
-		"@types/react": "17.0.15",
+		"@types/react": "17.0.33",
 		"@types/react-dom": "17.0.9",
 		"@types/react-helmet": "6.1.2",
 		"@types/react-test-renderer": "17.0.1",
