@@ -25,6 +25,7 @@ const ProfileImage = () => {
 			placeholder="tracedSVG"
 			width={imageSize}
 			height={imageSize}
+			loading="eager"
 		/>
 	);
 };
