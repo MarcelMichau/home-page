@@ -53,7 +53,7 @@
 		"babel-jest": "27.5.0",
 		"babel-preset-gatsby": "2.6.0",
 		"identity-obj-proxy": "3.0.0",
-		"jest": "27.5.0",
+		"jest": "27.5.1",
 		"jest-styled-components": "7.0.8",
 		"prettier": "2.5.1",
 		"react-test-renderer": "17.0.2",
