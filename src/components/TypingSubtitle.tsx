@@ -11,7 +11,7 @@ const StyledSubtitle = styled.span`
 	font-family: 'Fira Mono', 'Consolas', monospace;
 	font-size: 16px;
 	min-height: 20px;
-	width: 36ch;
+	width: 346px; // exact width of text after font loads in (prevents last couple of characters from being cut off)
 	animation: typing 2s steps(36), blink 0.5s step-end infinite alternate;
 	white-space: nowrap;
 	overflow: hidden;
