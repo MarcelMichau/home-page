@@ -17,7 +17,7 @@
 		"gatsby-plugin-styled-components": "5.10.0",
 		"gatsby-plugin-web-font-loader": "1.0.4",
 		"gatsby-source-filesystem": "4.10.0",
-		"gatsby-transformer-remark": "5.10.1",
+		"gatsby-transformer-remark": "5.10.2",
 		"gatsby-transformer-sharp": "4.10.0",
 		"polished": "4.1.4",
 		"react": "17.0.2",
