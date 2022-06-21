@@ -6,7 +6,7 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Expect-CT: max-age=0, report-uri='https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/ct/reportOnly'
-  Permissions-Policy:'camera=(), microphone=(), geolocation=(), accelerometer=(), gyroscope=(), autoplay=(), interest-cohort=()
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), accelerometer=(), gyroscope=(), autoplay=(), interest-cohort=()
   Cross-Origin-Embedder-Policy: require-corp
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: same-origin
