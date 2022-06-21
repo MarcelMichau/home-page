@@ -20,6 +20,6 @@ jobs:
           CONTAINER_ID=$(docker ps -alq)
           docker cp $CONTAINER_ID:/app/coverage $(pwd)/coverage
       - name: Upload Coverage Report
-        uses: paambaati/codeclimate-action@v2.7.4
+        uses: paambaati/codeclimate-action@v3.0.0
         env:
           CC_TEST_REPORTER_ID: 7672e20d57be9ceb1846716afe90826b89b13ff79a7172f1eb9927630d31e51e
