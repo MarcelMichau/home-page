@@ -4,6 +4,7 @@ module.exports = {
 	siteMetadata: {
 		title: `Marcel Michau - I write code & stuff`,
 	},
+	trailingSlash: 'always',
 	plugins: [
 		`gatsby-plugin-react-helmet`,
 		{
