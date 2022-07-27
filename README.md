@@ -39,7 +39,6 @@ Tested using:
 Deployed to:
 
 - [Cloudflare Pages](https://pages.cloudflare.com/)
-- [Cloudflare Workers](https://workers.cloudflare.com/)
 
 And code hosted on:
 

@@ -172,7 +172,6 @@ exports[`IndexPage renders correctly 1`] = `
 <p>Deployed to:</p>
 <ul>
 <li><a href=\\"https://pages.cloudflare.com/\\">Cloudflare Pages</a></li>
-<li><a href=\\"https://workers.cloudflare.com/\\">Cloudflare Workers</a></li>
 </ul>
 <p>And code hosted on:</p>
 <ul>
