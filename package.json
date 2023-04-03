@@ -57,7 +57,7 @@
 		"jest-styled-components": "7.1.1",
 		"prettier": "2.8.6",
 		"react-test-renderer": "18.2.0",
-		"ts-jest": "29.0.5",
+		"ts-jest": "29.1.0",
 		"typescript": "5.0.2"
 	},
 	"browserslist": [
