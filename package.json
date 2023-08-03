@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"author": "Marcel Michau",
 	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "6.4.0",
+		"@fortawesome/fontawesome-svg-core": "6.4.2",
 		"@fortawesome/free-brands-svg-icons": "6.4.0",
 		"@fortawesome/react-fontawesome": "0.2.0",
 		"babel-plugin-styled-components": "2.1.4",
