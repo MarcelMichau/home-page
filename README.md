@@ -1,13 +1,5 @@
 # Home Page 🏡📄
 
-![Run Tests & Upload Coverage Results](https://github.com/MarcelMichau/home-page/workflows/Run%20Tests%20&%20Upload%20Coverage%20Results/badge.svg)
-
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=MarcelMichau/home-page)](https://dependabot.com)
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/d6c2fdf5d3658a91f31c/maintainability)](https://codeclimate.com/github/MarcelMichau/home-page/maintainability)
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/d6c2fdf5d3658a91f31c/test_coverage)](https://codeclimate.com/github/MarcelMichau/home-page/test_coverage)
-
 This is my website. No one else's.
 
 It's built using:
