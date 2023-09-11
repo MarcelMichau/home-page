@@ -25,4 +25,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 58ac02314ef1f46bc0027b2a13d3025b
           projectName: home-page
-          directory: public
+          directory: src

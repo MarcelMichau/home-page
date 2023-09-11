@@ -12,29 +12,14 @@ This is my website. No one else's.
 
 It's built using:
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [React](https://reactjs.org/)
-
-Along with:
-
-- [Gatsby](https://www.gatsbyjs.com/)
+- [Good ol' vanilla HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 With some help from:
 
-- [Styled Components](https://styled-components.com/)
+- [GitHub Actions](https://github.com/features/actions/)
 - [Font Awesome](https://fontawesome.com/)
 - [getwaves.io](https://getwaves.io/)
-
-With code kept in line by:
-
-- [Code Climate](https://codeclimate.com/github/MarcelMichau/home-page)
-- [Prettier](https://prettier.io/)
-
-Tested using:
-
-- [Jest](https://jestjs.io/)
-- [Docker](https://www.docker.com/)
-- [GitHub Actions](https://github.com/features/actions)
 
 Deployed to:
 
