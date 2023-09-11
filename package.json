@@ -7,7 +7,7 @@
 		"tailwindcss": "^3.3.3"
 	},
 	"scripts": {
-		"start": "npx tailwindcss -i ./src/dist/main.css -o ./dist/main.css --watch",
+		"start": "npx tailwindcss -i ./src/styles/main.css -o ./src/dist/main.css --watch",
 		"build": "npx tailwindcss -o ./src/dist/main.css --minify"
 	},
 	"author": "Marcel Michau",
