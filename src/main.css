@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.background {
+.background-polygon {
   clip-path: polygon(
 									73.6% 51.7%,
 									91.7% 11.8%,
