@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: default-src 'none'; script-src 'self'; script-src-elem 'self' data:; style-src 'self' https://fonts.googleapis.com; connect-src 'self'; manifest-src 'self'; font-src https://fonts.gstatic.com 'self' data:; img-src 'self' data:; object-src 'none'; block-all-mixed-content; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; report-to https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/csp/enforce; report-uri https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/csp/enforce;
+  Content-Security-Policy: default-src 'none'; script-src 'self'; script-src-elem 'self'; style-src 'self'; connect-src 'self'; manifest-src 'self'; font-src 'self'; img-src 'self'; object-src 'none'; block-all-mixed-content; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; report-to https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/csp/enforce; report-uri https://b7ca037389ec9bb8220abf11b8d6540c.report-uri.com/r/d/csp/enforce;
   Access-Control-Allow-Origin: https://marcelmichau.dev
   X-Xss-Protection: 1; mode=block
   X-Frame-Options: DENY
