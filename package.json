@@ -4,7 +4,7 @@
 	"description": "Personal Website for Marcel Michau",
 	"main": "n/a",
 	"devDependencies": {
-		"tailwindcss": "^3.4.14"
+		"tailwindcss": "^3.4.15"
 	},
 	"scripts": {
 		"start": "npx tailwindcss -i ./src/main.css -o ./src/dist/main.css --watch",
