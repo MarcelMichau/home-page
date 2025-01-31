@@ -8,7 +8,7 @@
 	},
 	"scripts": {
 		"start": "npx @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --watch",
-		"build": "npx @tailwindcss/cli -i ./src/main.css ./src/main.css -o ./src/dist/main.css --minify"
+		"build": "npx @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --minify"
 	},
 	"author": "Marcel Michau",
 	"license": "MIT"
