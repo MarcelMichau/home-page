@@ -4,11 +4,11 @@
 	"description": "Personal Website for Marcel Michau",
 	"main": "n/a",
 	"devDependencies": {
-		"tailwindcss": "^3.4.15"
+		"tailwindcss": "^4.0.0"
 	},
 	"scripts": {
-		"start": "npx tailwindcss -i ./src/main.css -o ./src/dist/main.css --watch",
-		"build": "npx tailwindcss -i ./src/main.css ./src/main.css -o ./src/dist/main.css --minify"
+		"start": "npx @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --watch",
+		"build": "npx @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --minify"
 	},
 	"author": "Marcel Michau",
 	"license": "MIT"
