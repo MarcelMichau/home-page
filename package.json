@@ -1,10 +1,10 @@
 {
 	"name": "home-page",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Personal Website for Marcel Michau",
 	"main": "n/a",
 	"devDependencies": {
-		"tailwindcss": "^4.1.8"
+		"tailwindcss": "^4.1.13"
 	},
 	"scripts": {
 		"start": "npx @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --watch",

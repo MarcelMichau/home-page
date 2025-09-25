@@ -9,14 +9,14 @@ importers:
   .:
     devDependencies:
       tailwindcss:
-        specifier: ^4.1.8
-        version: 4.1.8
+        specifier: ^4.1.13
+        version: 4.1.13
 
 packages:
 
-  tailwindcss@4.1.8:
-    resolution: {integrity: sha512-kjeW8gjdxasbmFKpVGrGd5T4i40mV5J2Rasw48QARfYeQ8YS9x02ON9SFWax3Qf616rt4Cp3nVNIj6Hd1mP3og==}
+  tailwindcss@4.1.13:
+    resolution: {integrity: sha512-i+zidfmTqtwquj4hMEwdjshYYgMbOrPzb9a0M3ZgNa0JMoZeFC6bxZvO8yr8ozS6ix2SDz0+mvryPeBs2TFE+w==}
 
 snapshots:
 
-  tailwindcss@4.1.8: {}
+  tailwindcss@4.1.13: {}
