@@ -5,7 +5,7 @@
 	"main": "n/a",
 	"devDependencies": {
 		"tailwindcss": "^4.1.17",
-		"wrangler": "^4.52.1"
+		"wrangler": "^4.53.0"
 	},
 	"scripts": {
 		"start": "npx @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --watch",
