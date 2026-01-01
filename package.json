@@ -1,6 +1,6 @@
 {
 	"name": "home-page",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "Personal Website for Marcel Michau",
 	"main": "n/a",
 	"devDependencies": {
