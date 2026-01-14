@@ -1,16 +1,19 @@
 {
-	"name": "home-page",
-	"version": "2.0.2",
-	"description": "Personal Website for Marcel Michau",
-	"main": "n/a",
-	"devDependencies": {
-		"tailwindcss": "^4.1.18",
-		"wrangler": "^4.59.1"
-	},
-	"scripts": {
-		"start": "npx @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --watch",
-		"build": "npx @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --minify"
-	},
-	"author": "Marcel Michau",
-	"license": "MIT"
+  "name": "home-page",
+  "version": "2.0.2",
+  "description": "Personal Website for Marcel Michau",
+  "main": "n/a",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.8",
+    "tailwindcss": "^4.1.18",
+    "wrangler": "^4.59.1"
+  },
+  "scripts": {
+    "start": "npx @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --minify",
+    "test": "npx playwright test"
+  },
+  "author": "Marcel Michau",
+  "license": "MIT"
 }
