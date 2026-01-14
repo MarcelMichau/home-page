@@ -1,10 +1,8 @@
 import { test, expect } from '@playwright/test';
 
-const BASE_URL = 'file://' + process.cwd() + '/src/index.html';
-
 test.describe('Portfolio Website', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto(BASE_URL);
+    await page.goto('/');
   });
 
   test('Page metadata - Title and meta tags', async ({ page }) => {

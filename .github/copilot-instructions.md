@@ -15,8 +15,10 @@ This is a personal portfolio website built with vanilla HTML and Tailwind CSS v4
 ## Development Workflow
 
 ### Commands
-- **Development**: `pnpm start` - Watches `src/main.css` and rebuilds with Tailwind CLI
-- **Build**: `pnpm run build` - Minifies CSS for production
+- **Development**: `pnpm start` - Starts Wrangler dev server on http://localhost:8788
+- **Build CSS**: `pnpm run build` - Minifies CSS for production
+- **Watch CSS**: `pnpm run build:watch` - Watches `src/main.css` and rebuilds with Tailwind CLI
+- **Testing**: `pnpm test` - Runs Playwright tests (automatically starts dev server)
 - **Deploy**: Automatic via GitHub Actions on push to any branch
 
 ### Key Patterns
@@ -70,24 +72,27 @@ When modifying the site, ensure changes comply with the CSP (no inline scripts/s
 
 ## Testing Locally
 
-No local server configuration included. To test:
-1. Run `pnpm run build`
-2. Open `src/index.html` in a browser or use a simple HTTP server
-3. For Wrangler preview: `npx wrangler pages dev src`
+Use the Wrangler dev server for local development and testing:
+1. Run `pnpm start` to start the dev server at http://localhost:8788
+2. For CSS-only changes, use `pnpm run build:watch` to watch and rebuild Tailwind CSS
+3. Tests automatically start the dev server when running `pnpm test`
 
 ## Testing with Playwright
 
-The project uses Playwright for end-to-end testing. Tests are located in the `tests/` directory.
+The project uses Playwright for end-to-end testing. Tests run against a local Wrangler dev server that starts automatically.
 
 ### Commands
-- **Run all tests**: `pnpm test` or `npx playwright test`
+- **Run all tests**: `pnpm test` or `npx playwright test` (auto-starts dev server)
 - **Run tests in UI mode**: `npx playwright test --ui`
 - **Run tests in headed mode**: `npx playwright test --headed`
-- **Run specific test file**: `npx playwright test tests/example.spec.ts`
+- **Run specific test file**: `npx playwright test tests/portfolio.spec.ts`
 - **Show test report**: `npx playwright show-report`
 - **Debug tests**: `npx playwright test --debug`
 
 ### Configuration
+- **Config file**: `playwright.config.ts` - Contains browser configurations, test settings, baseURL (http://localhost:8788), and webServer configuration
+- **Base URL**: Tests use `baseURL` from config and navigate with relative paths (e.g., `page.goto('/')`)
+- **Dev Server**: Playwright automatically starts `pnpm start` before tests and shuts it down after
 - **Config file**: `playwright.config.ts` - Contains browser configurations, test settings, and reporter options
 - **Test results**: Generated in `test-results/` directory
 - **HTML reports**: Generated in `playwright-report/` directory
