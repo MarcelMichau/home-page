@@ -23,7 +23,7 @@ test.describe('Portfolio Website', () => {
 
   test('Hero section - Profile and branding', async ({ page }) => {
     await test.step('Verify profile image', async () => {
-      const profileImage = page.getByAltText('Your Image');
+      const profileImage = page.getByAltText('Image of Marcel Michau');
       await expect(profileImage).toHaveAttribute('src', 'images/profile-small.jpg');
     });
 
@@ -41,20 +41,19 @@ test.describe('Portfolio Website', () => {
 
   test('Social links - GitHub, Twitter, and Blog', async ({ page }) => {
     await test.step('Verify GitHub link', async () => {
-      // The social GitHub link is in the header, not the main content
-      const githubLink = page.locator('header a[href="https://github.com/MarcelMichau"]');
+      const githubLink = page.getByRole('link', { name: 'GitHub Profile' });
       await expect(githubLink).toHaveAttribute('href', 'https://github.com/MarcelMichau');
       await expect(githubLink).toHaveAttribute('target', '_blank');
     });
 
     await test.step('Verify X/Twitter link', async () => {
-      const twitterLink = page.getByRole('link').filter({ has: page.locator('svg path[d*="M453.2"]') });
+      const twitterLink = page.getByRole('link', { name: 'X (Twitter) Profile' });
       await expect(twitterLink).toHaveAttribute('href', 'https://x.com/MarcelMichau');
       await expect(twitterLink).toHaveAttribute('target', '_blank');
     });
 
     await test.step('Verify blog link', async () => {
-      const blogLink = page.getByRole('link').filter({ has: page.locator('svg path[d*="M100.4"]') });
+      const blogLink = page.getByRole('link', { name: 'Blog' });
       await expect(blogLink).toHaveAttribute('href', 'https://blog.marcelmichau.dev');
       await expect(blogLink).toHaveAttribute('target', '_blank');
     });
