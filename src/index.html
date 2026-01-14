@@ -26,7 +26,7 @@
 		<header class="h-screen bg-gray-800 flex justify-center items-center text-center">
 			<div class="relative isolate overflow-hidden bg-gray-800">
 				<svg
-					class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+					class="absolute inset-0 -z-10 h-full w-full stroke-white/10 mask-[radial-gradient(100%_100%_at_top_right,white,transparent)]"
 					aria-hidden="true">
 					<defs>
 						<pattern id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc" width="200" height="200" x="50%" y="-1"
@@ -43,14 +43,13 @@
 				<div
 					class="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]"
 					aria-hidden="true">
-					<div
-						class="background-polygon aspect-1108/632 w-[69.25rem] bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-30">
+					<div class="background-polygon aspect-1108/632 w-277 bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-30">
 					</div>
 				</div>
 				<div class="h-screen w-screen grid items-center">
 					<div class="mx-auto">
 						<div class="flex justify-center">
-							<img src="images/profile-small.jpg" alt="Your Image"
+							<img src="images/profile-small.jpg" alt="Image of Marcel Michau"
 								class="w-60 h-60 rounded-full ring-4 ring-blue-400" />
 						</div>
 						<h2 class="text-5xl text-center text-blue-100 font-semibold pt-8 pb-8">
@@ -64,7 +63,7 @@
 						</p>
 						<div class="flex justify-center pt-8 pb-8">
 							<span class="text-4xl mx-5">
-								<a href="https://github.com/MarcelMichau" target="_blank" class="fill-blue-400 hover:fill-blue-200"><svg
+								<a href="https://github.com/MarcelMichau" target="_blank" aria-label="GitHub Profile" class="fill-blue-400 hover:fill-blue-200"><svg
 										xmlns="http://www.w3.org/2000/svg" height="1em"
 										viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
 										<path
@@ -72,7 +71,7 @@
 									</svg></a>
 							</span>
 							<span class="text-4xl mx-5">
-								<a href="https://x.com/MarcelMichau" target="_blank" class="fill-blue-400 hover:fill-blue-200"><svg
+								<a href="https://x.com/MarcelMichau" target="_blank" aria-label="X (Twitter) Profile" class="fill-blue-400 hover:fill-blue-200"><svg
 										xmlns="http://www.w3.org/2000/svg" height="1em"
 										viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
 										<path
@@ -80,7 +79,7 @@
 									</svg></a>
 							</span>
 							<span class="text-4xl mx-5">
-								<a href="https://blog.marcelmichau.dev" target="_blank" class="fill-blue-400 hover:fill-blue-200">
+								<a href="https://blog.marcelmichau.dev" target="_blank" aria-label="Blog" class="fill-blue-400 hover:fill-blue-200">
 									<svg xmlns="http://www.w3.org/2000/svg" height="1em"
 										viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
 										<path
@@ -93,7 +92,7 @@
 				</div>
 			</div>
 		</header>
-		<div class="h-24 bg-gradient-to-b from-gray-800 to-gray-900"></div>
+		<div class="h-24 bg-linear-to-b from-gray-800 to-gray-900"></div>
 		<main class="flex justify-center py-24">
 			<div class="text-center space-y-6">
 				<div class="h-screen grid items-center">
@@ -160,7 +159,7 @@
 				</div>
 			</div>
 		</main>
-		<div class="h-24 bg-gradient-to-b from-gray-900 to-gray-800"></div>
+		<div class="h-24 bg-linear-to-b from-gray-900 to-gray-800"></div>
 		<footer class="bg-gray-800 flex justify-center pt-4 pb-8">
 			<div>
 				<div class="flex justify-center pt-4 pb-4">
