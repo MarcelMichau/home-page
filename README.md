@@ -11,7 +11,6 @@ With some help from:
 
 - [GitHub Actions](https://github.com/features/actions/)
 - [Font Awesome](https://fontawesome.com/)
-- [getwaves.io](https://getwaves.io/)
 
 Deployed to:
 
@@ -26,17 +25,16 @@ It is intended to be:
 - Fast 🐌
 - Agile 🐢
 - Scalable ⚖️
+- Secure 🔒
 - Cloud-native 🌧️
 - Distributed 🎊
 - Resilient 🔨
 - Asynchronous ⏲
 - Sustainable 🌲
-- Privacy-focused 🔒
+- Privacy-focused 🪪
 - Enterprise-ready 🏢
-- Containerized 📦
+- Containerised 📦
 - Built on Microservices 🔍
-- Powered by Machine Learning 🤖
-- Blockchain ₿
-- Something about Artificial Intelligence 💡
+- AI, AI & also some AI 🤖
 - Gluten-free 🍕
-- Filled with buzz words so that search engines pick this up 😁
+- Filled with buzz words & trendy terminology so that search engines pick this up 😁
