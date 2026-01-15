@@ -12,8 +12,8 @@
   },
   "scripts": {
     "start": "pnpm exec wrangler pages dev src --port 8788",
-    "build": "pnpm exec @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --minify",
-    "build:watch": "pnpm exec @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --watch",
+    "build": "pnpm exec tailwindcss -i ./src/main.css -o ./src/dist/main.css --minify",
+    "build:watch": "pnpm exec tailwindcss -i ./src/main.css -o ./src/dist/main.css --watch",
     "test": "pnpm exec playwright test"
   },
   "author": "Marcel Michau",
