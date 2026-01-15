@@ -10,10 +10,10 @@
     "wrangler": "^4.59.1"
   },
   "scripts": {
-    "start": "npx wrangler pages dev src --port 8788",
-    "build": "npx @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --minify",
-    "build:watch": "npx @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --watch",
-    "test": "npx playwright test"
+    "start": "pnpm exec wrangler pages dev src --port 8788",
+    "build": "pnpm exec @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --minify",
+    "build:watch": "pnpm exec @tailwindcss/cli -i ./src/main.css -o ./src/dist/main.css --watch",
+    "test": "pnpm exec playwright test"
   },
   "author": "Marcel Michau",
   "license": "MIT"
