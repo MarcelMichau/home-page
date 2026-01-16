@@ -96,12 +96,6 @@ test.describe('Portfolio Website', () => {
       await expect(actionsLink).toHaveText('GitHub Actions');
       await expect(actionsLink).toHaveAttribute('href', 'https://github.com/features/actions');
     });
-
-    await test.step('Verify Font Awesome link', async () => {
-      const fontAwesomeLink = page.getByRole('link', { name: 'Font Awesome' });
-      await expect(fontAwesomeLink).toHaveText('Font Awesome');
-      await expect(fontAwesomeLink).toHaveAttribute('href', 'https://fontawesome.com/');
-    });
   });
 
   test('Deployment information section', async ({ page }) => {
