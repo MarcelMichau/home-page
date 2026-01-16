@@ -10,7 +10,6 @@ It's built using:
 With some help from:
 
 - [GitHub Actions](https://github.com/features/actions/)
-- [Font Awesome](https://fontawesome.com/)
 
 Deployed to:
 
