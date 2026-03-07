@@ -37,7 +37,7 @@ test.describe('Portfolio Website', () => {
     });
   });
 
-  test('Social links - GitHub, Twitter, and Blog', async ({ page }) => {
+  test('Social links - GitHub, Twitter, Blog, and Cancel Me', async ({ page }) => {
     await test.step('Verify GitHub link', async () => {
       const githubLink = page.getByRole('link', { name: 'GitHub Profile' });
       await expect(githubLink).toHaveAttribute('href', 'https://github.com/MarcelMichau');
@@ -54,6 +54,12 @@ test.describe('Portfolio Website', () => {
       const blogLink = page.getByRole('link', { name: 'Blog' });
       await expect(blogLink).toHaveAttribute('href', 'https://blog.marcelmichau.dev');
       await expect(blogLink).toHaveAttribute('target', '_blank');
+    });
+
+    await test.step('Verify Cancel Me game link', async () => {
+      const cancelMeLink = page.getByRole('link', { name: 'Cancel Me Game' });
+      await expect(cancelMeLink).toHaveAttribute('href', 'https://cancel-me.marcelmichau.workers.dev/');
+      await expect(cancelMeLink).toHaveAttribute('target', '_blank');
     });
   });
 
@@ -187,7 +193,7 @@ test.describe('Portfolio Website', () => {
   test('External links security attributes', async ({ page }) => {
     await test.step('Count external links with target="_blank"', async () => {
       const externalLinks = page.locator('a[target="_blank"]');
-      await expect(externalLinks).toHaveCount(3);
+      await expect(externalLinks).toHaveCount(4);
     });
 
     await test.step('Verify target="_blank" attribute on sample links', async () => {
