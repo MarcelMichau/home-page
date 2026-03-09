@@ -35,5 +35,6 @@ It is intended to be:
 - Containerised 📦
 - Built on Microservices 🔍
 - AI, AI & also some AI 🤖
+- Agentic 🕵️
 - Gluten-free 🍕
 - Filled with buzz words & trendy terminology so that search engines pick this up 😁
