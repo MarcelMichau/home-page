@@ -76,7 +76,7 @@ test.describe('Portfolio Website', () => {
 
   test('Technology stack section', async ({ page }) => {
     await test.step('Verify section heading', async () => {
-      await expect(page.getByText('It\'s built using:')).toHaveText('It\'s built using:');
+      await expect(page.getByText('The stack')).toHaveText('The stack');
     });
 
     await test.step('Verify HTML link', async () => {
@@ -90,35 +90,17 @@ test.describe('Portfolio Website', () => {
       await expect(tailwindLink).toHaveText('Tailwind CSS');
       await expect(tailwindLink).toHaveAttribute('href', 'https://tailwindcss.com/');
     });
-  });
-
-  test('Helper tools section', async ({ page }) => {
-    await test.step('Verify section heading', async () => {
-      await expect(page.getByText('With some help from:')).toHaveText('With some help from:');
-    });
 
     await test.step('Verify GitHub Actions link', async () => {
       const actionsLink = page.getByRole('link', { name: 'GitHub Actions' });
       await expect(actionsLink).toHaveText('GitHub Actions');
       await expect(actionsLink).toHaveAttribute('href', 'https://github.com/features/actions');
     });
-  });
-
-  test('Deployment information section', async ({ page }) => {
-    await test.step('Verify section heading', async () => {
-      await expect(page.getByText('Deployed to:')).toHaveText('Deployed to:');
-    });
 
     await test.step('Verify Cloudflare Pages link', async () => {
       const cloudflareLink = page.getByRole('link', { name: 'Cloudflare Pages' });
       await expect(cloudflareLink).toHaveText('Cloudflare Pages');
       await expect(cloudflareLink).toHaveAttribute('href', 'https://pages.cloudflare.com/');
-    });
-  });
-
-  test('Source code repository section', async ({ page }) => {
-    await test.step('Verify section heading', async () => {
-      await expect(page.getByText('And code hosted on:')).toHaveText('And code hosted on:');
     });
 
     await test.step('Verify GitHub repository link', async () => {
@@ -130,7 +112,7 @@ test.describe('Portfolio Website', () => {
 
   test('Website characteristics - Buzzwords section', async ({ page }) => {
     await test.step('Verify section heading', async () => {
-      await expect(page.getByText('It is intended to be:')).toHaveText('It is intended to be:');
+      await expect(page.getByText('Intended to be')).toHaveText('Intended to be');
     });
 
     await test.step('Verify all characteristics are present', async () => {
