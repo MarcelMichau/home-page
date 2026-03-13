@@ -31,7 +31,39 @@
 }
 
 .section-label {
-  @apply text-xs font-semibold uppercase tracking-widest text-gray-500;
+  @apply text-xs font-semibold uppercase tracking-widest text-gray-400;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.skip-link {
+  @apply sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50
+         focus:px-4 focus:py-2 focus:rounded focus:bg-blue-600 focus:text-white
+         focus:text-sm focus:font-medium focus:outline-none;
+}
+
+a:focus-visible,
+.pill-link:focus-visible {
+  outline: 2px solid theme('colors.blue.400');
+  outline-offset: 2px;
+  border-radius: 0.25rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }
 
 .background-polygon {

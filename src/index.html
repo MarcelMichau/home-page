@@ -22,6 +22,7 @@
 </head>
 
 <body class="text-white">
+	<a href="#main-content" class="skip-link">Skip to main content</a>
 	<div class="bg-gray-900">
 		<header class="h-screen bg-gray-800 flex justify-center items-center text-center">
 			<div class="relative isolate overflow-hidden bg-gray-800">
@@ -54,19 +55,20 @@
 									class="w-60 h-60 rounded-full block" />
 							</div>
 						</div>
-						<h2 class="text-6xl text-center font-bold tracking-tight pt-8 pb-4">
+						<h1 class="text-6xl text-center font-bold tracking-tight pt-8 pb-4">
 							<span class="bg-linear-to-r from-white to-blue-200 bg-clip-text text-transparent">Marcel Michau</span>
-						</h2>
+						</h1>
 						<div class="flex justify-center">
-							<p class="font-mono w-max overflow-hidden animate-typing whitespace-nowrap border-r-2">
+							<p class="font-mono w-max overflow-hidden animate-typing whitespace-nowrap border-r-2" aria-hidden="true">
 								<span class="text-white">console</span><span class="text-blue-200">.</span><span
 									class="text-pink-300">log</span>(<span><span class="text-blue-200">"</span><span
 										class="text-green-300">I write code & stuff</span><span class="text-blue-200">"</span></span>)<span
 									class="text-blue-200">;</span>
 							</p>
+							<p class="sr-only">I write code &amp; stuff</p>
 						</div>
 						<div class="flex justify-center gap-8 pt-8 pb-8">
-							<a href="https://github.com/MarcelMichau" target="_blank" aria-label="GitHub Profile"
+							<a href="https://github.com/MarcelMichau" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"
 								class="fill-blue-400 hover:fill-blue-200 inline-flex text-4xl transition-all duration-200 hover:scale-110">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em"
 									viewBox="0 0 24 24">
@@ -75,7 +77,7 @@
 									</path>
 								</svg>
 							</a>
-							<a href="https://x.com/MarcelMichau" target="_blank" aria-label="X (Twitter) Profile"
+							<a href="https://x.com/MarcelMichau" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) Profile"
 								class="fill-blue-400 hover:fill-blue-200 inline-flex text-4xl transition-all duration-200 hover:scale-110">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em"
 									viewBox="0 0 24 24">
@@ -84,7 +86,7 @@
 									</path>
 								</svg>
 							</a>
-							<a href="https://blog.marcelmichau.dev" target="_blank" aria-label="Blog"
+							<a href="https://blog.marcelmichau.dev" target="_blank" rel="noopener noreferrer" aria-label="Blog"
 								class="fill-blue-400 hover:fill-blue-200 inline-flex text-4xl transition-all duration-200 hover:scale-110">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em"
 									viewBox="0 0 24 24">
@@ -93,7 +95,7 @@
 									</path>
 								</svg>
 							</a>
-							<a href="https://cancel-me.marcelmichau.workers.dev/" target="_blank" aria-label="Cancel Me Game"
+							<a href="https://cancel-me.marcelmichau.workers.dev/" target="_blank" rel="noopener noreferrer" aria-label="Cancel Me Game"
 								class="fill-blue-400 hover:fill-blue-200 inline-flex text-4xl transition-all duration-200 hover:scale-110">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em"
 									viewBox="0 0 24 24">
@@ -108,16 +110,16 @@
 			</div>
 		</header>
 		<div class="h-24 bg-linear-to-b from-gray-800 to-gray-900"></div>
-		<main class="flex justify-center py-24">
+		<main id="main-content" class="flex justify-center py-24">
 			<div class="text-center space-y-20 max-w-2xl px-6">
 				<div class="h-screen grid items-center">
 					<div class="space-y-6">
-						<h1 class="text-4xl font-bold tracking-tight">This is my website. No one else's.</h1>
+						<h2 class="text-4xl font-bold tracking-tight">This is my website. No one else's.</h2>
 						<p class="text-xl text-gray-400 mt-3">Look how minimal it is.</p>
 					</div>
 				</div>
 				<div class="space-y-5">
-					<h2 class="section-label">The stack</h2>
+					<h3 class="section-label">The stack</h3>
 					<div class="flex flex-wrap justify-center gap-2">
 						<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="pill-link">Good ol' vanilla HTML</a>
 						<a href="https://tailwindcss.com/" class="pill-link">Tailwind CSS</a>
@@ -127,26 +129,26 @@
 					</div>
 				</div>
 				<div class="space-y-5">
-					<h2 class="section-label">Intended to be</h2>
+					<h3 class="section-label">Intended to be</h3>
 					<div class="flex flex-wrap justify-center gap-2">
-						<span class="pill-tag">Fast 🐌</span>
-						<span class="pill-tag">Agile 🐢</span>
-						<span class="pill-tag">Scalable ⚖️</span>
-						<span class="pill-tag">Secure 🔒</span>
-						<span class="pill-tag">Cloud-native 🌧️</span>
-						<span class="pill-tag">Distributed 🎊</span>
-						<span class="pill-tag">Resilient 🔨</span>
-						<span class="pill-tag">Asynchronous ⏲</span>
-						<span class="pill-tag">Sustainable 🌲</span>
-						<span class="pill-tag">Privacy-focused 🪪</span>
-						<span class="pill-tag">Enterprise-ready 🏢</span>
-						<span class="pill-tag">Containerised 📦</span>
-						<span class="pill-tag">Built on Microservices 🔍</span>
-						<span class="pill-tag">AI, AI & also some AI 🤖</span>
-						<span class="pill-tag">Agentic 🕵️</span>
-						<span class="pill-tag">Gluten-free 🍕</span>
-						<span class="pill-tag">Filled with buzz words & trendy terminology so that search engines pick this up
-							😁</span>
+						<span class="pill-tag">Fast <span aria-hidden="true">🐌</span></span>
+						<span class="pill-tag">Agile <span aria-hidden="true">🐢</span></span>
+						<span class="pill-tag">Scalable <span aria-hidden="true">⚖️</span></span>
+						<span class="pill-tag">Secure <span aria-hidden="true">🔒</span></span>
+						<span class="pill-tag">Cloud-native <span aria-hidden="true">🌧️</span></span>
+						<span class="pill-tag">Distributed <span aria-hidden="true">🎊</span></span>
+						<span class="pill-tag">Resilient <span aria-hidden="true">🔨</span></span>
+						<span class="pill-tag">Asynchronous <span aria-hidden="true">⏲</span></span>
+						<span class="pill-tag">Sustainable <span aria-hidden="true">🌲</span></span>
+						<span class="pill-tag">Privacy-focused <span aria-hidden="true">🪪</span></span>
+						<span class="pill-tag">Enterprise-ready <span aria-hidden="true">🏢</span></span>
+						<span class="pill-tag">Containerised <span aria-hidden="true">📦</span></span>
+						<span class="pill-tag">Built on Microservices <span aria-hidden="true">🔍</span></span>
+						<span class="pill-tag">AI, AI &amp; also some AI <span aria-hidden="true">🤖</span></span>
+						<span class="pill-tag">Agentic <span aria-hidden="true">🕵️</span></span>
+						<span class="pill-tag">Gluten-free <span aria-hidden="true">🍕</span></span>
+						<span class="pill-tag">Filled with buzz words &amp; trendy terminology so that search engines pick this up
+							<span aria-hidden="true">😁</span></span>
 					</div>
 				</div>
 			</div>
