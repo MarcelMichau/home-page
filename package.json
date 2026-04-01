@@ -4,7 +4,7 @@
   "description": "Personal Website for Marcel Michau",
   "main": "n/a",
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
+    "@playwright/test": "^1.59.0",
     "@tailwindcss/cli": "^4.2.2",
     "@types/node": "^25.5.0",
     "tailwindcss": "^4.2.2",
