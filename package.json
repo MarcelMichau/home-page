@@ -7,7 +7,7 @@
     "@playwright/test": "^1.59.1",
     "@tailwindcss/cli": "^4.2.4",
     "@types/node": "^25.6.2",
-    "tailwindcss": "^4.2.4",
+    "tailwindcss": "^4.3.0",
     "wrangler": "^4.90.0"
   },
   "scripts": {
