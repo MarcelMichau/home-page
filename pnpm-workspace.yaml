@@ -1,7 +1,9 @@
+allowBuilds:
+  "@parcel/watcher": true
+  sharp: true
+  workerd: true
 onlyBuiltDependencies:
-  - '@parcel/watcher'
+  - "@parcel/watcher"
   - esbuild
   - sharp
   - workerd
-overrides:
-  picomatch@>=4.0.0 <4.0.4: '>=4.0.4'
