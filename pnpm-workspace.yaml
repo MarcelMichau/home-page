@@ -4,9 +4,10 @@ allowBuilds:
   sharp: true
   workerd: true
 minimumReleaseAgeExclude:
-  - miniflare@4.20260529.0
-  - wrangler@4.96.0
+  - miniflare@4.20260529.0 || 4.20260630.0
+  - wrangler@4.96.0 || 4.106.0
   - esbuild@0.28.1
+  - '@types/node@26.1.0'
 onlyBuiltDependencies:
   - "@parcel/watcher"
   - esbuild
