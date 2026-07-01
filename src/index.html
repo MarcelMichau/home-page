@@ -17,15 +17,16 @@
 
 	<title>Marcel Michau - I write code & stuff</title>
 
+	<script src="theme.js"></script>
 	<link rel="preload" href="dist/main.css" as="style" />
 	<link href="dist/main.css" rel="stylesheet" />
 </head>
 
 <body class="text-white">
 	<a href="#main-content" class="skip-link">Skip to main content</a>
-	<div class="bg-gray-900">
-		<header class="h-screen bg-gray-800 flex justify-center items-center text-center">
-			<div class="relative isolate overflow-hidden bg-gray-800">
+	<div class="page-shell">
+		<header class="h-screen hero-surface flex justify-center items-center text-center">
+			<div class="relative isolate overflow-hidden hero-surface">
 				<svg
 					class="absolute inset-0 -z-10 h-full w-full stroke-white/10 mask-[radial-gradient(100%_100%_at_top_right,white,transparent)]"
 					aria-hidden="true">
@@ -35,7 +36,7 @@
 							<path d="M.5 200V.5H200" fill="none" />
 						</pattern>
 					</defs>
-					<svg x="50%" y="-1" class="overflow-visible fill-gray-900/50">
+					<svg x="50%" y="-1" class="overflow-visible hero-pattern-fill">
 						<path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
 							stroke-width="0" />
 					</svg>
@@ -44,32 +45,32 @@
 				<div
 					class="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]"
 					aria-hidden="true">
-					<div class="background-polygon aspect-1108/632 w-277 bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-30">
+					<div class="background-polygon hero-glow aspect-1108/632 w-277 opacity-30">
 					</div>
 				</div>
 				<div class="h-screen w-screen grid items-center">
 					<div class="mx-auto">
 						<div class="flex justify-center">
-							<div class="p-0.75 rounded-full bg-linear-to-br from-blue-400 to-indigo-600 inline-block">
+							<div class="p-0.75 rounded-full profile-ring inline-block">
 								<img src="images/profile-small.jpg" alt="Image of Marcel Michau" fetchpriority="high"
 									class="w-60 h-60 rounded-full block" />
 							</div>
 						</div>
 						<h1 class="text-6xl text-center font-bold tracking-tight pt-8 pb-4">
-							<span class="bg-linear-to-r from-white to-blue-200 bg-clip-text text-transparent">Marcel Michau</span>
+							<span class="name-gradient bg-clip-text text-transparent">Marcel Michau</span>
 						</h1>
 						<div class="flex justify-center">
 							<p class="font-mono w-max overflow-hidden animate-typing whitespace-nowrap border-r-2" aria-hidden="true">
-								<span class="text-white">console</span><span class="text-blue-200">.</span><span
-									class="text-pink-300">log</span>(<span><span class="text-blue-200">"</span><span
-										class="text-green-300">I write code & stuff</span><span class="text-blue-200">"</span></span>)<span
-									class="text-blue-200">;</span>
+								<span class="text-white">console</span><span class="console-accent">.</span><span
+									class="console-highlight">log</span>(<span><span class="console-accent">"</span><span
+										class="console-string">I write code & stuff</span><span class="console-accent">"</span></span>)<span
+									class="console-accent">;</span>
 							</p>
 							<p class="sr-only">I write code &amp; stuff</p>
 						</div>
 						<div class="flex justify-center gap-8 pt-8 pb-8">
 							<a href="https://github.com/MarcelMichau" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"
-								class="fill-blue-400 hover:fill-blue-200 inline-flex text-4xl transition-all duration-200 hover:scale-110">
+								class="social-link inline-flex text-4xl transition-all duration-200 hover:scale-110">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em"
 									viewBox="0 0 24 24">
 									<path
@@ -78,7 +79,7 @@
 								</svg>
 							</a>
 							<a href="https://x.com/MarcelMichau" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter) Profile"
-								class="fill-blue-400 hover:fill-blue-200 inline-flex text-4xl transition-all duration-200 hover:scale-110">
+								class="social-link inline-flex text-4xl transition-all duration-200 hover:scale-110">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em"
 									viewBox="0 0 24 24">
 									<path
@@ -87,7 +88,7 @@
 								</svg>
 							</a>
 							<a href="https://blog.marcelmichau.dev" target="_blank" rel="noopener noreferrer" aria-label="Blog"
-								class="fill-blue-400 hover:fill-blue-200 inline-flex text-4xl transition-all duration-200 hover:scale-110">
+								class="social-link inline-flex text-4xl transition-all duration-200 hover:scale-110">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em"
 									viewBox="0 0 24 24">
 									<path
@@ -96,7 +97,7 @@
 								</svg>
 							</a>
 							<a href="https://cancel-me.marcelmichau.workers.dev/" target="_blank" rel="noopener noreferrer" aria-label="Cancel Me Game"
-								class="fill-blue-400 hover:fill-blue-200 inline-flex text-4xl transition-all duration-200 hover:scale-110">
+								class="social-link inline-flex text-4xl transition-all duration-200 hover:scale-110">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em"
 									viewBox="0 0 24 24">
 									<path
@@ -109,7 +110,7 @@
 				</div>
 			</div>
 		</header>
-		<div class="h-24 bg-linear-to-b from-gray-800 to-gray-900"></div>
+		<div class="h-24 section-fade-top"></div>
 		<main id="main-content" class="flex justify-center py-24">
 			<div class="text-center space-y-20 max-w-2xl px-6">
 				<div class="h-screen grid items-center">
@@ -153,8 +154,8 @@
 				</div>
 			</div>
 		</main>
-		<div class="h-24 bg-linear-to-b from-gray-900 to-gray-800"></div>
-		<footer class="bg-gray-800 border-t border-gray-700/50 flex justify-center py-10">
+		<div class="h-24 section-fade-bottom"></div>
+		<footer class="site-footer border-t flex justify-center py-10">
 			<div class="flex flex-col items-center gap-4">
 				<img src="images/mm-logo-small.png" alt="MM Logo" class="w-8 h-8 opacity-60" />
 				<p class="text-sm text-gray-500">Marcel Michau &copy; 2026</p>

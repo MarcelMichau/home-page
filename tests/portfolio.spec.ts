@@ -161,9 +161,19 @@ test.describe('Portfolio Website', () => {
       await expect(body).toHaveClass(/text-white/);
     });
 
-    await test.step('Verify header background color', async () => {
+    await test.step('Verify theme bootstrap script is included', async () => {
+      const themeScript = page.locator('script[src="theme.js"]');
+      await expect(themeScript).toHaveCount(1);
+    });
+
+    await test.step('Verify a valid weekday theme is applied', async () => {
+      const html = page.locator('html');
+      await expect(html).toHaveAttribute('data-theme', /^(mon|tue|wed|thu|fri|sat|sun)$/);
+    });
+
+    await test.step('Verify themed header class is present', async () => {
       const header = page.locator('header');
-      await expect(header).toHaveClass(/bg-gray-800/);
+      await expect(header).toHaveClass(/hero-surface/);
     });
 
     await test.step('Verify CSS stylesheet is loaded', async () => {

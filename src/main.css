@@ -1,5 +1,90 @@
 @import 'tailwindcss';
 
+:root,
+[data-theme='mon'] {
+  --theme-page-bg: #0f172a;
+  --theme-surface: #1e293b;
+  --theme-surface-elevated: #111827;
+  --theme-accent: #60a5fa;
+  --theme-accent-soft: #93c5fd;
+  --theme-accent-strong: #2563eb;
+  --theme-accent-contrast: #eff6ff;
+  --theme-glow-from: #7dd3fc;
+  --theme-glow-to: #4f46e5;
+}
+
+[data-theme='tue'] {
+  --theme-page-bg: #111827;
+  --theme-surface: #1f2937;
+  --theme-surface-elevated: #0b1220;
+  --theme-accent: #22d3ee;
+  --theme-accent-soft: #67e8f9;
+  --theme-accent-strong: #0891b2;
+  --theme-accent-contrast: #ecfeff;
+  --theme-glow-from: #22d3ee;
+  --theme-glow-to: #0ea5e9;
+}
+
+[data-theme='wed'] {
+  --theme-page-bg: #0c1222;
+  --theme-surface: #172554;
+  --theme-surface-elevated: #101a3f;
+  --theme-accent: #818cf8;
+  --theme-accent-soft: #a5b4fc;
+  --theme-accent-strong: #4f46e5;
+  --theme-accent-contrast: #eef2ff;
+  --theme-glow-from: #93c5fd;
+  --theme-glow-to: #6366f1;
+}
+
+[data-theme='thu'] {
+  --theme-page-bg: #111827;
+  --theme-surface: #27272a;
+  --theme-surface-elevated: #18181b;
+  --theme-accent: #c084fc;
+  --theme-accent-soft: #d8b4fe;
+  --theme-accent-strong: #9333ea;
+  --theme-accent-contrast: #faf5ff;
+  --theme-glow-from: #c084fc;
+  --theme-glow-to: #8b5cf6;
+}
+
+[data-theme='fri'] {
+  --theme-page-bg: #111827;
+  --theme-surface: #312e81;
+  --theme-surface-elevated: #1e1b4b;
+  --theme-accent: #f472b6;
+  --theme-accent-soft: #f9a8d4;
+  --theme-accent-strong: #db2777;
+  --theme-accent-contrast: #fdf2f8;
+  --theme-glow-from: #f472b6;
+  --theme-glow-to: #7c3aed;
+}
+
+[data-theme='sat'] {
+  --theme-page-bg: #1a1206;
+  --theme-surface: #422006;
+  --theme-surface-elevated: #2a1303;
+  --theme-accent: #f59e0b;
+  --theme-accent-soft: #fcd34d;
+  --theme-accent-strong: #d97706;
+  --theme-accent-contrast: #fffbeb;
+  --theme-glow-from: #f59e0b;
+  --theme-glow-to: #f97316;
+}
+
+[data-theme='sun'] {
+  --theme-page-bg: #052e2b;
+  --theme-surface: #134e4a;
+  --theme-surface-elevated: #0b3b38;
+  --theme-accent: #34d399;
+  --theme-accent-soft: #6ee7b7;
+  --theme-accent-strong: #10b981;
+  --theme-accent-contrast: #ecfdf5;
+  --theme-glow-from: #5eead4;
+  --theme-glow-to: #10b981;
+}
+
 @theme {
   --animate-typing: typing 2s steps(36), blink 0.5s step-end infinite alternate;
   --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Helvetica, Arial, sans-serif;
@@ -20,9 +105,15 @@
 }
 
 .pill-link {
-  @apply inline-flex items-center px-4 py-1.5 rounded-full border border-blue-400/25
-         bg-blue-400/5 text-blue-400 text-sm font-medium
-         hover:border-blue-400/60 hover:bg-blue-400/10 transition-all duration-200;
+  @apply inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200;
+  border-color: color-mix(in srgb, var(--theme-accent) 25%, transparent);
+  background-color: color-mix(in srgb, var(--theme-accent) 8%, transparent);
+  color: var(--theme-accent);
+}
+
+.pill-link:hover {
+  border-color: color-mix(in srgb, var(--theme-accent) 60%, transparent);
+  background-color: color-mix(in srgb, var(--theme-accent) 14%, transparent);
 }
 
 .pill-tag {
@@ -48,13 +139,17 @@
 
 .skip-link {
   @apply sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50
-         focus:px-4 focus:py-2 focus:rounded focus:bg-blue-600 focus:text-white
+         focus:px-4 focus:py-2 focus:rounded focus:text-white
          focus:text-sm focus:font-medium focus:outline-none;
+}
+
+.skip-link:focus {
+  background-color: var(--theme-accent-strong);
 }
 
 a:focus-visible,
 .pill-link:focus-visible {
-  outline: 2px solid theme('colors.blue.400');
+  outline: 2px solid var(--theme-accent);
   outline-offset: 2px;
   border-radius: 0.25rem;
 }
@@ -85,4 +180,61 @@ a:focus-visible,
 									58.9% 0.2%,
 									73.6% 51.7%
 								);
+}
+
+.page-shell {
+  background-color: var(--theme-page-bg);
+}
+
+.hero-surface {
+  background-color: var(--theme-surface);
+}
+
+.hero-pattern-fill {
+  fill: color-mix(in srgb, var(--theme-page-bg) 70%, transparent);
+}
+
+.hero-glow {
+  background-image: linear-gradient(to right, var(--theme-glow-from), var(--theme-glow-to));
+}
+
+.profile-ring {
+  background-image: linear-gradient(to bottom right, var(--theme-accent), var(--theme-accent-strong));
+}
+
+.name-gradient {
+  background-image: linear-gradient(to right, #ffffff, var(--theme-accent-soft));
+}
+
+.console-accent {
+  color: var(--theme-accent-soft);
+}
+
+.console-highlight {
+  color: color-mix(in srgb, var(--theme-accent-soft) 50%, #f9a8d4 50%);
+}
+
+.console-string {
+  color: color-mix(in srgb, var(--theme-accent-soft) 45%, #86efac 55%);
+}
+
+.social-link {
+  fill: var(--theme-accent);
+}
+
+.social-link:hover {
+  fill: var(--theme-accent-soft);
+}
+
+.section-fade-top {
+  background-image: linear-gradient(to bottom, var(--theme-surface), var(--theme-page-bg));
+}
+
+.section-fade-bottom {
+  background-image: linear-gradient(to bottom, var(--theme-page-bg), var(--theme-surface));
+}
+
+.site-footer {
+  background-color: var(--theme-surface);
+  border-top-color: color-mix(in srgb, var(--theme-accent-soft) 28%, transparent);
 }
