@@ -6,7 +6,7 @@
   "devDependencies": {
     "@playwright/test": "^1.61.1",
     "@tailwindcss/cli": "^4.3.2",
-    "@types/node": "^26.1.0",
+    "@types/node": "^26.1.1",
     "tailwindcss": "^4.3.2",
     "wrangler": "^4.106.0"
   },
