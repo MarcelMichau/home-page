@@ -3,3 +3,7 @@ allowBuilds:
   esbuild: true
   sharp: true
   workerd: true
+minimumReleaseAgeExclude:
+  - sharp@0.35.0
+overrides:
+  sharp@<0.35.0: ^0.35.0
