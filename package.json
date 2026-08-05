@@ -4,11 +4,11 @@
   "description": "Personal Website for Marcel Michau",
   "main": "n/a",
   "devDependencies": {
-    "@playwright/test": "^1.62.0",
+    "@playwright/test": "^1.62.1",
     "@tailwindcss/cli": "^4.3.3",
     "@types/node": "^26.1.2",
     "tailwindcss": "^4.3.3",
-    "wrangler": "^4.118.0"
+    "wrangler": "^4.119.0"
   },
   "scripts": {
     "start": "pnpm exec wrangler pages dev src --port 8788",
