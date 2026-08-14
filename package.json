@@ -8,7 +8,7 @@
     "@tailwindcss/cli": "^4.3.3",
     "@types/node": "^26.2.0",
     "tailwindcss": "^4.3.3",
-    "wrangler": "^4.119.0"
+    "wrangler": "^4.120.1"
   },
   "scripts": {
     "start": "pnpm exec wrangler pages dev src --port 8788",
