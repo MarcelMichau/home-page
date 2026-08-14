@@ -2,3 +2,4 @@
 # Wrangler version pinned in pnpm-lock.yaml. Update it periodically as Wrangler
 # releases add support for newer Cloudflare Workers runtime dates.
 compatibility_date = "2026-08-08"
+pages_build_output_dir = "./src"
