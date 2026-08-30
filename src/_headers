@@ -1,11 +1,9 @@
 /*
-  Content-Security-Policy: default-src 'none'; script-src 'self'; script-src-elem 'self'; style-src 'self'; connect-src 'self'; manifest-src 'self'; font-src 'self'; img-src 'self'; object-src 'none'; block-all-mixed-content; frame-ancestors 'none'; base-uri 'none'; form-action 'none';
-  Access-Control-Allow-Origin: https://marcelmichau.dev
-  X-Xss-Protection: 1; mode=block
+  Content-Security-Policy: default-src 'none'; script-src 'self'; script-src-elem 'self'; style-src 'self'; connect-src 'self'; manifest-src 'self'; font-src 'self'; img-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none';
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: camera=(), microphone=(), geolocation=(), accelerometer=(), gyroscope=(), autoplay=(), interest-cohort=()
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), accelerometer=(), gyroscope=(), autoplay=()
   Cross-Origin-Embedder-Policy: require-corp
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: same-origin
