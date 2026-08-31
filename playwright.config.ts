@@ -72,7 +72,7 @@ export default defineConfig({
 
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: 'corepack pnpm exec wrangler pages dev src --port 8788',
+    command: 'pnpm run start',
     url: 'http://localhost:8788',
     reuseExistingServer: !process.env.CI,
     timeout: 120000,
