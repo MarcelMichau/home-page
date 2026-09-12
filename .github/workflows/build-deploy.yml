@@ -8,12 +8,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Install pnpm
         uses: pnpm/action-setup@v6
         with:
-          version: 11
+          version: 12
           cache: true
 
       - name: Use Node.js
@@ -35,7 +35,7 @@ jobs:
         run: pnpm run build
 
       - name: Deploy
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 58ac02314ef1f46bc0027b2a13d3025b
