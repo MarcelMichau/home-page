@@ -12,20 +12,24 @@ concurrency:
 env:
   NODE_VERSION: 24.20.0
   PNPM_VERSION: 12.5.1
+  WRANGLER_TEST_VERSION: 4.141.0
 
 jobs:
-  # Temporary diagnostic matrix: keep every other variable fixed while comparing
-  # the last known-good Wrangler release with the first consistently hanging one.
-  test-wrangler:
-    name: Playwright (Wrangler ${{ matrix.wrangler }})
+  # Temporary diagnostic matrix: keep Wrangler and the runner image fixed while
+  # testing every combination of the last known-good and hanging Node/pnpm versions.
+  test-runtime:
+    name: Playwright (Node ${{ matrix.node }}, pnpm ${{ matrix.pnpm }})
     runs-on: ubuntu-24.04
     timeout-minutes: 15
     strategy:
       fail-fast: false
       matrix:
-        wrangler:
-          - 4.136.1
-          - 4.141.0
+        node:
+          - 24.20.0
+          - 24.21.0
+        pnpm:
+          - 12.5.1
+          - 12.6.0
 
     steps:
       - name: Checkout
@@ -34,12 +38,12 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v6
         with:
-          version: ${{ env.PNPM_VERSION }}
+          version: ${{ matrix.pnpm }}
 
       - name: Use Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: ${{ matrix.node }}
           cache: "pnpm"
 
       - name: Install dependencies
@@ -51,7 +55,7 @@ jobs:
       - name: Run Playwright tests
         timeout-minutes: 5
         env:
-          PLAYWRIGHT_WEB_SERVER_COMMAND: pnpm dlx --allow-build=esbuild --allow-build=workerd wrangler@${{ matrix.wrangler }} pages dev src --port 8788
+          PLAYWRIGHT_WEB_SERVER_COMMAND: pnpm dlx --allow-build=esbuild --allow-build=workerd wrangler@${{ env.WRANGLER_TEST_VERSION }} pages dev src --port 8788
           WRANGLER_LOG: debug
           WRANGLER_LOG_PATH: wrangler-debug.log
         run: pnpm exec playwright test
@@ -60,7 +64,7 @@ jobs:
         if: failure()
         uses: actions/upload-artifact@v7
         with:
-          name: playwright-wrangler-${{ matrix.wrangler }}
+          name: playwright-node-${{ matrix.node }}-pnpm-${{ matrix.pnpm }}
           path: |
             playwright-report/
             test-results/
@@ -70,7 +74,7 @@ jobs:
 
   build-deploy:
     name: Build & Deploy
-    needs: test-wrangler
+    needs: test-runtime
     runs-on: ubuntu-24.04
     timeout-minutes: 10
 
