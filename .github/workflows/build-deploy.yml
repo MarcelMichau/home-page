@@ -1,10 +1,31 @@
-name: Build Website & Deploy
+name: Build Website, Test & Deploy
 
 on: [push]
 
+permissions:
+  contents: read
+
+concurrency:
+  group: build-test-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: 24.20.0
+  PNPM_VERSION: 12.5.1
+
 jobs:
-  build-test-deploy:
-    runs-on: ubuntu-latest
+  # Temporary diagnostic matrix: keep every other variable fixed while comparing
+  # the last known-good Wrangler release with the first consistently hanging one.
+  test-wrangler:
+    name: Playwright (Wrangler ${{ matrix.wrangler }})
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        wrangler:
+          - 4.136.1
+          - 4.141.0
 
     steps:
       - name: Checkout
@@ -13,23 +34,63 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v6
         with:
-          version: 12
-          cache: true
+          version: ${{ env.PNPM_VERSION }}
 
       - name: Use Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: lts/*
+          node-version: ${{ env.NODE_VERSION }}
           cache: "pnpm"
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Install Playwright Browsers
+      - name: Install Playwright browsers
         run: pnpm exec playwright install --with-deps
 
       - name: Run Playwright tests
+        timeout-minutes: 5
+        env:
+          PLAYWRIGHT_WEB_SERVER_COMMAND: pnpm dlx --allow-build=esbuild --allow-build=workerd wrangler@${{ matrix.wrangler }} pages dev src --port 8788
+          WRANGLER_LOG: debug
+          WRANGLER_LOG_PATH: wrangler-debug.log
         run: pnpm exec playwright test
+
+      - name: Upload test diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: playwright-wrangler-${{ matrix.wrangler }}
+          path: |
+            playwright-report/
+            test-results/
+            wrangler-debug.log
+          if-no-files-found: ignore
+          retention-days: 7
+
+  build-deploy:
+    name: Build & Deploy
+    needs: test-wrangler
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          version: ${{ env.PNPM_VERSION }}
+
+      - name: Use Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Run build
         run: pnpm run build

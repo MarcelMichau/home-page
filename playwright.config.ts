@@ -21,8 +21,15 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
-  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  /* Prevent a stalled browser or server process from consuming the full CI job timeout. */
+  globalTimeout: process.env.CI ? 4 * 60 * 1000 : undefined,
+  /* Keep live CI output while retaining an HTML report for diagnostics. */
+  reporter: process.env.CI
+    ? [
+        ['line'],
+        ['html', { open: 'never' }],
+      ]
+    : 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
@@ -72,7 +79,7 @@ export default defineConfig({
 
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: 'pnpm run start',
+    command: process.env.PLAYWRIGHT_WEB_SERVER_COMMAND ?? 'pnpm run start',
     url: 'http://localhost:8788',
     reuseExistingServer: !process.env.CI,
     timeout: 120000,
