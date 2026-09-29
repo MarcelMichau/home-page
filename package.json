@@ -1,6 +1,7 @@
 {
   "name": "home-page",
   "version": "2.1.0",
+  "packageManager": "pnpm@12.7.0",
   "description": "Personal Website for Marcel Michau",
   "main": "n/a",
   "devDependencies": {

@@ -11,25 +11,12 @@ concurrency:
 
 env:
   NODE_VERSION: 24.20.0
-  PNPM_VERSION: 12.5.1
-  WRANGLER_TEST_VERSION: 4.141.0
 
 jobs:
-  # Temporary diagnostic matrix: keep Wrangler and the runner image fixed while
-  # testing every combination of the last known-good and hanging Node/pnpm versions.
-  test-runtime:
-    name: Playwright (Node ${{ matrix.node }}, pnpm ${{ matrix.pnpm }})
+  test:
+    name: Playwright
     runs-on: ubuntu-24.04
     timeout-minutes: 15
-    strategy:
-      fail-fast: false
-      matrix:
-        node:
-          - 24.20.0
-          - 24.21.0
-        pnpm:
-          - 12.5.1
-          - 12.6.0
 
     steps:
       - name: Checkout
@@ -37,13 +24,11 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v6
-        with:
-          version: ${{ matrix.pnpm }}
 
       - name: Use Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: ${{ matrix.node }}
+          node-version: ${{ env.NODE_VERSION }}
           cache: "pnpm"
 
       - name: Install dependencies
@@ -55,7 +40,6 @@ jobs:
       - name: Run Playwright tests
         timeout-minutes: 5
         env:
-          PLAYWRIGHT_WEB_SERVER_COMMAND: pnpm dlx --allow-build=esbuild --allow-build=workerd wrangler@${{ env.WRANGLER_TEST_VERSION }} pages dev src --port 8788
           WRANGLER_LOG: debug
           WRANGLER_LOG_PATH: wrangler-debug.log
         run: pnpm exec playwright test
@@ -64,7 +48,7 @@ jobs:
         if: failure()
         uses: actions/upload-artifact@v7
         with:
-          name: playwright-node-${{ matrix.node }}-pnpm-${{ matrix.pnpm }}
+          name: playwright-diagnostics
           path: |
             playwright-report/
             test-results/
@@ -74,7 +58,7 @@ jobs:
 
   build-deploy:
     name: Build & Deploy
-    needs: test-runtime
+    needs: test
     runs-on: ubuntu-24.04
     timeout-minutes: 10
 
@@ -84,8 +68,6 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v6
-        with:
-          version: ${{ env.PNPM_VERSION }}
 
       - name: Use Node.js
         uses: actions/setup-node@v6
