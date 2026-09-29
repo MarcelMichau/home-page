@@ -4,6 +4,7 @@ allowBuilds:
   sharp: true
   workerd: true
 minimumReleaseAgeExclude:
-  - wrangler@4.143.0
+  - wrangler@4.143.0 || 4.143.1
+  - miniflare@5.20260926.1-alpha
 overrides:
   undici@>=7.28.0 <7.29.1: ^7.29.1
