@@ -7,9 +7,9 @@
   "devDependencies": {
     "@playwright/test": "^1.63.0",
     "@tailwindcss/cli": "^4.3.3",
-    "@types/node": "^26.6.3",
+    "@types/node": "^26.6.4",
     "tailwindcss": "^4.3.3",
-    "wrangler": "^4.144.0"
+    "wrangler": "^4.146.0"
   },
   "scripts": {
     "start": "pnpm exec wrangler pages dev src --port 8788",
