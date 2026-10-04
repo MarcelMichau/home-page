@@ -1,7 +1,7 @@
 {
   "name": "home-page",
   "version": "2.1.0",
-  "packageManager": "pnpm@12.8.1",
+  "packageManager": "pnpm@12.9.1",
   "description": "Personal Website for Marcel Michau",
   "main": "n/a",
   "devDependencies": {
@@ -9,7 +9,7 @@
     "@tailwindcss/cli": "^4.3.3",
     "@types/node": "^26.6.4",
     "tailwindcss": "^4.3.3",
-    "wrangler": "^4.146.0"
+    "wrangler": "^4.147.0"
   },
   "scripts": {
     "start": "pnpm exec wrangler pages dev src --port 8788",
