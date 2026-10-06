@@ -44,6 +44,19 @@ jobs:
           WRANGLER_LOG_PATH: wrangler-debug.log
         run: pnpm exec playwright test
 
+      # Archive the full verified site, preserving _headers and file metadata.
+      - name: Package verified site
+        run: tar -cf "${{ runner.temp }}/verified-site.tar" src
+
+      - name: Upload verified site
+        uses: actions/upload-artifact@v7
+        with:
+          name: verified-site
+          path: ${{ runner.temp }}/verified-site.tar
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
+
       - name: Upload test diagnostics
         if: failure()
         uses: actions/upload-artifact@v7
@@ -57,7 +70,7 @@ jobs:
           retention-days: 7
 
   build-deploy:
-    name: Build & Deploy
+    name: Deploy Verified Site
     needs: test
     runs-on: ubuntu-24.04
     timeout-minutes: 10
@@ -78,8 +91,17 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Run build
-        run: pnpm run build
+      - name: Download verified site
+        uses: actions/download-artifact@v8
+        with:
+          name: verified-site
+          path: ${{ runner.temp }}
+
+      # Replace checkout files; never rebuild or merge unverified assets.
+      - name: Restore verified site
+        run: |
+          rm -rf src
+          tar -xf "${{ runner.temp }}/verified-site.tar"
 
       - name: Deploy
         uses: cloudflare/wrangler-action@v4

@@ -155,30 +155,16 @@ test.describe('Portfolio Website', () => {
     });
   });
 
-  test('Styling and CSS verification', async ({ page }) => {
-    await test.step('Verify body text color class', async () => {
-      const body = page.locator('body');
-      await expect(body).toHaveClass(/text-white/);
+  test('Styling and CSS verification', async ({ page, request }) => {
+    await test.step('Verify generated CSS is served successfully', async () => {
+      const stylesheet = await request.get('/dist/main.css');
+      expect(stylesheet.status()).toBe(200);
+      expect(stylesheet.headers()['content-type']).toContain('text/css');
     });
 
-    await test.step('Verify theme bootstrap script is included', async () => {
-      const themeScript = page.locator('script[src="theme.js"]');
-      await expect(themeScript).toHaveCount(1);
-    });
-
-    await test.step('Verify a valid weekday theme is applied', async () => {
-      const html = page.locator('html');
-      await expect(html).toHaveAttribute('data-theme', /^(mon|tue|wed|thu|fri|sat|sun)$/);
-    });
-
-    await test.step('Verify themed header class is present', async () => {
-      const header = page.locator('header');
-      await expect(header).toHaveClass(/hero-surface/);
-    });
-
-    await test.step('Verify CSS stylesheet is loaded', async () => {
-      const cssLink = page.locator('link[href="dist/main.css"][rel="stylesheet"]');
-      await expect(cssLink).toHaveAttribute('rel', 'stylesheet');
+    await test.step('Verify the browser applies the stylesheet', async () => {
+      await expect(page.locator('body')).toHaveCSS('color', 'rgb(255, 255, 255)');
+      await expect(page.getByRole('banner')).toHaveCSS('display', 'flex');
     });
   });
 

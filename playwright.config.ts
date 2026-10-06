@@ -77,11 +77,11 @@ export default defineConfig({
     // },
   ],
 
-  /* Run your local dev server before starting the tests */
+  /* Build fresh CSS and own the server so tests cannot reuse stale output. */
   webServer: {
-    command: process.env.PLAYWRIGHT_WEB_SERVER_COMMAND ?? 'pnpm run start',
+    command: `pnpm run build && ${process.env.PLAYWRIGHT_WEB_SERVER_COMMAND ?? 'pnpm run start'}`,
     url: 'http://localhost:8788',
-    reuseExistingServer: !process.env.CI,
+    reuseExistingServer: false,
     timeout: 120000,
   },
 });
